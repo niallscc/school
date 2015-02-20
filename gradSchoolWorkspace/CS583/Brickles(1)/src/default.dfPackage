@@ -1,0 +1,253 @@
+package id4bw5sd5ib8860d5ibk2y1;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#OutOfPucksException:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#ArcadeGameMatch:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}/**
+@__ref <oiref:java#Class#ArcadeGame:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}/**
+@__ref <oiref:java#Class#Wall:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}/**
+@__ref <oiref:java#Class#GameOverDialog:oiref><oihard>
+@__modelType reference 
+*/
+class reference6 {
+}/**
+@__ref <oiref:java#Class#MovablePiece:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}/**
+@__ref <oiref:java#Class#Timer:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
+}/**
+@__ref <oiref:java#Class#Ceiling:oiref><oihard>
+@__modelType reference 
+*/
+class reference9 {
+}/**
+@__ref <oiref:java#Class#BrickPile:oiref><oihard>
+@__modelType reference 
+*/
+class reference10 {
+}/**
+@__ref <oiref:java#Class#PuckSupply:oiref><oihard>
+@__modelType reference 
+*/
+class reference11 {
+}/**
+@__ref <oiref:java#Class#ArcadeGamePiece:oiref><oihard>
+@__modelType reference 
+*/
+class reference12 {
+}/**
+@__ref <oiref:java#Class#CompositePiece:oiref><oihard>
+@__modelType reference 
+*/
+class reference13 {
+}/**
+@__ref <oiref:java#Class#BricklesMatch:oiref><oihard>
+@__modelType reference 
+*/
+class reference14 {
+}/**
+@__ref <oiref:java#Class#StationaryPiece:oiref><oihard>
+@__modelType reference 
+*/
+class reference15 {
+}/**
+@__ref <oiref:java#Class#ArcadeGameObject:oiref><oihard>
+@__modelType reference 
+*/
+class reference17 {
+}/**
+@__ref <oiref:java#Class#BricklesGame:oiref><oihard>
+@__modelType reference 
+*/
+class reference18 {
+}/**
+@__ref <oiref:java#Class#PlayingField:oiref><oihard>
+@__modelType reference 
+*/
+class reference19 {
+}/**
+@__ref <oiref:java#Class#Velocity:oiref><oihard>
+@__modelType reference 
+*/
+class reference20 {
+}/**
+@__ref <oiref:java#Class#TimeObservable:oiref><oihard>
+@__modelType reference 
+*/
+class reference21 {
+}/**
+@__ref <oiref:java#Class#Puck:oiref><oihard>
+@__modelType reference 
+*/
+class reference22 {
+}/**
+@__ref <oiref:java#Class#Floor:oiref><oihard>
+@__modelType reference 
+*/
+class reference23 {
+}/**
+@__ref <oiref:java#Class#BricklesView:oiref><oihard>
+@__modelType reference 
+*/
+class reference24 {
+}/**
+@__ref <oiref:java#Class#LostDialog:oiref><oihard>
+@__modelType reference 
+*/
+class reference25 {
+}/**
+@__ref <oiref:java#Class#Paddle:oiref><oihard>
+@__modelType reference 
+*/
+class reference26 {
+}/**
+@__ref <oiref:java#Class#BricklesPlayingField:oiref><oihard>
+@__modelType reference 
+*/
+class reference28 {
+}/**
+@__ref <oiref:java#Class#Brick:oiref><oihard>
+@__modelType reference 
+*/
+class reference29 {
+}/**
+@__ref <oiref:java#Class#Collision:oiref><oihard>
+@__modelType reference 
+*/
+class reference30 {
+}/**
+@__ref <oiref:java#Class#PuckTest:oiref><oihard>
+@__modelType reference 
+*/
+class reference59 {
+}/**
+@__ref <oiref:design#Class#id4bw5sd5ib8860d5ibk2y1.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#prakash*zip:oiref> 
+*/
+class reference31 {
+}/**
+@__ref <oiref:design#Class#id3obtad5ib8860d5ibk6ex.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#images:oiref> 
+*/
+class reference16 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:MemberLink#<oiref:java#Member#Timer#theView:oiref>=1805,1132,1352,1266:oigroup>
+<oigroup:<oiref:java#Class#PuckTest:oiref>=246,6,145,386,1:oigroup>
+<oigroup:<oiref:java#Class#Floor:oiref>=596,910,149,174,1:oigroup>
+<oigroup:<oiref:java#Class#BrickPile:oiref>=838,1266,161,197,1:oigroup>
+<oigroup:<oiref:java#Extends#Brick#StationaryPiece:oiref>=1947,910,548,631:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesView#theBrick:oiref>=1372,1266,1974,1122,1974,1068:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesMatch#puckSupply:oiref>=1101,910,1101,688:oigroup>
+<oigroup:<oiref:java#Extends#PlayingField#ArcadeGameObject:oiref>=1143,244,1143,184:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesPlayingField#_thePuck:oiref>=1784,344,1292,910:oigroup>
+<oigroup:<oiref:java#Extends#BricklesMatch#ArcadeGameMatch:oiref>=1121,910,1321,688:oigroup>
+<oigroup:<oiref:java#Extends#Paddle#MovablePiece:oiref>=1548,910,1548,800:oigroup>
+<oigroup:<oiref:java#Class#PuckSupply:oiref>=1061,514,145,174,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#PuckSupply#fieldPtr:oiref>=1166,514,1166,434:oigroup>
+<oigroup:<oiref:java#Extends#Wall#StationaryPiece:oiref>=320,910,473,631:oigroup>
+<oigroup:<oiref:java#Class#BricklesView:oiref>=1200,1266,192,654,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Collision#mPiece:oiref>=1649,569,1629,569:oigroup>
+<oigroup:<oiref:java#Class#BricklesPlayingField:oiref>=1732,10,160,334,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Floor#_theView:oiref>=670,1084,670,1109,1219,1266:oigroup>
+<oigroup:<oiref:java#Class#ArcadeGamePiece:oiref>=864,244,142,190,1:oigroup>
+<oigroup:<oiref:java#Extends#CompositePiece#StationaryPiece:oiref>=496,910,496,631:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#ArcadeGameMatch#_timer:oiref>=1366,688,1366,788,1782,900,1782,910:oigroup>
+<oigroup:<oiref:java#Class#MovablePiece:oiref>=1462,514,167,286,1:oigroup>
+<oigroup:<oiref:java#Extends#BricklesGame#ArcadeGame:oiref>=877,910,877,704:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Puck#tmpPaddle:oiref>=1442,1000,1522,1000:oigroup>
+<oigroup:<oiref:java#Extends#ArcadeGamePiece#ArcadeGameObject:oiref>=935,244,1066,184:oigroup>
+<oigroup:<oiref:java#Class#LostDialog:oiref>=1575,10,137,158,1:oigroup>
+<oigroup:<oiref:java#Class#GameOverDialog:oiref>=1418,10,137,158,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Collision#aPiece:oiref>=1649,483,1006,406:oigroup>
+<oigroup:<oiref:java#Extends#MovablePiece#ArcadeGamePiece:oiref>=1545,514,958,434:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Timer#list:oiref>=1828,910,1610,800:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Puck#tmpBrickPile:oiref>=1268,1196,945,1266:oigroup>
+<oigroup:<oiref:java#Class#BricklesGame:oiref>=765,910,197,174,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesMatch#timer:oiref>=1142,942,1252,890,1662,890,1737,937:oigroup>
+<oigroup:<oiref:java#Extends#BrickPile#CompositePiece:oiref>=891,1266,495,1084:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesMatch#currentPuck:oiref>=1142,1045,1242,1045:oigroup>
+<oigroup:<oiref:java#Class#Brick:oiref>=1894,910,161,158,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesView#_game:oiref>=1257,1266,863,1137,863,1084:oigroup>
+<oigroup:<oiref:java#Class#Velocity:oiref>=586,514,157,254,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesView#theBrickPile:oiref>=1200,1364,999,1364:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#MovablePiece#_currentVelocity:oiref>=1462,746,743,746:oigroup>
+<oigroup:<oiref:java#Extends#Puck#MovablePiece:oiref>=1342,910,1505,800:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#PlayingField#_match:oiref>=1212,434,1306,514:oigroup>
+<oigroup:<oiref:java#Class#Ceiling:oiref>=77,910,149,158,1:oigroup>
+<oigroup:<oiref:java#Extends#Floor#StationaryPiece:oiref>=670,910,531,716,531,631:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesView#thePuck:oiref>=1295,1266,1295,1196:oigroup>
+<oigroup:<oiref:java#Class#Paddle:oiref>=1522,910,145,181,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesPlayingField#_theBrick:oiref>=1865,344,2001,910:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#ArcadeGame#_match:oiref>=991,628,1058,708,1208,708,1276,634:oigroup>
+<oigroup:<oiref:java#Class#Timer:oiref>=1737,910,137,222,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesPlayingField#_thePaddle:oiref>=1838,344,1607,910:oigroup>
+<oigroup:<oiref:java#Class#OutOfPucksException:oiref>=1261,10,137,101,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesPlayingField#_theBrickPile:oiref>=1758,344,918,1266:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesGame#_theView:oiref>=912,1084,912,1138,1276,1266:oigroup>
+<oigroup:<oiref:java#Class#Collision:oiref>=1649,450,165,174,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#ArcadeGameMatch#_fieldPtr:oiref>=1337,514,1258,434:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#ArcadeGamePiece#_fieldPtr:oiref>=1006,370,1126,370:oigroup>
+<oigroup:<oiref:java#Class#Wall:oiref>=246,910,149,158,1:oigroup>
+<oigroup:<oiref:java#Extends#BricklesPlayingField#PlayingField:oiref>=1732,294,1304,294:oigroup>
+<oigroup:<oiref:java#Class#TimeObservable:oiref>=1324,244,106,101,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesPlayingField#_theView:oiref>=1811,344,1305,1266:oigroup>
+<oigroup:<oiref:java#Class#Puck:oiref>=1242,910,200,286,1:oigroup>
+<oigroup:<oiref:java#Class#ArcadeGameMatch:oiref>=1276,514,136,174,1:oigroup>
+<oigroup:<oiref:design#Class#id3obtad5ib8860d5ibk6ex.diagram:oiref>=408,69,61,57,1:oigroup>
+<oigroup:<oiref:java#Class#PlayingField:oiref>=1126,244,178,190,1:oigroup>
+<oigroup:<oiref:java#Implements#ArcadeGameMatch#TimeObservable:oiref>=1368,514,1368,345:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesView#game:oiref>=1238,1266,814,1136,814,1084:oigroup>
+<oigroup:<oiref:java#Class#CompositePiece:oiref>=415,910,161,174,1:oigroup>
+<oigroup:<oiref:java#Class#StationaryPiece:oiref>=427,514,139,117,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#MovablePiece#_theView:oiref>=1575,800,1687,891,1687,1124,1333,1266:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#PlayingField#lastPiece:oiref>=1126,307,1006,307:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#PlayingField#_game:oiref>=1146,434,892,514:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#Timer#list:oiref>=1580,800,26,16,0:oigroup>
+<oigroup:<oiref:java#Class#ArcadeGame:oiref>=793,514,198,190,1:oigroup>
+<oigroup:<oiref:java#Extends#Ceiling#StationaryPiece:oiref>=151,910,450,631:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#BricklesView#thePaddle:oiref>=1314,1266,1594,1146,1594,1091:oigroup>
+<oigroup:<oiref:java#Class#BricklesMatch:oiref>=982,910,160,238,1:oigroup>
+<oigroup:<oiref:design#Class#id4bw5sd5ib8860d5ibk2y1.diagram:oiref>=92,5,135,523,1:oigroup>
+<oigroup:<oiref:java#Extends#StationaryPiece#ArcadeGamePiece:oiref>=496,514,911,434:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#ArcadeGameMatch#_game:oiref>=1276,661,1219,718,1047,718,991,666:oigroup>
+<oigroup:<oiref:java#Class#ArcadeGameObject:oiref>=990,10,170,174,1:oigroup>
+*/
+class __positions {
+}
