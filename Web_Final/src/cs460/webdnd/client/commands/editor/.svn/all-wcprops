@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/asterix/!svn/ver/674/Web_Final/src/cs460/webdnd/client/commands/editor
+END
+ResizeCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/ResizeCommand.java
+END
+DeleteCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/DeleteCommand.java
+END
+MoveCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/MoveCommand.java
+END
+SetPropertiesCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/SetPropertiesCommand.java
+END
+MediaCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/MediaCommand.java
+END
+RenderCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/asterix/!svn/ver/668/Web_Final/src/cs460/webdnd/client/commands/editor/RenderCommand.java
+END
+SelectCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/SelectCommand.java
+END
+NewTabCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/NewTabCommand.java
+END
+AddCanvasCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/AddCanvasCommand.java
+END
+FileUploadCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/FileUploadCommand.java
+END
+TextCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/TextCommand.java
+END
+MenuStyleCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/MenuStyleCommand.java
+END
+DeleteTabCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/asterix/!svn/ver/674/Web_Final/src/cs460/webdnd/client/commands/editor/DeleteTabCommand.java
+END
+AddImageCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/editor/AddImageCommand.java
+END
+RenameTabCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/asterix/!svn/ver/674/Web_Final/src/cs460/webdnd/client/commands/editor/RenameTabCommand.java
+END

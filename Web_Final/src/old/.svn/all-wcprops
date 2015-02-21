@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/asterix/!svn/ver/546/Web_Final/src/old
+END
+test.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/asterix/!svn/ver/488/Web_Final/src/old/test.java
+END
+component.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/asterix/!svn/ver/521/Web_Final/src/old/component.java
+END
+test_serialize.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/asterix/!svn/ver/546/Web_Final/src/old/test_serialize.java
+END
+conversion_helpers.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/asterix/!svn/ver/488/Web_Final/src/old/conversion_helpers.java
+END
+serializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/asterix/!svn/ver/540/Web_Final/src/old/serializer.java
+END

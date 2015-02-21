@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/asterix/!svn/ver/682/Web_Final/src/cs460/webdnd/client/commands
+END
+InitializeCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/asterix/!svn/ver/651/Web_Final/src/cs460/webdnd/client/commands/InitializeCommand.java
+END
+UpdateImageListCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/asterix/!svn/ver/616/Web_Final/src/cs460/webdnd/client/commands/UpdateImageListCommand.java
+END
+FormCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/asterix/!svn/ver/616/Web_Final/src/cs460/webdnd/client/commands/FormCommand.java
+END
+ModifyAccountCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/asterix/!svn/ver/616/Web_Final/src/cs460/webdnd/client/commands/ModifyAccountCommand.java
+END
+CanvasHideCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/asterix/!svn/ver/616/Web_Final/src/cs460/webdnd/client/commands/CanvasHideCommand.java
+END
+GetThemesCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/asterix/!svn/ver/647/Web_Final/src/cs460/webdnd/client/commands/GetThemesCommand.java
+END
+SetBorderCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/asterix/!svn/ver/616/Web_Final/src/cs460/webdnd/client/commands/SetBorderCommand.java
+END
+CreateFrontPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/asterix/!svn/ver/616/Web_Final/src/cs460/webdnd/client/commands/CreateFrontPage.java
+END
+SetBackgroundCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/asterix/!svn/ver/675/Web_Final/src/cs460/webdnd/client/commands/SetBackgroundCommand.java
+END
+CanvasShowCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/asterix/!svn/ver/616/Web_Final/src/cs460/webdnd/client/commands/CanvasShowCommand.java
+END
+ResetWorkAreaCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/ResetWorkAreaCommand.java
+END
+TemplateChooserCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/asterix/!svn/ver/675/Web_Final/src/cs460/webdnd/client/commands/TemplateChooserCommand.java
+END

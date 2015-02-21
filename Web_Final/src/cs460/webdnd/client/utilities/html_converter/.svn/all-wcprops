@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/asterix/!svn/ver/682/Web_Final/src/cs460/webdnd/client/utilities/html_converter
+END
+OptionsHTML.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/asterix/!svn/ver/565/Web_Final/src/cs460/webdnd/client/utilities/html_converter/OptionsHTML.java
+END
+Component.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/asterix/!svn/ver/565/Web_Final/src/cs460/webdnd/client/utilities/html_converter/Component.java
+END
+GenerateHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/asterix/!svn/ver/565/Web_Final/src/cs460/webdnd/client/utilities/html_converter/GenerateHeader.java
+END
+Converter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/asterix/!svn/ver/654/Web_Final/src/cs460/webdnd/client/utilities/html_converter/Converter.java
+END
+ConversionHelpers.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/asterix/!svn/ver/682/Web_Final/src/cs460/webdnd/client/utilities/html_converter/ConversionHelpers.java
+END
+GenerateBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/asterix/!svn/ver/565/Web_Final/src/cs460/webdnd/client/utilities/html_converter/GenerateBody.java
+END

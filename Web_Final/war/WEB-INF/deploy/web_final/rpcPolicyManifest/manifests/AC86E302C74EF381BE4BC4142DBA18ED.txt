@@ -1,0 +1,2 @@
+serviceClass: cs460.webdnd.client.DataService
+path: 828AB0438D59992E194D2E7CDA07E88D.gwt.rpc

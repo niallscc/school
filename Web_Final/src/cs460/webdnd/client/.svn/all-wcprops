@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/asterix/!svn/ver/682/Web_Final/src/cs460/webdnd/client
+END
+CModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/asterix/!svn/ver/619/Web_Final/src/cs460/webdnd/client/CModel.java
+END
+CState.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/asterix/!svn/ver/619/Web_Final/src/cs460/webdnd/client/CState.java
+END
+ProjectServiceAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/asterix/!svn/ver/620/Web_Final/src/cs460/webdnd/client/ProjectServiceAsync.java
+END
+SharedServiceAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/asterix/!svn/ver/620/Web_Final/src/cs460/webdnd/client/SharedServiceAsync.java
+END
+Web_Final.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/Web_Final.java
+END
+LoginServiceAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/asterix/!svn/ver/619/Web_Final/src/cs460/webdnd/client/LoginServiceAsync.java
+END
+ProjectService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/asterix/!svn/ver/619/Web_Final/src/cs460/webdnd/client/ProjectService.java
+END
+SharedService.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/asterix/!svn/ver/637/Web_Final/src/cs460/webdnd/client/SharedService.java
+END
+DataServiceAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/asterix/!svn/ver/647/Web_Final/src/cs460/webdnd/client/DataServiceAsync.java
+END
+LoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/asterix/!svn/ver/619/Web_Final/src/cs460/webdnd/client/LoginService.java
+END
+DataService.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/asterix/!svn/ver/620/Web_Final/src/cs460/webdnd/client/DataService.java
+END

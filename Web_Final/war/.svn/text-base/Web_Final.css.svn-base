@@ -1,0 +1,343 @@
+/**This section is for the main menu */
+	.demo-MenuBar
+	{
+		position:relative;
+		/*top:100px;*/
+		/*left:200px;*/
+		font: bold 14px Georgia ;
+		width: 100%;
+		background: #b1e958;
+		
+		padding: 11px 0 8px 0; /* padding of the 4 sides of the menu */
+		margin: 0;
+		text-align: left; /* set value to "left", "center", or "right" to align menu accordingly */
+	}
+	.newUser-style{
+	   color: white;
+	}
+	.demo-MenuBar table
+	{
+		
+		font: bold 14px Georgia ;
+		width: 100%;
+		background: #b1e958;
+		background:url(http://www.dndwebsitecreator.com/images/logo.png);
+		background-size:300px 60px;
+		background-position:90px -10px;
+		background-repeat:no-repeat;
+		 
+		padding: 11px 0 8px 0; /* padding of the 4 sides of the menu */
+		margin: 0;
+		text-align: center; /* set value to "left", "center", or "right" to align menu accordingly */
+	}
+	.demo-MenuBar .gwt-MenuItem
+	{
+		display: inline;
+		color:black;
+		padding: 6px 8px 6px 8px; /* padding of the 4 sides of each menu link */
+		margin-right: 15px; /* spacing between each menu link */
+		text-decoration: none;
+	}
+	.demo-MenuBar .gwt-MenuItem-selected
+	{
+	    color: black;
+	    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjgyIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4xNiIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); /* IE9+ SVG equivalent  of linear gradients */
+	    background: -moz-linear-gradient(top,  rgba(255,255,255,0.82) 0%, rgba(255,255,255,0.16) 100%); /* fade from white (0.82 opacty) to 0.16 opacity */
+	    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.82)), color-stop(100%,rgba(255,255,255,0.16)));
+	    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+	    background: -o-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+	    background: -ms-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+	    background: linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1ffffff', endColorstr='#29ffffff',GradientType=0 );
+	    -moz-box-shadow: 0 0 5px #595959; /* CSS3 box shadows */
+	    -webkit-box-shadow: 0 0 5px #595959;
+	    box-shadow: 0 0 5px #595959;
+	    padding-top: 12px; /* large padding to get menu item to protrude upwards */
+	    padding-bottom: 20px; /* large padding to get menu item to protrude downwards */
+}
+
+/**
+This section is for the news 
+*/
+	.news-style{
+		background: "#B8B8B8";	
+		border-style:solid;
+		border-radius: 10px;
+		padding: 11px 0 8px 0; /* padding of the 4 sides of the menu */
+		margin: 0;
+		text-justify:distribute;
+		
+		font-size: 150%;
+		
+		color:white;
+	
+	}
+	.news-label-style{
+	
+	}
+/**
+End News stuff
+*/
+/** choice style stuff**/
+
+
+
+	.choice-style{
+
+	}
+	.choiceForm-style{
+		opacity:			1.0;
+		border-style:       solid;
+		
+		background-color:   gray;
+		border-radius:      10px; 
+		border-color:       black; 
+		color:				white;
+		font-size: 			40px;
+		
+	}
+	
+/**end choice style stuff**/
+
+/**  Body style  */ 
+	
+	.body-style{
+		position:      relative;
+		left:          50%;
+		top:           200px;
+		width:         400px;
+		padding:       11px 0 8px 0; /* padding of the 4 sides of the menu */
+		border-style:  solid;
+		border-radius: 10px;
+		border-color:  white;
+	
+	}
+	.content-style{
+		/*background:black;*/
+		margin: 0;
+		text-justify:distribute;
+		font-size: 150%;
+		color:white;
+	}
+	
+	p.faq {
+		text-align:justify;
+		padding: 15px;
+	}
+	p.home{
+		text-align:justify;
+		padding: 15px;
+		margin: 10px;
+	}
+	p.testmon1{
+		text-align:justify;
+		position:absolute;
+		left:100px;
+		top:100%;
+	}
+	p.testmon2{
+		text-align:justify;
+		position:absolute;
+		padding: 15px;
+		left:60%;
+		top:120%;
+	}	
+	
+/** end body style **/
+
+
+/** login style **/
+
+.login-style{
+	
+	border-radius:10px;
+	color: white;
+	border-style:solid;
+
+}
+.loginText-style{
+	color: dark-blue;
+	padding:5px;
+}
+.tabSet-style{
+	/*background-color: green;*/
+}
+
+.tab-style{
+	
+}
+
+/** end login style **/
+
+
+/** Miscellaneous */
+
+	h1 {
+	  font-size: 2em;
+	  font-weight: bold;
+	  color: Black;
+	  margin: 40px 0px 70px;
+	  text-align: center;
+	}
+	#loading {
+		
+		opacity:0.4;
+		display: block;
+		position: relative;
+		top: 50%;
+		text-align: center;
+		font-size:28pt;
+	}	
+
+
+/**
+end miscellaneous
+*/
+/** New User Form styles **/
+
+	input, textarea { 
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	}
+
+textarea { 
+	width: 400px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+	}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+	}
+
+.form label { 
+	margin-left: 10px; 
+	color: #999999; 
+	}
+
+.submit input {
+	width: auto;
+	padding: 9px 15px;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+	
+
+	}
+	h3{
+		font-size:12pt;
+		font:	Georgia; 
+		color: 	white;
+		width: 100px;
+		margin-left: 20%;
+	}
+
+/**
+GWT created stuff
+*/
+	.sendButton {
+	  display: block;
+	  font-size: 16pt;
+	}
+	
+	/** Most GWT widgets already have a style name defined */
+	.gwt-DialogBox {
+	  width: 400px;
+	}
+	
+	.dialogVPanel {
+	  margin: 5px;
+	}
+	
+	.serverResponseLabelError {
+	  color: red;
+	}
+	
+	/** Set ids using widget.getElement().setId("idOfElement") */
+	#closeButton {
+	  margin: 15px 6px 6px;
+	}
+
+/**
+End GWT STUFF
+*/
+	/** Image hovering stuff **/
+	
+.image-gallery {  
+    
+  margin-left:90px;
+  margin-top:50px;
+  padding-left:7%;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:10px;  
+}
+
+figure { 
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+  padding-bottom:10px;  
+  width: 600px; 
+  height:300px;'
+  background: white;
+  /*border: 10px solid white; */
+  -webkit-box-shadow: 0 3px 10px #ccc;
+  -moz-box-shadow: 0 3px 10px #ccc;
+  
+  -webkit-transition: all 0.7s ease; 
+  -moz-transition: all 1s ease;
+  position: relative;
+}
+
+figcaption { 
+  text-align: center; 
+  display: block; 
+  font-size: 12px; 
+  font-style: italic; 
+}
+
+figure img { 
+  width: 100%; /* Scale down */
+}
+
+figure:hover {
+    
+    outline: none;
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -webkit-box-shadow:0 3px 10px #666;
+    -moz-box-shadow: 0 3px 10px #666;
+    z-index: 9999;
+}
+
+figure:focus {
+    outline: none;
+    -webkit-transform: scale(2.2); 
+    -moz-transform: scale(2.2);
+    -webkit-box-shadow:0 3px 10px #666;
+    -moz-box-shadow: 0 3px 10px #666;
+    z-index: 9999;
+}
+	
+	
+	
+</style>
+
+

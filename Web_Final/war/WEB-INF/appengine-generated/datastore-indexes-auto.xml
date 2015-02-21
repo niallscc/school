@@ -1,0 +1,10 @@
+<!-- Indices written at Tue, 8 May 2012 11:33:23 MDT -->
+
+<datastore-indexes>
+
+    <!-- Used 3 times in query history -->
+    <datastore-index kind="ProjectData" ancestor="true" source="auto">
+        <property name="projects_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

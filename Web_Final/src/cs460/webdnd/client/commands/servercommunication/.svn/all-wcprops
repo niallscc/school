@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/asterix/!svn/ver/674/Web_Final/src/cs460/webdnd/client/commands/servercommunication
+END
+NewProjectCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/asterix/!svn/ver/615/Web_Final/src/cs460/webdnd/client/commands/servercommunication/NewProjectCommand.java
+END
+LoadThemeCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/servercommunication/LoadThemeCommand.java
+END
+DeleteFileCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/asterix/!svn/ver/674/Web_Final/src/cs460/webdnd/client/commands/servercommunication/DeleteFileCommand.java
+END
+SaveProjectCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/asterix/!svn/ver/658/Web_Final/src/cs460/webdnd/client/commands/servercommunication/SaveProjectCommand.java
+END
+LoadProjectCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/asterix/!svn/ver/658/Web_Final/src/cs460/webdnd/client/commands/servercommunication/LoadProjectCommand.java
+END
+NameProjectCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/asterix/!svn/ver/615/Web_Final/src/cs460/webdnd/client/commands/servercommunication/NameProjectCommand.java
+END
+DeleteProjectCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/asterix/!svn/ver/615/Web_Final/src/cs460/webdnd/client/commands/servercommunication/DeleteProjectCommand.java
+END
+InitialLoadCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/asterix/!svn/ver/649/Web_Final/src/cs460/webdnd/client/commands/servercommunication/InitialLoadCommand.java
+END
+LoadCurrentProjectCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/asterix/!svn/ver/615/Web_Final/src/cs460/webdnd/client/commands/servercommunication/LoadCurrentProjectCommand.java
+END
+LoadTemplateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/asterix/!svn/ver/657/Web_Final/src/cs460/webdnd/client/commands/servercommunication/LoadTemplateCommand.java
+END

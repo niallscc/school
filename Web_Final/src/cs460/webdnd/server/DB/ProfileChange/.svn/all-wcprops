@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/asterix/!svn/ver/628/Web_Final/src/cs460/webdnd/server/DB/ProfileChange
+END
+ChangeCurrentProject.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/asterix/!svn/ver/628/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/ChangeCurrentProject.java
+END
+NewProject.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/NewProject.java
+END
+DeleteFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/DeleteFile.java
+END
+ProfileChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/ProfileChange.java
+END
+AddFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/AddFile.java
+END
+ChangePassword.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/ChangePassword.java
+END
+ChangePhoneNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/ChangePhoneNumber.java
+END
+DeleteProject.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/DeleteProject.java
+END
+ChangeLastName.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/ChangeLastName.java
+END
+ChangeProjectName.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/ChangeProjectName.java
+END
+MakeValid.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/MakeValid.java
+END
+ChangeFirstName.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/asterix/!svn/ver/627/Web_Final/src/cs460/webdnd/server/DB/ProfileChange/ChangeFirstName.java
+END

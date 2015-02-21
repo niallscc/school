@@ -1,0 +1,2 @@
+serviceClass: cs460.webdnd.client.ProjectService
+path: E01E061581A52E443EC99127709A579A.gwt.rpc
