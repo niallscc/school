@@ -1,0 +1,57 @@
+ReadMe File for CS362 Homework 2 
+Problem 6.10
+and 
+Problem 6.8
+
+To run this file with different inputs, all you need to do is change the two arrays that are
+created at the top of this java file. with different inputs you will get different outputs. For problem 6.8 specifically 
+you can also change the f(j) function to reflect whatever incremental input you want. 
+If you have any questions please email me ASAP at niallsc@gmail.com
+
+
+Test runs of Problem 6.8
+	On input 
+	
+		int[] tempArray= {1,1,5,3 };
+		with f(j) being {2,3,5,7};
+		
+	Output is: 
+		The max number of robots destroyed is: 5
+
+	On input 
+	
+		int[] tempArray= {1,1,1,1 };
+		with f(j) being {2,3,5,7};
+		
+	Output is: 
+		The max number of robots destroyed is: 4
+
+	On input 
+	
+		int[] tempArray= {1,1,1,7 };
+		with f(j) being {2,3,5,7};
+		
+	Output is: 
+		The max number of robots destroyed is: 7
+	
+Test runs of problem 6.10
+
+	On input
+			int[] tempCompA={20, 1, 20, 20};
+			int[] tempCompB= {15, 1, 21, 1};
+	Output is: 
+			The most computation time you can get is:61
+			
+	On input
+			int[] tempCompA={20, 1, 20, 20};
+			int[] tempCompB= {15, 1, 21, 24};
+	Output is: 
+			The most computation time you can get is:65
+		
+	On input
+			int[] tempCompA={20, 1, 20, 27};
+			int[] tempCompB= {15, 1, 21, 24};
+	Output is: 
+			The most computation time you can get is:68
+		
+		
