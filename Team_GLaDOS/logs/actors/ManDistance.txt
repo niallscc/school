@@ -1,0 +1,28 @@
+r553 | rhammer8 | 2010-12-15 14:59:35 MST
+
+Javadoc
+
+----------------------------------------------------------------------------
+r541 | amr | 2010-12-14 22:27:43 MST
+
+Lots of JavaDoc added will keep adding more.
+----------------------------------------------------------------------------
+r526 | amr | 2010-12-14 16:46:37 MST
+
+Integrated Testing Is Finished. Will start working on small details in the game.
+----------------------------------------------------------------------------
+r517 | amr | 2010-12-13 19:50:55 MST
+
+Finished up most of the casts. Fly and channeling casts need to be fixed. Man Distance now calculates the FlameThrower direction and cells to be affected.
+Will keep working on testing strategies and anything more on the casts.
+----------------------------------------------------------------------------
+r475 | amr | 2010-12-12 19:27:40 MST
+----------------------------------------------------------------------------
+r386 | amr | 2010-12-10 09:01:54 MST
+----------------------------------------------------------------------------
+r327 | amr | 2010-12-07 13:22:59 MST
+----------------------------------------------------------------------------
+r293 | amr | 2010-12-06 11:26:57 MST
+
+A* added still needs to be fixed to work with a hashmap instead.
+----------------------------------------------------------------------------

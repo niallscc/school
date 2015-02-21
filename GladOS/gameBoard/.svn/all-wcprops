@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/gladdos/!svn/ver/8/src/gameBoard
+END
+Update.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gladdos/!svn/ver/8/src/gameBoard/Update.java
+END
+ItemMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gladdos/!svn/ver/8/src/gameBoard/ItemMap.java
+END
+Commands.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/8/src/gameBoard/Commands.java
+END
+TerrainMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/8/src/gameBoard/TerrainMap.java
+END
+CharMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gladdos/!svn/ver/8/src/gameBoard/CharMap.java
+END
+AbstractCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/8/src/gameBoard/AbstractCell.java
+END
+FlatMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gladdos/!svn/ver/8/src/gameBoard/FlatMap.java
+END
+FastZombie.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/8/src/gameBoard/FastZombie.java
+END
+ItemsCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/8/src/gameBoard/ItemsCell.java
+END
+Player.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gladdos/!svn/ver/8/src/gameBoard/Player.java
+END
+Lifeform.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/8/src/gameBoard/Lifeform.java
+END
+Items.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gladdos/!svn/ver/8/src/gameBoard/Items.java
+END
+Being.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gladdos/!svn/ver/8/src/gameBoard/Being.java
+END
+GameClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/8/src/gameBoard/GameClient.java
+END
+Inventory.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/8/src/gameBoard/Inventory.java
+END
+AbstractMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/8/src/gameBoard/AbstractMap.java
+END
+Monster.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gladdos/!svn/ver/8/src/gameBoard/Monster.java
+END
+ItemTypeCost.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/8/src/gameBoard/ItemTypeCost.java
+END
+CharCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/8/src/gameBoard/CharCell.java
+END
+TerrainCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/8/src/gameBoard/TerrainCell.java
+END
+ClentInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gladdos/!svn/ver/8/src/gameBoard/ClentInterface.java
+END
+GameServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/8/src/gameBoard/GameServer.java
+END
+Terrain.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gladdos/!svn/ver/8/src/gameBoard/Terrain.java
+END
+ClientThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/8/src/gameBoard/ClientThread.java
+END

@@ -1,0 +1,15 @@
+r565 | niallsc | 2010-12-15 16:14:45 MST
+
+ghjkgk
+----------------------------------------------------------------------------
+r564 | rhammer8 | 2010-12-15 16:01:13 MST
+
+Javadoc
+
+----------------------------------------------------------------------------
+r546 | rhammer8 | 2010-12-15 03:31:58 MST
+
+Fixed the equip and the display of the equiped items.
+Debugging timing - Fixed it so that player's can't send multiple events.
+Also fixed reset timing
+----------------------------------------------------------------------------

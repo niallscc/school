@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/gladdos/!svn/ver/593/src/server
+END
+ClientListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/583/src/server/ClientListener.java
+END
+Broadcaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/349/src/server/Broadcaster.java
+END
+BOTS.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gladdos/!svn/ver/587/src/server/BOTS.java
+END
+Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gladdos/!svn/ver/592/src/server/Client.java
+END
+Server.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gladdos/!svn/ver/593/src/server/Server.java
+END

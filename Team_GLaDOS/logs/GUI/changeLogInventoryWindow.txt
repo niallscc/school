@@ -1,0 +1,56 @@
+r569 | niallsc | 2010-12-15 18:04:49 MST
+
+java docced magic 
+
+----------------------------------------------------------------------------
+r546 | rhammer8 | 2010-12-15 03:31:58 MST
+
+Fixed the equip and the display of the equiped items.
+Debugging timing - Fixed it so that player's can't send multiple events.
+Also fixed reset timing
+----------------------------------------------------------------------------
+r544 | niallsc | 2010-12-14 23:26:35 MST
+
+comments added in configwindow, inventory window and magic selector and portal connector 
+----------------------------------------------------------------------------
+r540 | rhammer8 | 2010-12-14 22:11:37 MST
+
+Equiping 
+----------------------------------------------------------------------------
+r538 | rhammer8 | 2010-12-14 21:54:19 MST
+
+Inventory things, removed main calls from inventory window
+----------------------------------------------------------------------------
+r515 | niallsc | 2010-12-13 16:35:54 MST
+
+fixed other inventory windows
+----------------------------------------------------------------------------
+r510 | niallsc | 2010-12-13 15:20:31 MST
+
+Inventory window now scrolling
+----------------------------------------------------------------------------
+r503 | niallsc | 2010-12-13 13:36:09 MST
+
+forrests added to map creator
+----------------------------------------------------------------------------
+r493 | rhammer8 | 2010-12-13 12:02:59 MST
+----------------------------------------------------------------------------
+r484 | rhammer8 | 2010-12-13 01:34:18 MST
+
+Got basic NPC added, you can walk up to him (he's on the top of the board). Click on him and press B. Next just need to send a
+Buy Event when a player clicks Buy Item(It's a little more complicated than that). Then add a Talk, Sell functionality.
+----------------------------------------------------------------------------
+r446 | niallsc | 2010-12-11 16:00:15 MST
+
+Finished inventory
+----------------------------------------------------------------------------
+r445 | niallsc | 2010-12-11 15:15:24 MST
+
+null pointer being thrown when trying to load image
+
+----------------------------------------------------------------------------
+r440 | niallsc | 2010-12-11 14:47:41 MST
+
+inventory almost done
+
+----------------------------------------------------------------------------

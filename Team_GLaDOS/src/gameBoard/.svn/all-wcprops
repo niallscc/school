@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/gladdos/!svn/ver/577/src/gameBoard
+END
+Magic.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gladdos/!svn/ver/521/src/gameBoard/Magic.java
+END
+Portal.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/423/src/gameBoard/Portal.java
+END
+ItemMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/299/src/gameBoard/ItemMap.java
+END
+TerrainMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/347/src/gameBoard/TerrainMap.java
+END
+Portals.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/188/src/gameBoard/Portals.java
+END
+CharMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/140/src/gameBoard/CharMap.java
+END
+FlatMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/560/src/gameBoard/FlatMap.java
+END
+ItemsCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/140/src/gameBoard/ItemsCell.java
+END
+Items.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gladdos/!svn/ver/250/src/gameBoard/Items.java
+END
+BoardElements.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gladdos/!svn/ver/177/src/gameBoard/BoardElements.java
+END
+Inventory.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/33/src/gameBoard/Inventory.java
+END
+ItemTypeCost.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/33/src/gameBoard/ItemTypeCost.java
+END
+MagicBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/569/src/gameBoard/MagicBoard.java
+END
+CharCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/293/src/gameBoard/CharCell.java
+END
+TerrainCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/577/src/gameBoard/TerrainCell.java
+END
+Terrain.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/508/src/gameBoard/Terrain.java
+END
+Connections.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/342/src/gameBoard/Connections.java
+END

@@ -1,0 +1,87 @@
+r583 | rhammer8 | 2010-12-16 00:12:06 MST
+----------------------------------------------------------------------------
+r566 | niallsc | 2010-12-15 16:51:05 MST
+
+Fixed magic being able to be cast from anywhere
+----------------------------------------------------------------------------
+r555 | rhammer8 | 2010-12-15 15:15:27 MST
+
+Javadoc
+----------------------------------------------------------------------------
+r546 | rhammer8 | 2010-12-15 03:31:58 MST
+
+Fixed the equip and the display of the equiped items.
+Debugging timing - Fixed it so that player's can't send multiple events.
+Also fixed reset timing
+----------------------------------------------------------------------------
+r538 | rhammer8 | 2010-12-14 21:54:19 MST
+
+Inventory things, removed main calls from inventory window
+----------------------------------------------------------------------------
+r532 | rhammer8 | 2010-12-14 20:55:00 MST
+
+Config Window now loads in the character class and the game board initialized with the selected class, name, and gender.
+----------------------------------------------------------------------------
+r523 | niallsc | 2010-12-14 10:33:44 MST
+
+changed the icon for when a character dies, it is now a tombstone
+----------------------------------------------------------------------------
+r522 | niallsc | 2010-12-14 08:31:57 MST
+
+For any rotatable magic attack you can now perform an attack in a dirction given by WASD
+----------------------------------------------------------------------------
+r503 | niallsc | 2010-12-13 13:36:09 MST
+
+forrests added to map creator
+----------------------------------------------------------------------------
+r484 | rhammer8 | 2010-12-13 01:34:18 MST
+
+Got basic NPC added, you can walk up to him (he's on the top of the board). Click on him and press B. Next just need to send a
+Buy Event when a player clicks Buy Item(It's a little more complicated than that). Then add a Talk, Sell functionality.
+----------------------------------------------------------------------------
+r478 | rhammer8 | 2010-12-12 20:32:54 MST
+----------------------------------------------------------------------------
+r473 | niallsc | 2010-12-12 19:14:58 MST
+
+Sword icons now being painted when the player does a normal attack 
+----------------------------------------------------------------------------
+r470 | niallsc | 2010-12-12 16:55:20 MST
+
+Finished magic attacks
+----------------------------------------------------------------------------
+r469 | rhammer8 | 2010-12-12 16:28:41 MST
+
+Fixed some bugs, still working on NPC functionality
+----------------------------------------------------------------------------
+r466 | niallsc | 2010-12-12 12:36:40 MST
+
+This update has the magic board done, and the painting of the radius's for each of the attacks fixed its pretty awesome im not gonna lie
+----------------------------------------------------------------------------
+r446 | niallsc | 2010-12-11 16:00:15 MST
+
+Finished inventory
+----------------------------------------------------------------------------
+r441 | niallsc | 2010-12-11 14:47:57 MST
+
+added the ability to make an inventory window when you press i
+
+----------------------------------------------------------------------------
+r431 | rhammer8 | 2010-12-11 13:38:55 MST
+----------------------------------------------------------------------------
+r409 | niallsc | 2010-12-10 18:53:36 MST
+
+You can now select a cell to do magic on it
+
+----------------------------------------------------------------------------
+r406 | rhammer8 | 2010-12-10 17:05:39 MST
+----------------------------------------------------------------------------
+r395 | rhammer8 | 2010-12-10 12:46:28 MST
+----------------------------------------------------------------------------
+r384 | rhammer8 | 2010-12-09 22:05:59 MST
+----------------------------------------------------------------------------
+r377 | niallsc | 2010-12-09 15:05:01 MST
+----------------------------------------------------------------------------
+r367 | rhammer8 | 2010-12-09 12:08:39 MST
+----------------------------------------------------------------------------
+r366 | rhammer8 | 2010-12-09 11:59:00 MST
+----------------------------------------------------------------------------

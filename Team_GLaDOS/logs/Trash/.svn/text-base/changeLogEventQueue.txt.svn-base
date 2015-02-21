@@ -1,0 +1,22 @@
+r489 | rhammer8 | 2010-12-13 11:23:41 MST
+
+Committing some package cleanup. Added trash package for unused classes( Nothing is implied by the name trash! Some of my classes are in there too.)
+
+Also some NPC stuff, almost have buying working.
+----------------------------------------------------------------------------
+r218 | rhammer8 | 2010-12-01 21:09:15 MST
+----------------------------------------------------------------------------
+r90 | amr | 2010-11-21 18:25:02 MST
+----------------------------------------------------------------------------
+r82 | amr | 2010-11-21 00:23:35 MST
+
+added some comments will add the rest as well as some of the event classes
+----------------------------------------------------------------------------
+r61 | amr | 2010-11-19 22:20:19 MST
+
+Made some more changes to the event.
+----------------------------------------------------------------------------
+r46 | amr | 2010-11-18 21:02:37 MST
+
+Event Queue is still empty but I will work on it more tonight. I just fixed some of the image paths in MapCreate. Some of them were still set to GladOS_Graphics.
+----------------------------------------------------------------------------

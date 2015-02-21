@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/gladdos/!svn/ver/587/src/testing
+END
+ServerTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/587/src/testing/ServerTests.java
+END
+AstarTesting.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/587/src/testing/AstarTesting.java
+END
+DistanceTesting.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gladdos/!svn/ver/587/src/testing/DistanceTesting.java
+END

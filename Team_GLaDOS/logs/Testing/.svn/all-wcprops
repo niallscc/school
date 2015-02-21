@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/gladdos/!svn/ver/594/logs/Testing
+END
+changeLogAStarTesting.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gladdos/!svn/ver/594/logs/Testing/changeLogAStarTesting.txt
+END
+changeLogDistanceTesting.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gladdos/!svn/ver/594/logs/Testing/changeLogDistanceTesting.txt
+END
+changeLogServerTests.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gladdos/!svn/ver/594/logs/Testing/changeLogServerTests.txt
+END

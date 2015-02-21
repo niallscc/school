@@ -1,0 +1,16 @@
+r449 | niallsc | 2010-12-11 16:23:42 MST
+
+Magic interface
+----------------------------------------------------------------------------
+r458 | niallsc | 2010-12-11 23:30:39 MST
+
+about to do the magic board
+----------------------------------------------------------------------------
+r466 | niallsc | 2010-12-12 12:36:40 MST
+
+This update has the magic board done, and the painting of the radius's for each of the attacks fixed its pretty awesome im not gonna lie
+----------------------------------------------------------------------------
+r521 | niallsc | 2010-12-13 22:25:34 MST
+
+The beginnings of certain magic attacks being able to be directed so like flamethrower will be able to be cast up down left or right. 
+----------------------------------------------------------------------------

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/gladdos/!svn/ver/594/api-doc/gui
+END
+MapCreate.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/594/api-doc/gui/MapCreate.html
+END
+GameBoard.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/594/api-doc/gui/GameBoard.html
+END
+ConfigWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/594/api-doc/gui/ConfigWindow.html
+END
+CharacterCreateTab.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gladdos/!svn/ver/594/api-doc/gui/CharacterCreateTab.html
+END
+MagicSelector.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/594/api-doc/gui/MagicSelector.html
+END
+InventoryWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gladdos/!svn/ver/594/api-doc/gui/InventoryWindow.html
+END
+NPCInventoryWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gladdos/!svn/ver/594/api-doc/gui/NPCInventoryWindow.html
+END
+MagicSelector.EventHandlerSubmit.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gladdos/!svn/ver/594/api-doc/gui/MagicSelector.EventHandlerSubmit.html
+END
+NPCInteractionGUI.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gladdos/!svn/ver/594/api-doc/gui/NPCInteractionGUI.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/594/api-doc/gui/package-frame.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/594/api-doc/gui/package-tree.html
+END
+PortalConnector.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gladdos/!svn/ver/594/api-doc/gui/PortalConnector.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/594/api-doc/gui/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gladdos/!svn/ver/594/api-doc/gui/package-summary.html
+END
+PortalConnector.MainPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gladdos/!svn/ver/594/api-doc/gui/PortalConnector.MainPanel.html
+END
+Tabs.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gladdos/!svn/ver/594/api-doc/gui/Tabs.html
+END
+CreateCharacterWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gladdos/!svn/ver/594/api-doc/gui/CreateCharacterWindow.html
+END
+SellInventoryWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gladdos/!svn/ver/594/api-doc/gui/SellInventoryWindow.html
+END

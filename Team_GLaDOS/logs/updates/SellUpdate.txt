@@ -1,0 +1,8 @@
+r526 | amr | 2010-12-14 16:46:37 MST
+
+Integrated Testing Is Finished. Will start working on small details in the game.
+----------------------------------------------------------------------------
+r502 | rhammer8 | 2010-12-13 13:33:45 MST
+
+Alot of NPC stuff
+----------------------------------------------------------------------------

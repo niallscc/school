@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/gladdos/!svn/ver/6/src/events
+END
+quitEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gladdos/!svn/ver/6/src/events/quitEvent.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gladdos/!svn/ver/6/src/events/Event.java
+END
+moveEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gladdos/!svn/ver/1/src/events/moveEvent.java
+END

@@ -1,0 +1,29 @@
+r581 | amr | 2010-12-15 22:58:25 MST
+----------------------------------------------------------------------------
+r575 | amr | 2010-12-15 19:48:30 MST
+
+MP gets deducted. Bots have one more bug to fix then will work on bots dropping their swag.
+----------------------------------------------------------------------------
+r570 | amr | 2010-12-15 18:50:32 MST
+----------------------------------------------------------------------------
+r568 | amr | 2010-12-15 18:00:13 MST
+
+Casts are now working with guis there still remains a few bugs but I am working on them.
+----------------------------------------------------------------------------
+r541 | amr | 2010-12-14 22:27:43 MST
+
+Lots of JavaDoc added will keep adding more.
+----------------------------------------------------------------------------
+r526 | amr | 2010-12-14 16:46:37 MST
+
+Integrated Testing Is Finished. Will start working on small details in the game.
+----------------------------------------------------------------------------
+r517 | amr | 2010-12-13 19:50:55 MST
+
+Finished up most of the casts. Fly and channeling casts need to be fixed. Man Distance now calculates the FlameThrower direction and cells to be affected.
+Will keep working on testing strategies and anything more on the casts.
+----------------------------------------------------------------------------
+r454 | rhammer8 | 2010-12-11 23:05:30 MST
+
+Worked on spells all night.
+----------------------------------------------------------------------------

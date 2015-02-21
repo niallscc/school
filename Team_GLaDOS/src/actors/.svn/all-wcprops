@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/gladdos/!svn/ver/589/src/actors
+END
+ManDistance.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/553/src/actors/ManDistance.java
+END
+SlimeZombie.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/585/src/actors/SlimeZombie.java
+END
+FighterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/553/src/actors/FighterFactory.java
+END
+AIastar.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gladdos/!svn/ver/541/src/actors/AIastar.java
+END
+AInode.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gladdos/!svn/ver/486/src/actors/AInode.java
+END
+Character.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/251/src/actors/Character.java
+END
+ZombieCow.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/581/src/actors/ZombieCow.java
+END
+FastZombie.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/581/src/actors/FastZombie.java
+END
+Player.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gladdos/!svn/ver/589/src/actors/Player.java
+END
+NPC.java
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gladdos/!svn/ver/553/src/actors/NPC.java
+END
+Lifeform.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gladdos/!svn/ver/553/src/actors/Lifeform.java
+END
+Being.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gladdos/!svn/ver/589/src/actors/Being.java
+END
+Fighter.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gladdos/!svn/ver/589/src/actors/Fighter.java
+END
+Monster.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gladdos/!svn/ver/553/src/actors/Monster.java
+END
+AITest.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gladdos/!svn/ver/587/src/actors/AITest.java
+END
+MageFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/553/src/actors/MageFactory.java
+END
+PCFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/553/src/actors/PCFactory.java
+END
+Thief.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gladdos/!svn/ver/589/src/actors/Thief.java
+END
+ThiefFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/553/src/actors/ThiefFactory.java
+END
+PC.java
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/gladdos/!svn/ver/553/src/actors/PC.java
+END
+Mage.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gladdos/!svn/ver/589/src/actors/Mage.java
+END

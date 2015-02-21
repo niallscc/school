@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/gladdos/!svn/ver/594/api-doc/events
+END
+BuyEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/594/api-doc/events/BuyEvent.html
+END
+AttackEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gladdos/!svn/ver/594/api-doc/events/AttackEvent.html
+END
+NewClientEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gladdos/!svn/ver/594/api-doc/events/NewClientEvent.html
+END
+UndefendEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gladdos/!svn/ver/594/api-doc/events/UndefendEvent.html
+END
+EquipEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/594/api-doc/events/EquipEvent.html
+END
+MoveEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/594/api-doc/events/MoveEvent.html
+END
+SellEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/594/api-doc/events/SellEvent.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gladdos/!svn/ver/594/api-doc/events/package-frame.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gladdos/!svn/ver/594/api-doc/events/package-tree.html
+END
+DefendEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gladdos/!svn/ver/594/api-doc/events/DefendEvent.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gladdos/!svn/ver/594/api-doc/events/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gladdos/!svn/ver/594/api-doc/events/package-summary.html
+END
+DisconnectEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gladdos/!svn/ver/594/api-doc/events/DisconnectEvent.html
+END
+GladdosEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gladdos/!svn/ver/594/api-doc/events/GladdosEvent.html
+END
+Event.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/594/api-doc/events/Event.html
+END

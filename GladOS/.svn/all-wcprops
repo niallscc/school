@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/gladdos/!svn/ver/12/src
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/gladdos/!svn/ver/3/src/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/gladdos/!svn/ver/3/src/.classpath
+END

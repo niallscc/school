@@ -1,0 +1,24 @@
+r33 | niallsc | 2010-11-18 16:12:59 MST
+
+gameBoard
+----------------------------------------------------------------------------
+r42 | niallsc | 2010-11-18 16:46:20 MST
+
+Fixed everything
+----------------------------------------------------------------------------
+r80 | rhammer8 | 2010-11-20 13:21:05 MST
+
+Made getTerrain default to Plain if no other characters matched.
+----------------------------------------------------------------------------
+r140 | amr | 2010-11-22 23:04:30 MST
+
+Updated the java docs.
+----------------------------------------------------------------------------
+r497 | amr | 2010-12-13 12:57:32 MST
+
+added functionality for bots to move randomly if uncommented in the bots file.
+----------------------------------------------------------------------------
+r508 | rhammer8 | 2010-12-13 15:05:06 MST
+
+Added moolah to cells, and when you move onto cells, you pickup all of the moolah
+----------------------------------------------------------------------------

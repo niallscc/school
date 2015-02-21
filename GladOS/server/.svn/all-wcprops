@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/gladdos/!svn/ver/5/src/server
+END
+BroadcastThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/5/src/server/BroadcastThread.java
+END
+Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gladdos/!svn/ver/2/src/server/Client.java
+END
+Server.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gladdos/!svn/ver/5/src/server/Server.java
+END

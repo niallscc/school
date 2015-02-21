@@ -1,0 +1,55 @@
+r547 | rhammer8 | 2010-12-15 04:28:20 MST
+
+Finally fixed event over time timing... at 4:30 AM.
+
+Nialls, I don't know what the key binding you used for which number maps to which magic attack, there are no comments to indicate what goes to what.
+----------------------------------------------------------------------------
+r546 | rhammer8 | 2010-12-15 03:31:58 MST
+
+Fixed the equip and the display of the equiped items.
+Debugging timing - Fixed it so that player's can't send multiple events.
+Also fixed reset timing
+----------------------------------------------------------------------------
+r542 | amr | 2010-12-14 22:45:36 MST
+
+A bit more javadoc and will begin working on JUnit tests.
+----------------------------------------------------------------------------
+r526 | amr | 2010-12-14 16:46:37 MST
+
+Integrated Testing Is Finished. Will start working on small details in the game.
+----------------------------------------------------------------------------
+r488 | rhammer8 | 2010-12-13 11:20:21 MST
+
+Removed some screen prints, removed worthless update returns(invalid ones)
+----------------------------------------------------------------------------
+r469 | rhammer8 | 2010-12-12 16:28:41 MST
+
+Fixed some bugs, still working on NPC functionality
+----------------------------------------------------------------------------
+r463 | amr | 2010-12-12 01:49:29 MST
+
+Bots fixed to not move after dieing, their image gets set to the dead image once dead and the cell gets swag added to it.
+The setImages() method in TerrainCell gets called but Im trying to figure out why it will not update the image of the cell
+to a chest. 
+----------------------------------------------------------------------------
+r461 | amr | 2010-12-12 00:35:30 MST
+
+Client attack when pressing spacebar only trys to attack cell 0,0 not sure where to fix that.
+When a zombie dies it should now put swag where it died.
+----------------------------------------------------------------------------
+r459 | amr | 2010-12-11 23:59:14 MST
+----------------------------------------------------------------------------
+r454 | rhammer8 | 2010-12-11 23:05:30 MST
+
+Worked on spells all night.
+----------------------------------------------------------------------------
+r432 | amr | 2010-12-11 13:49:58 MST
+----------------------------------------------------------------------------
+r403 | rhammer8 | 2010-12-10 17:04:20 MST
+----------------------------------------------------------------------------
+r384 | rhammer8 | 2010-12-09 22:05:59 MST
+----------------------------------------------------------------------------
+r374 | rhammer8 | 2010-12-09 13:38:46 MST
+----------------------------------------------------------------------------
+r367 | rhammer8 | 2010-12-09 12:08:39 MST
+----------------------------------------------------------------------------

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/gladdos/!svn/ver/589/src/gui
+END
+CharacterCreateTab.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gladdos/!svn/ver/587/src/gui/CharacterCreateTab.java
+END
+Tabs.java
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/gladdos/!svn/ver/587/src/gui/Tabs.java
+END
+CreateCharacterWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gladdos/!svn/ver/578/src/gui/CreateCharacterWindow.java
+END
+InventoryWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/569/src/gui/InventoryWindow.java
+END
+MagicSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/561/src/gui/MagicSelector.java
+END
+NPCInventoryWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gladdos/!svn/ver/569/src/gui/NPCInventoryWindow.java
+END
+SellInventoryWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gladdos/!svn/ver/569/src/gui/SellInventoryWindow.java
+END
+NPCInteractionGUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/569/src/gui/NPCInteractionGUI.java
+END
+MapCreate.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gladdos/!svn/ver/569/src/gui/MapCreate.java
+END
+GameBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gladdos/!svn/ver/589/src/gui/GameBoard.java
+END
+ConfigWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/578/src/gui/ConfigWindow.java
+END
+PortalConnector.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/569/src/gui/PortalConnector.java
+END

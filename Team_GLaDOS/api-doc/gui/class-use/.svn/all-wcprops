@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gladdos/!svn/ver/594/api-doc/gui/class-use
+END
+MapCreate.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gladdos/!svn/ver/594/api-doc/gui/class-use/MapCreate.html
+END
+GameBoard.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gladdos/!svn/ver/594/api-doc/gui/class-use/GameBoard.html
+END
+ConfigWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gladdos/!svn/ver/594/api-doc/gui/class-use/ConfigWindow.html
+END
+PortalConnector.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gladdos/!svn/ver/594/api-doc/gui/class-use/PortalConnector.html
+END
+CharacterCreateTab.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gladdos/!svn/ver/594/api-doc/gui/class-use/CharacterCreateTab.html
+END
+PortalConnector.MainPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gladdos/!svn/ver/594/api-doc/gui/class-use/PortalConnector.MainPanel.html
+END
+Tabs.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gladdos/!svn/ver/594/api-doc/gui/class-use/Tabs.html
+END
+CreateCharacterWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gladdos/!svn/ver/594/api-doc/gui/class-use/CreateCharacterWindow.html
+END
+MagicSelector.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gladdos/!svn/ver/594/api-doc/gui/class-use/MagicSelector.html
+END
+InventoryWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gladdos/!svn/ver/594/api-doc/gui/class-use/InventoryWindow.html
+END
+NPCInventoryWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gladdos/!svn/ver/594/api-doc/gui/class-use/NPCInventoryWindow.html
+END
+MagicSelector.EventHandlerSubmit.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/gladdos/!svn/ver/594/api-doc/gui/class-use/MagicSelector.EventHandlerSubmit.html
+END
+NPCInteractionGUI.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gladdos/!svn/ver/594/api-doc/gui/class-use/NPCInteractionGUI.html
+END
+SellInventoryWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gladdos/!svn/ver/594/api-doc/gui/class-use/SellInventoryWindow.html
+END

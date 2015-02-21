@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/gladdos/!svn/ver/597/logs/events
+END
+DisconnectEvent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gladdos/!svn/ver/597/logs/events/DisconnectEvent.txt
+END
+NewClientEvent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/597/logs/events/NewClientEvent.txt
+END
+AttackEvent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/597/logs/events/AttackEvent.txt
+END
+BuyEvent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gladdos/!svn/ver/597/logs/events/BuyEvent.txt
+END
+DefendEvent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/597/logs/events/DefendEvent.txt
+END
+SellEvent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/597/logs/events/SellEvent.txt
+END
+MoveEvent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/597/logs/events/MoveEvent.txt
+END
+Event.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gladdos/!svn/ver/597/logs/events/Event.txt
+END
+EquipEvent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/597/logs/events/EquipEvent.txt
+END
+GladdosEvent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/597/logs/events/GladdosEvent.txt
+END
+UndefendEvent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/597/logs/events/UndefendEvent.txt
+END

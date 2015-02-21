@@ -1,0 +1,182 @@
+10
+
+dir
+597
+https://svn.cs.unm.edu/gladdos
+https://svn.cs.unm.edu/gladdos
+
+
+
+2010-12-16T20:45:09.278957Z
+597
+rhammer8
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1d66159f-60fb-4704-88f9-4da767f9ff97
+
+
+
+
+
+
+
+
+((conflict Documentation dir update edited deleted (version https://svn.cs.unm.edu/gladdos 3 588 Documentation 0 ) (version https://svn.cs.unm.edu/gladdos 3 589 Documentation dir)))
+
+.classpath
+file
+
+
+
+
+2010-12-02T05:13:44.000000Z
+8ec9adad25d228a6745ba2124d4eb34a
+2010-12-02T04:10:22.982096Z
+219
+rhammer8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+372
+
+.project
+file
+
+
+
+
+2010-11-18T23:24:00.000000Z
+d062f2f5f78e0890e7227d2d0913b35c
+2010-11-17T05:50:47.843413Z
+13
+niallsc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+370
+
+.settings
+dir
+
+AttackIcons
+dir
+
+Docs
+dir
+
+EnemyIcons
+dir
+
+GameBoardMaps
+dir
+
+GameGraphics
+dir
+
+HelpFiles
+dir
+
+ItemsIcons
+dir
+
+Magic_Icons
+dir
+
+Music
+dir
+
+NPCIcons
+dir
+
+PCIcons
+dir
+
+PortalStuff
+dir
+
+ServerLogFile1.txt
+file
+
+
+
+
+
+6b29f2879da041f626a4d87a6681a914
+2010-12-16T20:13:53.666655Z
+593
+amr
+
+
+
+
+
+ServerLogFile1.txt.r589
+ServerLogFile1.txt.r596
+ServerLogFile1.txt.mine
+
+Tests
+dir
+
+UserSaveFiles
+dir
+
+api-doc
+dir
+
+bin
+dir
+
+logs
+dir
+
+src
+dir
+

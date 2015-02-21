@@ -1,0 +1,34 @@
+r569 | niallsc | 2010-12-15 18:04:49 MST
+
+java docced magic 
+
+----------------------------------------------------------------------------
+r538 | rhammer8 | 2010-12-14 21:54:19 MST
+
+Inventory things, removed main calls from inventory window
+----------------------------------------------------------------------------
+r515 | niallsc | 2010-12-13 16:35:54 MST
+
+fixed other inventory windows
+----------------------------------------------------------------------------
+r505 | rhammer8 | 2010-12-13 14:22:06 MST
+
+Finished NPC Interaction, walk up to the vendor and click on him and press B. 
+There is a bug where, unless you sell from last to first, you can't sell mutliple items because the indexes get changed when you sell an item.
+So. So. Sick of this game.
+----------------------------------------------------------------------------
+r502 | rhammer8 | 2010-12-13 13:33:45 MST
+
+Alot of NPC stuff
+----------------------------------------------------------------------------
+r489 | rhammer8 | 2010-12-13 11:23:41 MST
+
+Committing some package cleanup. Added trash package for unused classes( Nothing is implied by the name trash! Some of my classes are in there too.)
+
+Also some NPC stuff, almost have buying working.
+----------------------------------------------------------------------------
+r484 | rhammer8 | 2010-12-13 01:34:18 MST
+
+Got basic NPC added, you can walk up to him (he's on the top of the board). Click on him and press B. Next just need to send a
+Buy Event when a player clicks Buy Item(It's a little more complicated than that). Then add a Talk, Sell functionality.
+----------------------------------------------------------------------------

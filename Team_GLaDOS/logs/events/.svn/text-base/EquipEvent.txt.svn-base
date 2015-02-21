@@ -1,0 +1,6 @@
+r546 | rhammer8 | 2010-12-15 03:31:58 MST
+
+Fixed the equip and the display of the equiped items.
+Debugging timing - Fixed it so that player's can't send multiple events.
+Also fixed reset timing
+----------------------------------------------------------------------------

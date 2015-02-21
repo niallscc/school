@@ -1,0 +1,21 @@
+r561 | rhammer8 | 2010-12-15 15:26:58 MST
+
+Java doccing and getting rid of warnings
+----------------------------------------------------------------------------
+r544 | niallsc | 2010-12-14 23:26:35 MST
+
+comments added in configwindow, inventory window and magic selector and portal connector 
+----------------------------------------------------------------------------
+r529 | rhammer8 | 2010-12-14 19:04:21 MST
+
+The past commit was changes to tie the game into the start game gui
+----------------------------------------------------------------------------
+r476 | niallsc | 2010-12-12 20:09:15 MST
+
+Magic selector finished
+
+----------------------------------------------------------------------------
+r474 | niallsc | 2010-12-12 19:15:38 MST
+
+Sword icons now being painted when the player does a normal attack 
+----------------------------------------------------------------------------

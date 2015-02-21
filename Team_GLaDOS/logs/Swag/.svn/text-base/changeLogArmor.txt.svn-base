@@ -1,0 +1,46 @@
+r546 | rhammer8 | 2010-12-15 03:31:58 MST
+
+Fixed the equip and the display of the equiped items.
+Debugging timing - Fixed it so that player's can't send multiple events.
+Also fixed reset timing
+----------------------------------------------------------------------------
+r507 | rhammer8 | 2010-12-13 14:47:19 MST
+
+Added all of the items to the vendor, fixed image file with excalibur
+----------------------------------------------------------------------------
+r502 | rhammer8 | 2010-12-13 13:33:45 MST
+
+Alot of NPC stuff
+----------------------------------------------------------------------------
+r489 | rhammer8 | 2010-12-13 11:23:41 MST
+
+Committing some package cleanup. Added trash package for unused classes( Nothing is implied by the name trash! Some of my classes are in there too.)
+
+Also some NPC stuff, almost have buying working.
+----------------------------------------------------------------------------
+r471 | rhammer8 | 2010-12-12 17:09:07 MST
+
+NPC buying and selling
+
+----------------------------------------------------------------------------
+r444 | niallsc | 2010-12-11 15:15:04 MST
+
+Changed weapons, and swag and armor
+
+----------------------------------------------------------------------------
+r438 | rhammer8 | 2010-12-11 14:42:02 MST
+
+Updated Items. They can draw themselves and return their name now.
+----------------------------------------------------------------------------
+r367 | rhammer8 | 2010-12-09 12:08:39 MST
+----------------------------------------------------------------------------
+r356 | amr | 2010-12-08 22:59:51 MST
+----------------------------------------------------------------------------
+r355 | rhammer8 | 2010-12-08 20:46:18 MST
+----------------------------------------------------------------------------
+r347 | rhammer8 | 2010-12-08 13:58:03 MST
+----------------------------------------------------------------------------
+r321 | rhammer8 | 2010-12-07 10:56:03 MST
+----------------------------------------------------------------------------
+r320 | rhammer8 | 2010-12-07 10:54:23 MST
+----------------------------------------------------------------------------

@@ -1,0 +1,35 @@
+r569 | niallsc | 2010-12-15 18:04:49 MST
+
+java docced magic 
+
+----------------------------------------------------------------------------
+r521 | niallsc | 2010-12-13 22:25:34 MST
+
+The beginnings of certain magic attacks being able to be directed so like flamethrower will be able to be cast up down left or right. 
+----------------------------------------------------------------------------
+r466 | niallsc | 2010-12-12 12:36:40 MST
+
+This update has the magic board done, and the painting of the radius's for each of the attacks fixed its pretty awesome im not gonna lie
+----------------------------------------------------------------------------
+r457 | niallsc | 2010-12-11 23:30:10 MST
+
+no more magic warnings
+----------------------------------------------------------------------------
+r456 | niallsc | 2010-12-11 23:27:53 MST
+
+area of effect done
+----------------------------------------------------------------------------
+r455 | niallsc | 2010-12-11 23:05:35 MST
+
+implements serializable
+
+----------------------------------------------------------------------------
+r450 | niallsc | 2010-12-11 17:02:49 MST
+
+You can get the images from each of them except fire now
+
+----------------------------------------------------------------------------
+r448 | niallsc | 2010-12-11 16:23:32 MST
+
+Magic Classes added
+----------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+r526 | amr | 2010-12-14 16:46:37 MST
+
+Integrated Testing Is Finished. Will start working on small details in the game.
+----------------------------------------------------------------------------
+r489 | rhammer8 | 2010-12-13 11:23:41 MST
+
+Committing some package cleanup. Added trash package for unused classes( Nothing is implied by the name trash! Some of my classes are in there too.)
+
+Also some NPC stuff, almost have buying working.
+----------------------------------------------------------------------------

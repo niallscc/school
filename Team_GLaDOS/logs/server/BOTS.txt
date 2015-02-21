@@ -1,0 +1,86 @@
+r581 | amr | 2010-12-15 22:58:25 MST
+----------------------------------------------------------------------------
+r575 | amr | 2010-12-15 19:48:30 MST
+
+MP gets deducted. Bots have one more bug to fix then will work on bots dropping their swag.
+----------------------------------------------------------------------------
+r567 | rhammer8 | 2010-12-15 17:13:38 MST
+
+Getting rid of warnings, javadoccing
+
+----------------------------------------------------------------------------
+r554 | amr | 2010-12-15 15:13:30 MST
+
+Added More tests will finish up tests / Magic casting / item drops/ add monsters and armor.
+----------------------------------------------------------------------------
+r552 | amr | 2010-12-15 14:03:44 MST
+----------------------------------------------------------------------------
+r546 | rhammer8 | 2010-12-15 03:31:58 MST
+
+Fixed the equip and the display of the equiped items.
+Debugging timing - Fixed it so that player's can't send multiple events.
+Also fixed reset timing
+----------------------------------------------------------------------------
+r509 | amr | 2010-12-13 15:11:19 MST
+
+Added bot spawning capabilities along with more bots on further levels. Fixed last bit of AI implementation.
+experiencecost is added but needs to be scaled. Will be working on Integrated Testing Strategy for a while.
+----------------------------------------------------------------------------
+r497 | amr | 2010-12-13 12:57:32 MST
+
+added functionality for bots to move randomly if uncommented in the bots file.
+----------------------------------------------------------------------------
+r489 | rhammer8 | 2010-12-13 11:23:41 MST
+
+Committing some package cleanup. Added trash package for unused classes( Nothing is implied by the name trash! Some of my classes are in there too.)
+
+Also some NPC stuff, almost have buying working.
+----------------------------------------------------------------------------
+r486 | amr | 2010-12-13 03:32:40 MST
+
+Fixed the last of bugs in A-star and bots. The bots wont try to go to the same location as another bot anymore.Images are all finalized to be scaled to 25x25  and transparent. Will start working on trying to optimizing some of what we have and adding game mechanics from the spec.
+
+----------------------------------------------------------------------------
+r467 | amr | 2010-12-12 16:13:31 MST
+
+Each maps bots now run on their own thread. I will start working on the images for each of items of swag(Armor,Weapons,Items).
+----------------------------------------------------------------------------
+r464 | amr | 2010-12-12 02:20:28 MST
+
+Trying to make bots set the terrain they step on to occupied or not occupied.
+----------------------------------------------------------------------------
+r463 | amr | 2010-12-12 01:49:29 MST
+
+Bots fixed to not move after dieing, their image gets set to the dead image once dead and the cell gets swag added to it.
+The setImages() method in TerrainCell gets called but Im trying to figure out why it will not update the image of the cell
+to a chest. 
+----------------------------------------------------------------------------
+r461 | amr | 2010-12-12 00:35:30 MST
+
+Client attack when pressing spacebar only trys to attack cell 0,0 not sure where to fix that.
+When a zombie dies it should now put swag where it died.
+----------------------------------------------------------------------------
+r460 | amr | 2010-12-12 00:14:47 MST
+
+WOOOOOOOOOO!!!! Bots can kill you and you can kill bots. Need to set the cell the bots die in to contain swag.
+----------------------------------------------------------------------------
+r459 | amr | 2010-12-11 23:59:14 MST
+----------------------------------------------------------------------------
+r452 | amr | 2010-12-11 18:38:27 MST
+----------------------------------------------------------------------------
+r451 | amr | 2010-12-11 17:08:02 MST
+----------------------------------------------------------------------------
+r432 | amr | 2010-12-11 13:49:58 MST
+----------------------------------------------------------------------------
+r419 | amr | 2010-12-11 00:26:14 MST
+----------------------------------------------------------------------------
+r418 | amr | 2010-12-10 23:41:18 MST
+----------------------------------------------------------------------------
+r416 | amr | 2010-12-10 21:27:40 MST
+----------------------------------------------------------------------------
+r414 | amr | 2010-12-10 21:16:23 MST
+----------------------------------------------------------------------------
+r411 | amr | 2010-12-10 20:20:38 MST
+----------------------------------------------------------------------------
+r398 | amr | 2010-12-10 16:38:06 MST
+----------------------------------------------------------------------------

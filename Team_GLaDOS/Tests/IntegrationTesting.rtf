@@ -1,0 +1,367 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fnil\fcharset0 Cambria;\f1\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+{\info
+{\author Nialls Chavez}
+{\*\company Fseven.org}}\vieww12240\viewh14820\viewkind1
+\deftab720
+\pard\pardeftab720\ri0\ql\qnatural
+
+\f0\fs24 \cf0 GLaDOS GUI Integration Testing 
+\f1 \
+\
+
+\f0 This document tries to go through each of the GUI\'92s implemented in the game to test them *exhaustively. Each of the GUI\'92s will be gone through in detail and the most rigorous attempt at messing with the GUI will be shown here. \
+\
+\
+GameBoard:\
+Brief Description: \
+\pard\pardeftab720\li720\ri0\ql\qnatural
+\cf0 The GameBoard GUI is the main GUI for the implementation of the game, it is broken up into four distinct parts: the Menu, the gameboard, the status bar, and the magic bar. \
+\pard\pardeftab720\ri0\ql\qnatural
+
+\f1 \cf0 	\
+	
+\f0 Menu Testing: 	\
+\
+\pard\pardeftab720\li1800\fi-360\ri0\ql\qnatural
+\ls1\ilvl0\cf0 1.	Does the Help Button work: YES 
+\f1 \
+\ls1\ilvl0
+\f0 2.	Does the Play/Pause Music work: YES\
+\pard\pardeftab720\ri0\ql\qnatural
+
+\f1 \cf0 		
+\f0 2.   	Does the quit Game button work: YES 
+\f1 \
+		\
+	
+\f0 gameboard Testing:\
+\
+		1.	Movement: Functional, Bug when monster and player send \
+			an update at the same time\
+\
+		2.	attacking: Functional: You can attack enemies \
+\
+		3.	Teleportation: Functional You must be a level 3 to teleport \
+\
+\pard\tx720\tx1440\tqr\tx8640\pardeftab720\ri0\ql\qnatural
+
+\f1 \cf0 		
+\f0 4.         Movement across different cells with different speed\
+		            requirements: Functional you can see that the player slows 			            when moving onto  a cell with a higher move requirement 
+\f1 	\
+\pard\pardeftab720\ri0\ql\qnatural
+\cf0 		\
+		5.	Magic: Painting working works, for all magic attacks, but 					functionality is not there. \
+		\
+		6. 	Items: You can pick up items and they allow the player to equip 				them these items. \
+		\
+		7.	NPC's Functional: you can talk to them buy, and sell, all 					functionality is present there 	\
+		8. 	When your HP is reduced to 0 do you die? Yes \
+	\
+		9. 	When you die is that reflected in the GUI? YES\
+		\
+		\
+		10. Monster Movement: Functional they move with the character.\
+		\
+		11. Monster attacking: They attack when they are next to the character \
+		\
+		12. Player Defending: Gets stuck, partial functionality  \
+		\
+		13. Magic Animations Completely functional, actual functionality no there \
+\
+
+\f0 Status Bar Testing: \
+		1.  When attacked by an enemy does the hp Gauge decrease: YES\
+\
+		2. When you use magic does it lower the MP: NO \
+		3. When you change Equipment does it reflect that change in the \
+		    status bar? yes\
+	
+\f1 \
+\
+\
+
+\f0 MapCreate: \
+\pard\pardeftab720\li720\ri0\ql\qnatural
+\cf0 Brief description:  The purpose of this GUI is to create an easy way to create gameboard maps for the game, this GUI is broken up into two parts: The Menu Bar, and the creationPane\
+\pard\pardeftab720\li720\ri0\ql\qnatural
+
+\f1 \cf0 	\
+\pard\pardeftab720\li720\ri0\ql\qnatural
+
+\f0 \cf0 Menu Bar Testing: \
+	1. Help Button: No
+\f1 \
+	
+\f0 2. Save Button: YES
+\f1 \
+	
+\f0 3. Load Button: YES(needs notification of failure or success) 
+\f1 \
+\pard\pardeftab720\li720\fi720\ri0\ql\qnatural
+
+\f0 \cf0 4. Quit Button: YES
+\f1 \
+\pard\pardeftab720\li1440\ri0\ql\qnatural
+
+\f0 \cf0 (In each of these tests I: tried painting them in each of the four corners, along the edges, in the middle and then saving each of them and seeing if they were all accounted for in the save file) \
+\pard\pardeftab720\li720\fi720\ri0\ql\qnatural
+
+\f1 \cf0 \
+
+\f0 5. Terrain Button: \
+	a: Grass: YES\
+	b. Sand: YES\
+	c. Forrest: YES\
+	d: wall: YES\
+
+\f1 	
+\f0 e: Swamp: YES\
+	f: Sand: YES\
+	g: Mountain: YES\
+
+\f1 \
+\pard\pardeftab720\ri0\ql\qnatural
+\cf0 \
+		
+\f0 6: Items Button: 
+\f1 \
+			
+\f0 a: Health: YES\
+			b: Mana: YES\
+			c: Gold: YES\
+			d: Treasure Chest: YES \
+\pard\pardeftab720\li2160\ri0\ql\qnatural
+\cf0 e: Clear: Partial( tested if it cleared out the items/characters of a given cell on any arbitrary space on the board, though it does not take out the NPC character or the Portal because those are associated with the terrain Map ) 
+\f1 \
+\pard\pardeftab720\ri0\ql\qnatural
+\cf0 \
+		
+\f0 7:Monsters Button: \
+
+\f1 \
+			
+\f0 a: Slime Monster: YES\
+			b Boss Zombie: YES \
+			c: Zombie: YES\
+			d: Zombie 2: YES \
+			e: Zombie Cow: YES \
+
+\f1 		
+\f0 8: NPC\'92s Button:
+\f1 \
+			
+\f0 a: Vendor: YES \
+		\
+		9: Overlays: 
+\f1 \
+			
+\f0 a: Forrest: YES
+\f1 \
+			
+\f0 b: Swamp: YES\
+			c: Sand: YES \
+			d: Water: YES \
+			e: Mountain: YES \
+			f: Grass: YES 
+\f1 \
+\pard\pardeftab720\li1440\ri0\ql\qnatural
+
+\f0 \cf0 *These were tested by trying each one of them individually by making sure each achieved the desired result and tested and when saved.
+\f1 \
+\
+
+\f0 10: Portals: \
+	a: Portal Button: YES \
+\pard\pardeftab720\li1440\ri0\ql\qnatural
+
+\f1 \cf0 	
+\f0 b: Portal Connector *YES\
+* By Functional I say that the button does what is required of it, it opens up the portal connectivity window, the functionality of that window will be discussed later. \
+
+\f1 \
+\pard\pardeftab720\li720\ri0\ql\qnatural
+
+\f0 \cf0 Creation Pane Testing: 
+\f1 \
+\pard\pardeftab720\li1440\ri0\ql\qnatural
+
+\f0 \cf0 As each of the individual items of the menu bar were tested for functionality the creation was tested simultaneously, because for functionality to be present in the button it had to relate to the creation pane.
+\f1 \
+\
+\pard\pardeftab720\li720\ri0\ql\qnatural
+\cf0 	
+\f0 Functionality of creation panel 100% \
+\pard\pardeftab720\ri0\ql\qnatural
+
+\f1 \cf0 \
+\
+
+\f0 CharacterCreateWindow:\
+\
+\pard\pardeftab720\li720\ri0\ql\qnatural
+\cf0 Brief Description: the purpose of this GUI is to allow the user a way to create a main character to play through the game with, this GUI does the initialization of the save file for the game and sets which image to use for the character. This GUI is broken up into five parts: Set Color, Set Gender, setName, and Finish Configuration,  and the menu Bar
+\f1 \
+\pard\pardeftab720\ri0\ql\qnatural
+\cf0 		\
+	
+\f0 Set Gender: Functional and it is displayed on the GameBoard GUI \
+		\
+	Set Name: Functional and it is displayed on the game GUI \
+
+\f1 \
+	
+\f0 Finish Configuration: Completely functional, with default values \
+		 		 set in it always has a value to save so null 						 fields do not need to be considered \
+				 Save functionality 100% effective\
+		\
+	Menu Bar:  completely functional quit and help buttons working \
+
+\f1 \
+\
+\
+
+\f0 ConfigWindow:\
+
+\f1 	
+\f0 Brief description: This GUI is the opening GUI for the game and allows for loading in of a character, allows the user to set up a new character or even create a map (all of these GUI\'92s are documented on their own). It is made up of four different parts: The Load Player Pane, The Network Config Pane, the Lobby Pane, and the Options menu. 
+\f1 	\
+\
+	
+\f0 Load Player Pane Testing:  \
+		a. Functional, always looks in the same place for the \
+		    character save file, thus if it isn't there you have\
+		    to create one. this is a design decision \
+		\
+		b. Create a character Button functional opens up the character create 		    pane, whose functionality is shown in another place in this 				    document\
+\
+		c. New Map button: Functional, when clicked opens up the mapCreate 		    GUI whose functionality is discussed elsewhere\
+	\
+		\
+\
+\
+	Network Config Pane Testing: \
+		1. When you click server does it start the server? yes\
+		\
+		2. When you select the client will it allow you to set in the  sever info: 			    YES\
+		\
+		3. Does it let you enter bad ip addresses? NO\
+		\
+		4. when you set in the correct IP address does it connect you?\
+		    YES\
+ 		 \
+\
+	Lobby Pane Testing:\
+		1. when you are a client and you click the button does it start the 			    gameboard and connect you? yes\
+\
+		2. when you are a server and click the button does it connect you:NO\
+		    it isn't supposed to, this is a design decision \
+\
+	Options Menu Testing:  \
+		Quit button: YES\
+		Help Button: Functionality completely there \
+	\
+
+\f1 \
+\
+
+\f0 MagicSelector: \
+
+\f1 \
+\pard\pardeftab720\li720\ri0\ql\qnatural
+
+\f0 \cf0 Brief Description: This GUI is intended to be used when the character level\'92s up and they are given the ability to choose a new magic spell to be used in their arsenal of attacks, it is made up of one part: the selection Pane.\
+\pard\pardeftab720\ri0\ql\qnatural
+
+\f1 \cf0 \
+	
+\f0 Selection Pane Testing: Functionality mostly threre, this GUI wasn't tested to 		an extreme level because it is not in use in this game, but you can 			select from the magic and it doesn't do anything though because it 			isn't called when the player levels up \
+
+\f1 \
+\
+
+\f0 NPCInteractionGUI, NPCInventoryWindow and SellInventoryWindow, PCInventory GUI:
+\f1 \
+\pard\pardeftab720\li720\ri0\ql\qnatural
+\cf0 \
+\pard\pardeftab720\li720\ri0\ql\qnatural
+
+\f0 \cf0 Brief Description: These GUI\'92s are all based off the exact same architecture, they have essentially the same code, just read in from different sources, therefore, they will all be addressed here. Each of these GUI\'92s have one part to them: the Display pane: \
+\pard\pardeftab720\ri0\ql\qnatural
+
+\f1 \cf0 	\
+	
+\f0 NPCInteractionGUI Testing: \
+		1. Does the window open when you click on the character and press 			    b? YES\
+		2. Does the Talk button work: YES does it randomize his 5 speeches? 			    YES\
+		3. does the sell button work? YES\
+\
+		4. Does the buy button work YES\
+	NPCInventoryWindow Testing: \
+		1. when you click buy does it open the NPC inventory window? yes\
+\
+		2. Does it let you buy items you don't have the money for? YES\
+\
+		3. Can you buy items you have money for? yes\
+		4. are the purchased items added to your inventory? yes\
+\
+	SellInventoryWindow Testing:\
+
+\f1 \
+		1. can you open it when you talk to the NPC and select sell item: Yes \
+\
+		2. can you buy from the sell window: yes\
+\
+		3. does it appear in your inventory: YES \
+\
+\
+	
+\f0 PCInventory Testing: \
+		
+\f1 \
+\pard\pardeftab720\li720\fi720\ri0\ql\qnatural
+
+\f0 \cf0 1: From GameBoard GUI when \'91I\'92 is pressed does it open? YES\
+\pard\pardeftab720\ri0\ql\qnatural
+
+\f1 \cf0 	\
+\pard\pardeftab720\li1440\ri0\ql\qnatural
+
+\f0 \cf0 2: When you add Items to the Inventory does it populate the   PCInventory: YES\
+\
+3. When you sell an Item to a vendor does the item get removed? YES\
+\
+4. When you buy an item from a vendor does the item get added? YES\
+\
+5: When you select an Item does it get Equipped on the character: TODO \
+\pard\pardeftab720\li1440\ri0\ql\qnatural
+
+\f1 \cf0 \
+\pard\pardeftab720\ri0\ql\qnatural
+\cf0 		
+\f0 Overall Inventory GUI Completeness: 100%\
+
+\f1 \
+\
+\
+\
+
+\f0 PortalConnector:\
+\
+\pard\pardeftab720\li720\ri0\ql\qnatural
+\cf0 Brief Description: This GUI is invoked when the player selects \'93 Connect Portals\'94 on the Map Creator GUI, this GUI allows for a convenient way for the portals to be \'93Dynamically\'94 connected, upon creation of a new Map. This GUI is made up of one part: the display Pane: \
+	\
+	Display Pane Testing: 
+\f1 This GUI wasn't fully tested because it is not in use 		the way we are implementing portals now is by just checking if there 		is a next highest level Ex if we are on level 5 if there is a level 6 if 			not it goes back to level 1 \
+\pard\pardeftab720\ri0\ql\qnatural
+\cf0 \
+\
+\
+\
+\
+\
+}

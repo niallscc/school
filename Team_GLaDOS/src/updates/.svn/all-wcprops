@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/gladdos/!svn/ver/571/src/updates
+END
+ClientDisconnectUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gladdos/!svn/ver/526/src/updates/ClientDisconnectUpdate.java
+END
+DefendUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/526/src/updates/DefendUpdate.java
+END
+BuyUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/526/src/updates/BuyUpdate.java
+END
+InvalidEventUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gladdos/!svn/ver/384/src/updates/InvalidEventUpdate.java
+END
+NewGameUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/571/src/updates/NewGameUpdate.java
+END
+PlayerMoveUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gladdos/!svn/ver/552/src/updates/PlayerMoveUpdate.java
+END
+SellUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/526/src/updates/SellUpdate.java
+END
+Update.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gladdos/!svn/ver/236/src/updates/Update.java
+END
+GladdosUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/384/src/updates/GladdosUpdate.java
+END
+EquipUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/546/src/updates/EquipUpdate.java
+END
+UndefendUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gladdos/!svn/ver/526/src/updates/UndefendUpdate.java
+END
+AddNewClientUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gladdos/!svn/ver/564/src/updates/AddNewClientUpdate.java
+END
+AttackUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/564/src/updates/AttackUpdate.java
+END
+RegenerateUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gladdos/!svn/ver/531/src/updates/RegenerateUpdate.java
+END

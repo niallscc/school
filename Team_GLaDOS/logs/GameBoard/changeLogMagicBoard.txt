@@ -1,0 +1,33 @@
+r449 | niallsc | 2010-12-11 16:23:42 MST
+
+Magic interface
+----------------------------------------------------------------------------
+r458 | niallsc | 2010-12-11 23:30:39 MST
+
+about to do the magic board
+----------------------------------------------------------------------------
+r466 | niallsc | 2010-12-12 12:36:40 MST
+
+This update has the magic board done, and the painting of the radius's for each of the attacks fixed its pretty awesome im not gonna lie
+----------------------------------------------------------------------------
+r470 | niallsc | 2010-12-12 16:55:20 MST
+
+Finished magic attacks
+----------------------------------------------------------------------------
+r474 | niallsc | 2010-12-12 19:15:38 MST
+
+Sword icons now being painted when the player does a normal attack 
+----------------------------------------------------------------------------
+r522 | niallsc | 2010-12-14 08:31:57 MST
+
+For any rotatable magic attack you can now perform an attack in a dirction given by WASD
+----------------------------------------------------------------------------
+r566 | niallsc | 2010-12-15 16:51:05 MST
+
+Fixed magic being able to be cast from anywhere
+----------------------------------------------------------------------------
+r569 | niallsc | 2010-12-15 18:04:49 MST
+
+java docced magic 
+
+----------------------------------------------------------------------------

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/gladdos/!svn/ver/581/src/events
+END
+NewClientEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gladdos/!svn/ver/546/src/events/NewClientEvent.java
+END
+DisconnectEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gladdos/!svn/ver/526/src/events/DisconnectEvent.java
+END
+UndefendEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gladdos/!svn/ver/526/src/events/UndefendEvent.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gladdos/!svn/ver/258/src/events/Event.java
+END
+GladdosEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gladdos/!svn/ver/571/src/events/GladdosEvent.java
+END
+EquipEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gladdos/!svn/ver/546/src/events/EquipEvent.java
+END
+MoveEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/581/src/events/MoveEvent.java
+END
+SellEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gladdos/!svn/ver/546/src/events/SellEvent.java
+END
+DefendEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/581/src/events/DefendEvent.java
+END
+BuyEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gladdos/!svn/ver/546/src/events/BuyEvent.java
+END
+AttackEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gladdos/!svn/ver/547/src/events/AttackEvent.java
+END
