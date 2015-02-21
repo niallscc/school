@@ -1,0 +1,995 @@
+===== Crawler Stats =====
+Crawl Start Time Started: 2010/09/18 00:08:49
+Time Crawl Ended: 2010/09/18 00:08:53
+Start Page: http://www.cs.unm.edu/
+Number of Pages Downloaded: 5
+Total nodes discovered: 266
+Length of to-do list: 265
+===== Discovered pages =====
+http://www.unm.edu//facultyandstaff/(188)
+http://www.cs.unm.edu//~crandall/nspw08final.pdf(2)
+http://www.unm.edu/preview/na_online.htm(190)
+http://www.unm.edu/(3)
+http://cs.unm.edu/~csgsa/conference/(5)
+http://www.cs.unm.edu//~ackley/(7)
+http://www.cs.unm.edu//computer_facilities_and_support/faq/(8)
+http://www.unm.edu/campusmap.html(192)
+http://www.cs.unm.edu/~melaniem/(9)
+http://www.facebook.com/universityofnewmexico(195)
+http://www.cs.unm.edu//academics/degrees/(11)
+http://news.unm.edu/2010/09/exhibition-celebrates-fine-art-lithography/?utm_source=rss&utm_medium=rss&utm_campaign=exhibition-celebrates-fine-art-lithography(197)
+http://wiki.cs.unm.edu/pibbs/doku.php?id=networks(12)
+http://www.cs.unm.edu//academics/prospective_undergrad_students/faq/(13)
+http://www.cs.unm.edu//news_events/grant_and_award_news/(16)
+http://www.santafe.edu/(15)
+https://apply.cs.unm.edu/(17)
+http://www.cs.unm.edu//jobs/hiring_unm_graduates/(18)
+http://www.cs.unm.edu//academics/courses/description_of_classes/(20)
+http://www.unm.edu/regents/agendas.htm(256)
+http://www.cs.unm.edu//people/grad_students/(23)
+http://www.unm.edu//academics(203)
+http://biology.unm.edu/biology/maggieww/Public_Html/Maggieww.html(24)
+http://www.cs.unm.edu//~saia(31)
+http://www.unm.edu//alumnianddonors(206)
+http://www.cs.unm.edu//academics/scholarships/(33)
+http://flickr.unm.edu(209)
+http://www.unm.edu/depart.html(207)
+http://cs.unm.edu/~csgsa/socialhours.html(260)
+http://www.nature.com/nphys/journal/v5/n6/pdf/nphys1289.pdf(39)
+http://www.cs.unm.edu//academics/prospective_graduate_students/request_brochure/(40)
+http://www.cs.unm.edu//academics/prospective_undergrad_students/request_brochure/(42)
+http://www.cs.unm.edu//(45)
+http://www.cs.unm.edu//computer_facilities_and_support/making_your_cs_home_page/(46)
+http://www.northwestern.edu/(49)
+http://www.conceptdoppler.org(50)
+http://hsc.unm.edu/som/biocomputing/events/Biocomputing@UNM2010/program.shtml(53)
+http://www.cs.unm.edu//computer_facilities_and_support/email/mac_os_x_mail/(55)
+http://www.cs.unm.edu/~joumon/(54)
+http://bookstore.unm.edu(219)
+http://www.unm.edu//libraries(221)
+http://www.cs.unm.edu/~kshanti/(58)
+http://fastinfo.unm.edu(226)
+http://sites.nationalacademies.org/CSTB/CSTB_042481(63)
+http://www.nsf.gov/(62)
+http://www.cs.unm.edu//~kapur/(61)
+http://www.unm.edu//campuses(229)
+http://cs.unm.edu/~moore/(70)
+http://www.cs.unm.edu//research/published_dissertations_and_theses/(67)
+http://www.unmfund.org/(231)
+http://www.cs.unm.edu//people/faculty/(74)
+http://www.wired.com/gadgetlab/2009/08/modular-motherboard/(72)
+http://www.unm.edu/~grad/funding/deandiss.html(75)
+http://campustour.unm.edu/newSeniorDay/(233)
+http://www.unm.edu//annualreport(235)
+http://www.unm.edu/grad/pnmgc/faccolor.html(78)
+http://www.cs.unm.edu/~kapur/(77)
+http://directory.unm.edu(236)
+http://www.cancer.gov/(82)
+http://www.unm.edu/jobs/(242)
+http://www.podc.org/(85)
+http://cs.unm.edu/~csgsa/constitution.html(258)
+http://www.nature.com/nphys/index.html(86)
+http://www.macfound.org/atf/cf/%7Bb0386ce3-8b29-4162-8098-e466fb856794%7D/NRC-CYBERATTACK.PDF(255)
+http://www.unm.edu/accessibility.html(244)
+http://www.cs.unm.edu//academics/current_students/(89)
+http://www.cs.unm.edu//~sroy(90)
+http://www.cs.unm.edu/(1)
+http://www.cs.unm.edu//computer_facilities_and_support/email/mozilla_mail/(93)
+http://www.unm.edu/%7Evisitor/(191)
+http://www.nap.edu/openbook.php?record_id=12651&page=1(94)
+http://cs.unm.edu/~csgsa/conference/csusc2009.html(265)
+http://www.cs.unm.edu//computer_facilities_and_support/policies/(97)
+http://www.cs.unm.edu//visitors/life_in_albuquerque_and_new_mexico/(96)
+http://www.cs.unm.edu//academics/prospective_undergrad_students/cooperative_programs_with_asm/(98)
+http://www.cs.unm.edu//~crandall/(100)
+http://youtube.com/unmlive(194)
+http://www.springerlink.com/content/100280/?p=e613a93dd9dd4ecfaea4d169c7d9bbab&p_o=135(103)
+http://www.cs.unm.edu//companies/about_cs_students/(105)
+http://www.cs.unm.edu//computer_facilities_and_support/facilities-description/(106)
+http://www.cs.unm.edu//computer_facilities_and_support/contact_support/(108)
+http://www.cs.unm.edu/~crandall/icdcs2010.pdf(109)
+http://www.cs.unm.edu//academics/prospective_graduate_students/(113)
+http://www.cs.unm.edu//news_events/(114)
+http://www.nih.gov/(115)
+http://www.cs.unm.edu//~amitabh/(116)
+http://www.cs.unm.edu//computer_facilities_and_support/(119)
+http://en.wikipedia.org/wiki/Jacques_Herbrand(121)
+http://www.cs.unm.edu//news_events/cs-dept-in-news/(122)
+http://www.cs.unm.edu/~saia/papers/adaptive.pdf(123)
+http://www.theatlantic.com/doc/200803/chinese-firewall/(124)
+http://www.sandia.gov/ASC/redstorm.html(125)
+http://icdcs2010.cnit.it/(128)
+http://www.cs.unm.edu//academics/prospective_undergrad_students/(130)
+http://webhome.cs.uvic.ca/~val/(131)
+http://golobos.cstv.com/(208)
+http://cs.unm.edu/~csgsa/orientation.html(257)
+http://news.unm.edu/2010/09/research-scientist-delves-into-problem-of-persuading-millions-of-people-to-cooperate-for-a-secure-internet/?utm_source=rss&utm_medium=rss&utm_campaign=research-scientist-delves-into-problem-of-persuading-millions-of-people-to-cooperate-for-a-secure-internet(210)
+http://financialaid.unm.edu/(212)
+http://www.cs.unm.edu/%7Esoumya(133)
+http://www.cs.unm.edu//computer_facilities_and_support/remote_login/(135)
+http://www.cs.unm.edu//computer_facilities_and_support/osx_vpn/(136)
+http://loboalerts.unm.edu/(215)
+http://www.dailylobo.com(216)
+http://www.sandia.gov/(139)
+http://www.cs.unm.edu//computer_facilities_and_support/email/email_autocompletion/(141)
+http://www.unm.edu/news/CampusNews/weather.html(247)
+http://em.unm.edu(220)
+http://www.cs.unm.edu//academics/degrees/masters_degrees/(145)
+http://www.broadinstitute.org/(146)
+http://www.nmculturenet.org/(147)
+http://www.unm.edu/president/(224)
+http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0844880(151)
+http://www.cs.unm.edu//companies/recruiting_students/(152)
+http://www.cs.unm.edu//visitors/(153)
+http://gizmodo.com/5341612/what-is-this(154)
+http://slashdot.org/story/09/08/19/2153203/Prototype-Motherboard-Clusters-Self-Coordinating-Modules(155)
+http://www.cs.unm.edu//jobs/(156)
+http://www.unm.edu/%7Eovpsa/(227)
+http://www.cifellows.org/(157)
+http://www.unm.edu/~cstp/(158)
+http://wiki.cs.unm.edu/ssl/doku.php?id=patrick_bridges(159)
+http://www.unm.edu/~PIBBS/contact.html(160)
+http://www.t6.lanl.gov/asp/(169)
+http://www.cs.unm.edu/~luger/(170)
+http://www.cs.unm.edu//~sluan(171)
+http://www.cadeconference.org/(172)
+http://www.cs.unm.edu//~forrest>(173)
+http://www.unm.edu/~market/cgi-bin/archives/005116.html#more(175)
+http://cs.unm.edu/~forrest/(182)
+http://www.cs.unm.edu//academics/prospective_undergrad_students/advanced_placement_transfer_credit(183)
+http://hsc.unm.edu/(246)
+http://www.cs.unm.edu//~crandall(185)
+http://www.cs.unm.edu//academics/current_students/undergraduate_tutoring/(187)
+http://www.unm.edu/contactunm.html(189)
+http://www.unm.edu/~market/cgi-bin/archives/005050.html(4)
+http://www.cs.unm.edu/~crandall/(6)
+http://www.cs.unm.edu//news_events/colloquia/(10)
+http://www.unm.edu/website_comments.html(196)
+http://www.unm.edu//welcome/(200)
+http://www.unm.edu/~market/cgi-bin/archives/005049.html(253)
+http://www.cs.unm.edu//news_events/colloquia/colloquia_archive/(14)
+http://www.unm.edu/~market/cgi-bin/archives/005050.htmlmailto:crandall@cs.unm.edu(254)
+http://www.cs.unm.edu//~forrest(19)
+http://www.cs.unm.edu//people/post_docs/(21)
+http://www.cs.unm.edu//academics/prospective_undergrad_students/financial_aid/(22)
+http://www.cs.unm.edu//academics/current_students/honors_programs/(25)
+http://www.cs.unm.edu//~terran/(26)
+http://mit.edu/manoli/(27)
+http://www.cs.unm.edu//visitors/contact-us/(28)
+http://cs.unm.edu/~csgsa/conference/csusc2008.html(259)
+http://www.cs.unm.edu//academics/degrees/phd_degrees/(29)
+http://www.cs.unm.edu//computer_facilities_and_support/email/(30)
+http://www.unm.edu//admissions/(205)
+http://news.bbc.co.uk/2/hi/technology/6990842.stm(32)
+http://www.cs.unm.edu//academics/prospective_undergrad_students/admissions/(34)
+http://www.newmexico.org/(35)
+http://www.cs.unm.edu//computer_facilities_and_support/getting_started/(36)
+http://www.cs.unm.edu//people/alumni/(37)
+http://forum.osdev.org/viewtopic.php?f=2&t=19954(38)
+http://www.cadeinc.org/HerbrandAward(41)
+http://cs.unm.edu/~csgsa/newgrad/(263)
+http://www.cs.unm.edu//images/Talk_Panel_Lin.JPG(43)
+http://www.cs.unm.edu/visitors/life_in_albuquerque_and_new_mexico/(44)
+http://www.unm.edu/budgetimpact/(214)
+http://www.cs.unm.edu//~darko/(47)
+https://digamma.cs.unm.edu/wiki/bin/view/McogPublicWeb/WebHome(48)
+http://arxiv.org/abs/1008.2390(51)
+http://www.unm.edu//arts(217)
+http://www.cs.unm.edu//research/tech-reports/(52)
+http://www.cs.unm.edu//academics/courses/(56)
+http://www.unm.edu/~market/cgi-bin/(250)
+http://schedule.unm.edu(222)
+http://www.cs.unm.edu/%7Emelaniem(57)
+http://www.unm.edu/about.html(251)
+http://www.unm.edu/~market/cgi-bin/archives/005047.html(252)
+http://www.broadinstitute.org/about/core-members/aviv-regev(59)
+https://sites.google.com/site/neelsoumya/publications/SWARM2009v1.23.pdf?attredirects=0&d=1(60)
+http://www.cs.unm.edu//academics/current_students/faq/(66)
+http://www.unm.edu/~mcnair/about.html(65)
+http://www.cs.unm.edu//~sroy/(64)
+http://news.unm.edu/2010/09/provost-shares-travel-advisories-to-mexico/?utm_source=rss&utm_medium=rss&utm_campaign=provost-shares-travel-advisories-to-mexico(228)
+http://news.unm.edu(230)
+http://www.cs.unm.edu//cgi-bin/mailman/listinfo/(69)
+http://www.cs.unm.edu//visitors/maps_and_directions/(68)
+http://www.cs.unm.edu/~saia/(71)
+http://www.cs.unm.edu//jobs/career_center/(73)
+http://www.cs.unm.edu//academics/current_students/student_employment/(76)
+http://www.cs.unm.edu//academics/prospective_graduate_students/admissions/(79)
+http://preview.cs.unm.edu/~ackley/491/(80)
+http://www.last.fm/group/University+of+New+Mexico(237)
+http://www.cs.unm.edu//jobs/for_students_only/(81)
+http://cs.unm.edu/~csgsa/officers.html(266)
+https://my.unm.edu(240)
+http://www.cs.unm.edu//people/(84)
+http://www.cs.unm.edu//~pmw/(83)
+http://dce.unm.edu(241)
+http://news.unm.edu/2010/09/anderson-school-ranked-sixth-by-hispanic-business-magazine/?utm_source=rss&utm_medium=rss&utm_campaign=anderson-school-ranked-sixth-by-hispanic-business-magazine(243)
+http://www.eweek.com/article2/0,1759,2182514,00.asp(87)
+http://www.unm.edu/grad/pnmgc/pnmgc.html(88)
+http://www.myspace.com/theuniversityofnewmexico(245)
+http://www.cs.unm.edu//news_events/thesis_and_dissertation_defenses/(91)
+http://www.cs.unm.edu//computer_facilities_and_support/system_status/(92)
+http://cs.unm.edu/~csgsa/admin.html(262)
+http://www.cs.unm.edu//academics/prospective_graduate_students/procedures_and_forms/(95)
+http://www.cs.unm.edu//research/(99)
+http://www.podc.org/podc2008/(101)
+http://www.cs.unm.edu//people/staff/(102)
+http://unmlive.unm.edu/(104)
+http://twitter.com/unm(193)
+http://www.qforma.com/(107)
+http://www.unm.edu/legal.html(198)
+http://www.unm.edu(199)
+http://en.wikipedia.org/wiki/Green_Dam_Youth_Escort(110)
+http://www.cs.unm.edu//visitors/how_to_get_around_albuquerque/(111)
+http://www.unm.edu//currentstudents/(201)
+https://sites.google.com/site/neelsoumya/publications/ICARIS2009_56660014_FINAL.pdf?attredirects=0(112)
+http://www.hhmi.org/(117)
+http://graduation.unm.edu/(202)
+http://www.cs.unm.edu//computer_facilities_and_support/using_vnc/(118)
+http://www.cs.unm.edu/visitors/maps_and_directions/(120)
+http://iss.unm.edu/PCD/university-planning/master-planning/index.html(204)
+http://www.cs.unm.edu//~terran(126)
+http://cs.unm.edu/~csgsa/conference/unmcs10.pdf(264)
+http://www.abet.org/(127)
+http://www.podc.org/podc2009/(129)
+http://www.unm.edu//newsroom(211)
+http://cs.unm.edu/~csgsa/(261)
+http://www.cs.unm.edu//visitors/parking/(132)
+http://www.cs.unm.edu//computer_facilities_and_support/subversion/(134)
+http://www.unm.edu//research(213)
+http://arstechnica.com/news.ars/post/20070912-great-firewall-of-china-more-like-chain-link-fence.html(137)
+http://biology.unm.edu/pibbs/index.shtml(138)
+http://www.cs.unm.edu//academics/prospective_graduate_students/faq/(140)
+http://www.cra.org/ccc/(142)
+http://news.unm.edu/2010/09/unm-anthropology-students-excavate-folsom-site-near-albuquerque/?utm_source=rss&utm_medium=rss&utm_campaign=unm-anthropology-students-excavate-folsom-site-near-albuquerque(218)
+http://www.cs.unm.edu//computer_facilities_and_support/printers/(143)
+http://www.unm.edu/news/safeintro.html(248)
+ http://www.cs.unm.edu/~saia/papers/adaptive.pdf(144)
+http://www.unm.edu/news/OtherNews.htm(249)
+http://www.cs.unm.edu//people/undergraduates/(148)
+http://www.unm.edu/%7Eunmreg/acadcal.htm(223)
+http://www.nibib.nih.gov/(149)
+http://www.cs.unm.edu/wiki.cs.unm.edu/pibbs/doku.php?id=networks(150)
+http://mypage.unm.edu(225)
+http://news.unm.edu/2010/09/lobo-mobile-debuts-on-campus/?utm_source=rss&utm_medium=rss&utm_campaign=lobo-mobile-debuts-on-campus(232)
+http://www.cs.unm.edu//research/unm_cs_research_sites/(161)
+http://eu.unm.edu/(234)
+http://www.cs.unm.edu//~csgsa(162)
+http://www.cs.unm.edu//academics/(163)
+http://www.cs.unm.edu//computer_facilities_and_support/installed_programs/(164)
+http://www.theregister.co.uk/2009/09/21/china_censorware_row_reloaded/(165)
+http://www.cs.unm.edu//computer_facilities_and_support/email/outlook_express_6/(166)
+http://science.slashdot.org/article.pl?sid=07/09/12/0246210(167)
+http://www.cra.org/(168)
+http://www.unm.edu/%7Eoir/accountability/vsa.htm(239)
+http://my.unm.edu(238)
+http://www.newscientist.com/article/dn18748-are-new-cracks-appearing-in-chinas-great-firewall.html(174)
+http://www.cs.unm.edu//computer_facilities_and_support/changing_your_password/(176)
+http://illuminatolabs.com/IlluminatoXMachina.htm(177)
+http://www.cs.unm.edu//academics/courses/schedule_of_classes/(178)
+https://digamma.cs.unm.edu/wiki/bin/view/CmcPublicWeb/WebHome(179)
+http://www.nspw.org/(180)
+http://www.cs.unm.edu//~melaniem(181)
+http://www.cs.unm.edu//companies/(184)
+http://www.cs.unm.edu//academics/degrees/bachelors_degrees/(186)
+
+
+
+===== TODO queue =====
+   http://www.cs.unm.edu/~crandall/
+   http://www.cs.unm.edu//~ackley/
+   http://www.cs.unm.edu//computer_facilities_and_support/faq/
+   http://www.cs.unm.edu/~melaniem/
+   http://www.cs.unm.edu//news_events/colloquia/
+   http://www.cs.unm.edu//academics/degrees/
+   http://wiki.cs.unm.edu/pibbs/doku.php?id=networks
+   http://www.cs.unm.edu//academics/prospective_undergrad_students/faq/
+   http://www.cs.unm.edu//news_events/colloquia/colloquia_archive/
+   http://www.santafe.edu/
+   http://www.cs.unm.edu//news_events/grant_and_award_news/
+   https://apply.cs.unm.edu/
+   http://www.cs.unm.edu//jobs/hiring_unm_graduates/
+   http://www.cs.unm.edu//~forrest
+   http://www.cs.unm.edu//academics/courses/description_of_classes/
+   http://www.cs.unm.edu//people/post_docs/
+   http://www.cs.unm.edu//academics/prospective_undergrad_students/financial_aid/
+   http://www.cs.unm.edu//people/grad_students/
+   http://biology.unm.edu/biology/maggieww/Public_Html/Maggieww.html
+   http://www.cs.unm.edu//academics/current_students/honors_programs/
+   http://www.cs.unm.edu//~terran/
+   http://mit.edu/manoli/
+   http://www.cs.unm.edu//visitors/contact-us/
+   http://www.cs.unm.edu//academics/degrees/phd_degrees/
+   http://www.cs.unm.edu//computer_facilities_and_support/email/
+   http://www.cs.unm.edu//~saia
+   http://news.bbc.co.uk/2/hi/technology/6990842.stm
+   http://www.cs.unm.edu//academics/scholarships/
+   http://www.cs.unm.edu//academics/prospective_undergrad_students/admissions/
+   http://www.newmexico.org/
+   http://www.cs.unm.edu//computer_facilities_and_support/getting_started/
+   http://www.cs.unm.edu//people/alumni/
+   http://forum.osdev.org/viewtopic.php?f=2&t=19954
+   http://www.nature.com/nphys/journal/v5/n6/pdf/nphys1289.pdf
+   http://www.cs.unm.edu//academics/prospective_graduate_students/request_brochure/
+   http://www.cadeinc.org/HerbrandAward
+   http://www.cs.unm.edu//academics/prospective_undergrad_students/request_brochure/
+   http://www.cs.unm.edu//images/Talk_Panel_Lin.JPG
+   http://www.cs.unm.edu/visitors/life_in_albuquerque_and_new_mexico/
+   http://www.cs.unm.edu//
+   http://www.cs.unm.edu//computer_facilities_and_support/making_your_cs_home_page/
+   http://www.cs.unm.edu//~darko/
+   https://digamma.cs.unm.edu/wiki/bin/view/McogPublicWeb/WebHome
+   http://www.northwestern.edu/
+   http://www.conceptdoppler.org
+   http://arxiv.org/abs/1008.2390
+   http://www.cs.unm.edu//research/tech-reports/
+   http://hsc.unm.edu/som/biocomputing/events/Biocomputing@UNM2010/program.shtml
+   http://www.cs.unm.edu/~joumon/
+   http://www.cs.unm.edu//computer_facilities_and_support/email/mac_os_x_mail/
+   http://www.cs.unm.edu//academics/courses/
+   http://www.cs.unm.edu/%7Emelaniem
+   http://www.cs.unm.edu/~kshanti/
+   http://www.broadinstitute.org/about/core-members/aviv-regev
+   https://sites.google.com/site/neelsoumya/publications/SWARM2009v1.23.pdf?attredirects=0&d=1
+   http://www.cs.unm.edu//~kapur/
+   http://www.nsf.gov/
+   http://sites.nationalacademies.org/CSTB/CSTB_042481
+   http://www.cs.unm.edu//~sroy/
+   http://www.unm.edu/~mcnair/about.html
+   http://www.cs.unm.edu//academics/current_students/faq/
+   http://www.cs.unm.edu//research/published_dissertations_and_theses/
+   http://www.cs.unm.edu//visitors/maps_and_directions/
+   http://www.cs.unm.edu//cgi-bin/mailman/listinfo/
+   http://cs.unm.edu/~moore/
+   http://www.cs.unm.edu/~saia/
+   http://www.wired.com/gadgetlab/2009/08/modular-motherboard/
+   http://www.cs.unm.edu//jobs/career_center/
+   http://www.cs.unm.edu//people/faculty/
+   http://www.unm.edu/~grad/funding/deandiss.html
+   http://www.cs.unm.edu//academics/current_students/student_employment/
+   http://www.cs.unm.edu/~kapur/
+   http://www.unm.edu/grad/pnmgc/faccolor.html
+   http://www.cs.unm.edu//academics/prospective_graduate_students/admissions/
+   http://preview.cs.unm.edu/~ackley/491/
+   http://www.cs.unm.edu//jobs/for_students_only/
+   http://www.cancer.gov/
+   http://www.cs.unm.edu//~pmw/
+   http://www.cs.unm.edu//people/
+   http://www.podc.org/
+   http://www.nature.com/nphys/index.html
+   http://www.eweek.com/article2/0,1759,2182514,00.asp
+   http://www.unm.edu/grad/pnmgc/pnmgc.html
+   http://www.cs.unm.edu//academics/current_students/
+   http://www.cs.unm.edu//~sroy
+   http://www.cs.unm.edu//news_events/thesis_and_dissertation_defenses/
+   http://www.cs.unm.edu//computer_facilities_and_support/system_status/
+   http://www.cs.unm.edu//computer_facilities_and_support/email/mozilla_mail/
+   http://www.nap.edu/openbook.php?record_id=12651&page=1
+   http://www.cs.unm.edu//academics/prospective_graduate_students/procedures_and_forms/
+   http://www.cs.unm.edu//visitors/life_in_albuquerque_and_new_mexico/
+   http://www.cs.unm.edu//computer_facilities_and_support/policies/
+   http://www.cs.unm.edu//academics/prospective_undergrad_students/cooperative_programs_with_asm/
+   http://www.cs.unm.edu//research/
+   http://www.cs.unm.edu//~crandall/
+   http://www.podc.org/podc2008/
+   http://www.cs.unm.edu//people/staff/
+   http://www.springerlink.com/content/100280/?p=e613a93dd9dd4ecfaea4d169c7d9bbab&p_o=135
+   http://unmlive.unm.edu/
+   http://www.cs.unm.edu//companies/about_cs_students/
+   http://www.cs.unm.edu//computer_facilities_and_support/facilities-description/
+   http://www.qforma.com/
+   http://www.cs.unm.edu//computer_facilities_and_support/contact_support/
+   http://www.cs.unm.edu/~crandall/icdcs2010.pdf
+   http://en.wikipedia.org/wiki/Green_Dam_Youth_Escort
+   http://www.cs.unm.edu//visitors/how_to_get_around_albuquerque/
+   https://sites.google.com/site/neelsoumya/publications/ICARIS2009_56660014_FINAL.pdf?attredirects=0
+   http://www.cs.unm.edu//academics/prospective_graduate_students/
+   http://www.cs.unm.edu//news_events/
+   http://www.nih.gov/
+   http://www.cs.unm.edu//~amitabh/
+   http://www.hhmi.org/
+   http://www.cs.unm.edu//computer_facilities_and_support/using_vnc/
+   http://www.cs.unm.edu//computer_facilities_and_support/
+   http://www.cs.unm.edu/visitors/maps_and_directions/
+   http://en.wikipedia.org/wiki/Jacques_Herbrand
+   http://www.cs.unm.edu//news_events/cs-dept-in-news/
+   http://www.cs.unm.edu/~saia/papers/adaptive.pdf
+   http://www.theatlantic.com/doc/200803/chinese-firewall/
+   http://www.sandia.gov/ASC/redstorm.html
+   http://www.cs.unm.edu//~terran
+   http://www.abet.org/
+   http://icdcs2010.cnit.it/
+   http://www.podc.org/podc2009/
+   http://www.cs.unm.edu//academics/prospective_undergrad_students/
+   http://webhome.cs.uvic.ca/~val/
+   http://www.cs.unm.edu//visitors/parking/
+   http://www.cs.unm.edu/%7Esoumya
+   http://www.cs.unm.edu//computer_facilities_and_support/subversion/
+   http://www.cs.unm.edu//computer_facilities_and_support/remote_login/
+   http://www.cs.unm.edu//computer_facilities_and_support/osx_vpn/
+   http://arstechnica.com/news.ars/post/20070912-great-firewall-of-china-more-like-chain-link-fence.html
+   http://biology.unm.edu/pibbs/index.shtml
+   http://www.sandia.gov/
+   http://www.cs.unm.edu//academics/prospective_graduate_students/faq/
+   http://www.cs.unm.edu//computer_facilities_and_support/email/email_autocompletion/
+   http://www.cra.org/ccc/
+   http://www.cs.unm.edu//computer_facilities_and_support/printers/
+    http://www.cs.unm.edu/~saia/papers/adaptive.pdf
+   http://www.cs.unm.edu//academics/degrees/masters_degrees/
+   http://www.broadinstitute.org/
+   http://www.nmculturenet.org/
+   http://www.cs.unm.edu//people/undergraduates/
+   http://www.nibib.nih.gov/
+   http://www.cs.unm.edu/wiki.cs.unm.edu/pibbs/doku.php?id=networks
+   http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0844880
+   http://www.cs.unm.edu//companies/recruiting_students/
+   http://www.cs.unm.edu//visitors/
+   http://gizmodo.com/5341612/what-is-this
+   http://slashdot.org/story/09/08/19/2153203/Prototype-Motherboard-Clusters-Self-Coordinating-Modules
+   http://www.cs.unm.edu//jobs/
+   http://www.cifellows.org/
+   http://www.unm.edu/~cstp/
+   http://wiki.cs.unm.edu/ssl/doku.php?id=patrick_bridges
+   http://www.unm.edu/~PIBBS/contact.html
+   http://www.cs.unm.edu//research/unm_cs_research_sites/
+   http://www.cs.unm.edu//~csgsa
+   http://www.cs.unm.edu//academics/
+   http://www.cs.unm.edu//computer_facilities_and_support/installed_programs/
+   http://www.theregister.co.uk/2009/09/21/china_censorware_row_reloaded/
+   http://www.cs.unm.edu//computer_facilities_and_support/email/outlook_express_6/
+   http://science.slashdot.org/article.pl?sid=07/09/12/0246210
+   http://www.cra.org/
+   http://www.t6.lanl.gov/asp/
+   http://www.cs.unm.edu/~luger/
+   http://www.cs.unm.edu//~sluan
+   http://www.cadeconference.org/
+   http://www.cs.unm.edu//~forrest>
+   http://www.newscientist.com/article/dn18748-are-new-cracks-appearing-in-chinas-great-firewall.html
+   http://www.unm.edu/~market/cgi-bin/archives/005116.html#more
+   http://www.cs.unm.edu//computer_facilities_and_support/changing_your_password/
+   http://illuminatolabs.com/IlluminatoXMachina.htm
+   http://www.cs.unm.edu//academics/courses/schedule_of_classes/
+   https://digamma.cs.unm.edu/wiki/bin/view/CmcPublicWeb/WebHome
+   http://www.nspw.org/
+   http://www.cs.unm.edu//~melaniem
+   http://cs.unm.edu/~forrest/
+   http://www.cs.unm.edu//academics/prospective_undergrad_students/advanced_placement_transfer_credit
+   http://www.cs.unm.edu//companies/
+   http://www.cs.unm.edu//~crandall
+   http://www.cs.unm.edu//academics/degrees/bachelors_degrees/
+   http://www.cs.unm.edu//academics/current_students/undergraduate_tutoring/
+   http://www.unm.edu//facultyandstaff/
+   http://www.unm.edu/contactunm.html
+   http://www.unm.edu/preview/na_online.htm
+   http://www.unm.edu/%7Evisitor/
+   http://www.unm.edu/campusmap.html
+   http://twitter.com/unm
+   http://youtube.com/unmlive
+   http://www.facebook.com/universityofnewmexico
+   http://www.unm.edu/website_comments.html
+   http://news.unm.edu/2010/09/exhibition-celebrates-fine-art-lithography/?utm_source=rss&utm_medium=rss&utm_campaign=exhibition-celebrates-fine-art-lithography
+   http://www.unm.edu/legal.html
+   http://www.unm.edu
+   http://www.unm.edu//welcome/
+   http://www.unm.edu//currentstudents/
+   http://graduation.unm.edu/
+   http://www.unm.edu//academics
+   http://iss.unm.edu/PCD/university-planning/master-planning/index.html
+   http://www.unm.edu//admissions/
+   http://www.unm.edu//alumnianddonors
+   http://www.unm.edu/depart.html
+   http://golobos.cstv.com/
+   http://flickr.unm.edu
+   http://news.unm.edu/2010/09/research-scientist-delves-into-problem-of-persuading-millions-of-people-to-cooperate-for-a-secure-internet/?utm_source=rss&utm_medium=rss&utm_campaign=research-scientist-delves-into-problem-of-persuading-millions-of-people-to-cooperate-for-a-secure-internet
+   http://www.unm.edu//newsroom
+   http://financialaid.unm.edu/
+   http://www.unm.edu//research
+   http://www.unm.edu/budgetimpact/
+   http://loboalerts.unm.edu/
+   http://www.dailylobo.com
+   http://www.unm.edu//arts
+   http://news.unm.edu/2010/09/unm-anthropology-students-excavate-folsom-site-near-albuquerque/?utm_source=rss&utm_medium=rss&utm_campaign=unm-anthropology-students-excavate-folsom-site-near-albuquerque
+   http://bookstore.unm.edu
+   http://em.unm.edu
+   http://www.unm.edu//libraries
+   http://schedule.unm.edu
+   http://www.unm.edu/%7Eunmreg/acadcal.htm
+   http://www.unm.edu/president/
+   http://mypage.unm.edu
+   http://fastinfo.unm.edu
+   http://www.unm.edu/%7Eovpsa/
+   http://news.unm.edu/2010/09/provost-shares-travel-advisories-to-mexico/?utm_source=rss&utm_medium=rss&utm_campaign=provost-shares-travel-advisories-to-mexico
+   http://www.unm.edu//campuses
+   http://news.unm.edu
+   http://www.unmfund.org/
+   http://news.unm.edu/2010/09/lobo-mobile-debuts-on-campus/?utm_source=rss&utm_medium=rss&utm_campaign=lobo-mobile-debuts-on-campus
+   http://campustour.unm.edu/newSeniorDay/
+   http://eu.unm.edu/
+   http://www.unm.edu//annualreport
+   http://directory.unm.edu
+   http://www.last.fm/group/University+of+New+Mexico
+   http://my.unm.edu
+   http://www.unm.edu/%7Eoir/accountability/vsa.htm
+   https://my.unm.edu
+   http://dce.unm.edu
+   http://www.unm.edu/jobs/
+   http://news.unm.edu/2010/09/anderson-school-ranked-sixth-by-hispanic-business-magazine/?utm_source=rss&utm_medium=rss&utm_campaign=anderson-school-ranked-sixth-by-hispanic-business-magazine
+   http://www.unm.edu/accessibility.html
+   http://www.myspace.com/theuniversityofnewmexico
+   http://hsc.unm.edu/
+   http://www.unm.edu/news/CampusNews/weather.html
+   http://www.unm.edu/news/safeintro.html
+   http://www.unm.edu/news/OtherNews.htm
+   http://www.unm.edu/~market/cgi-bin/
+   http://www.unm.edu/about.html
+   http://www.unm.edu/~market/cgi-bin/archives/005047.html
+   http://www.unm.edu/~market/cgi-bin/archives/005049.html
+   http://www.unm.edu/~market/cgi-bin/archives/005050.htmlmailto:crandall@cs.unm.edu
+   http://www.macfound.org/atf/cf/%7Bb0386ce3-8b29-4162-8098-e466fb856794%7D/NRC-CYBERATTACK.PDF
+   http://www.unm.edu/regents/agendas.htm
+   http://cs.unm.edu/~csgsa/orientation.html
+   http://cs.unm.edu/~csgsa/constitution.html
+   http://cs.unm.edu/~csgsa/conference/csusc2008.html
+   http://cs.unm.edu/~csgsa/socialhours.html
+   http://cs.unm.edu/~csgsa/
+   http://cs.unm.edu/~csgsa/admin.html
+   http://cs.unm.edu/~csgsa/newgrad/
+   http://cs.unm.edu/~csgsa/conference/unmcs10.pdf
+   http://cs.unm.edu/~csgsa/conference/csusc2009.html
+   http://cs.unm.edu/~csgsa/officers.html
+   http://www.cs.unm.edu/
+
+
+
+===== Graph edges =====
+http://www.cs.unm.edu//~crandall/nspw08final.pdf->
+
+http://www.unm.edu/~market/cgi-bin/archives/005050.html->
+     http://www.unm.edu/about.html
+     http://www.unm.edu/~market/cgi-bin/archives/005047.html
+     http://www.unm.edu/news/CampusNews/weather.html
+     http://www.unm.edu/news/safeintro.html
+     http://www.unm.edu/~market/cgi-bin/archives/005049.html
+     http://www.unm.edu/~market/cgi-bin/archives/005050.htmlmailto:crandall@cs.unm.edu
+     http://www.macfound.org/atf/cf/%7Bb0386ce3-8b29-4162-8098-e466fb856794%7D/NRC-CYBERATTACK.PDF
+     http://www.unm.edu/news/OtherNews.htm
+     http://www.unm.edu/regents/agendas.htm
+     http://www.unm.edu/~market/cgi-bin/
+
+http://www.unm.edu/->
+     http://www.unm.edu//facultyandstaff/
+     http://www.unm.edu/contactunm.html
+     http://www.unm.edu/preview/na_online.htm
+     http://www.unm.edu/%7Evisitor/
+     http://www.unm.edu/campusmap.html
+     http://twitter.com/unm
+     http://youtube.com/unmlive
+     http://www.facebook.com/universityofnewmexico
+     http://www.unm.edu/website_comments.html
+     http://news.unm.edu/2010/09/exhibition-celebrates-fine-art-lithography/?utm_source=rss&utm_medium=rss&utm_campaign=exhibition-celebrates-fine-art-lithography
+     http://www.unm.edu/legal.html
+     http://www.unm.edu
+     http://www.unm.edu//welcome/
+     http://www.unm.edu//currentstudents/
+     http://graduation.unm.edu/
+     http://www.unm.edu//academics
+     http://iss.unm.edu/PCD/university-planning/master-planning/index.html
+     http://www.unm.edu//admissions/
+     http://www.unm.edu//alumnianddonors
+     http://flickr.unm.edu
+     http://golobos.cstv.com/
+     http://www.unm.edu/depart.html
+     http://news.unm.edu/2010/09/research-scientist-delves-into-problem-of-persuading-millions-of-people-to-cooperate-for-a-secure-internet/?utm_source=rss&utm_medium=rss&utm_campaign=research-scientist-delves-into-problem-of-persuading-millions-of-people-to-cooperate-for-a-secure-internet
+     http://www.unm.edu//newsroom
+     http://financialaid.unm.edu/
+     http://www.unm.edu//research
+     http://www.unm.edu/budgetimpact/
+     http://loboalerts.unm.edu/
+     http://www.dailylobo.com
+     http://www.unm.edu//arts
+     http://news.unm.edu/2010/09/unm-anthropology-students-excavate-folsom-site-near-albuquerque/?utm_source=rss&utm_medium=rss&utm_campaign=unm-anthropology-students-excavate-folsom-site-near-albuquerque
+     http://bookstore.unm.edu
+     http://em.unm.edu
+     http://www.unm.edu//libraries
+     http://schedule.unm.edu
+     http://www.unm.edu/%7Eunmreg/acadcal.htm
+     http://www.unm.edu/president/
+     http://mypage.unm.edu
+     http://fastinfo.unm.edu
+     http://www.unm.edu/%7Eovpsa/
+     http://news.unm.edu/2010/09/provost-shares-travel-advisories-to-mexico/?utm_source=rss&utm_medium=rss&utm_campaign=provost-shares-travel-advisories-to-mexico
+     http://www.unm.edu//campuses
+     http://news.unm.edu
+     http://www.unmfund.org/
+     http://news.unm.edu/2010/09/lobo-mobile-debuts-on-campus/?utm_source=rss&utm_medium=rss&utm_campaign=lobo-mobile-debuts-on-campus
+     http://campustour.unm.edu/newSeniorDay/
+     http://eu.unm.edu/
+     http://www.unm.edu//annualreport
+     http://directory.unm.edu
+     http://www.last.fm/group/University+of+New+Mexico
+     http://www.unm.edu/%7Eoir/accountability/vsa.htm
+     http://my.unm.edu
+     https://my.unm.edu
+     http://dce.unm.edu
+     http://www.unm.edu/jobs/
+     http://news.unm.edu/2010/09/anderson-school-ranked-sixth-by-hispanic-business-magazine/?utm_source=rss&utm_medium=rss&utm_campaign=anderson-school-ranked-sixth-by-hispanic-business-magazine
+     http://www.myspace.com/theuniversityofnewmexico
+     http://www.unm.edu/accessibility.html
+     http://hsc.unm.edu/
+
+http://www.cs.unm.edu/~crandall/->
+
+http://cs.unm.edu/~csgsa/conference/->
+     http://cs.unm.edu/~csgsa/orientation.html
+     http://cs.unm.edu/~csgsa/constitution.html
+     http://cs.unm.edu/~csgsa/
+     http://cs.unm.edu/~csgsa/socialhours.html
+     http://cs.unm.edu/~csgsa/conference/csusc2008.html
+     http://cs.unm.edu/~csgsa/admin.html
+     http://cs.unm.edu/~csgsa/newgrad/
+     http://cs.unm.edu/~csgsa/conference/unmcs10.pdf
+     http://cs.unm.edu/~csgsa/conference/csusc2009.html
+     http://cs.unm.edu/~csgsa/officers.html
+
+http://www.cs.unm.edu//~ackley/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/faq/->
+
+http://www.cs.unm.edu/~melaniem/->
+
+http://www.cs.unm.edu//news_events/colloquia/->
+
+http://www.cs.unm.edu//academics/degrees/->
+
+http://wiki.cs.unm.edu/pibbs/doku.php?id=networks->
+
+http://www.cs.unm.edu//academics/prospective_undergrad_students/faq/->
+
+http://www.cs.unm.edu//news_events/colloquia/colloquia_archive/->
+
+http://www.santafe.edu/->
+
+http://www.cs.unm.edu//news_events/grant_and_award_news/->
+
+https://apply.cs.unm.edu/->
+
+http://www.cs.unm.edu//jobs/hiring_unm_graduates/->
+
+http://www.cs.unm.edu//~forrest->
+
+http://www.cs.unm.edu//academics/courses/description_of_classes/->
+
+http://www.cs.unm.edu//people/post_docs/->
+
+http://www.cs.unm.edu//academics/prospective_undergrad_students/financial_aid/->
+
+http://www.cs.unm.edu//people/grad_students/->
+
+http://biology.unm.edu/biology/maggieww/Public_Html/Maggieww.html->
+
+http://www.cs.unm.edu//academics/current_students/honors_programs/->
+
+http://www.cs.unm.edu//~terran/->
+
+http://www.cs.unm.edu//visitors/contact-us/->
+
+http://mit.edu/manoli/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/email/->
+
+http://www.cs.unm.edu//academics/degrees/phd_degrees/->
+
+http://www.cs.unm.edu//~saia->
+
+http://www.newmexico.org/->
+
+http://www.cs.unm.edu//academics/prospective_undergrad_students/admissions/->
+
+http://www.cs.unm.edu//academics/scholarships/->
+
+http://news.bbc.co.uk/2/hi/technology/6990842.stm->
+
+http://www.cs.unm.edu//computer_facilities_and_support/getting_started/->
+
+http://www.cs.unm.edu//people/alumni/->
+
+http://forum.osdev.org/viewtopic.php?f=2&t=19954->
+
+http://www.cs.unm.edu//academics/prospective_graduate_students/request_brochure/->
+
+http://www.nature.com/nphys/journal/v5/n6/pdf/nphys1289.pdf->
+
+http://www.cadeinc.org/HerbrandAward->
+
+http://www.cs.unm.edu//academics/prospective_undergrad_students/request_brochure/->
+
+http://www.cs.unm.edu/visitors/life_in_albuquerque_and_new_mexico/->
+
+http://www.cs.unm.edu//images/Talk_Panel_Lin.JPG->
+
+http://www.cs.unm.edu//computer_facilities_and_support/making_your_cs_home_page/->
+
+http://www.cs.unm.edu//->
+
+http://www.cs.unm.edu//~darko/->
+
+https://digamma.cs.unm.edu/wiki/bin/view/McogPublicWeb/WebHome->
+
+http://www.northwestern.edu/->
+
+http://www.conceptdoppler.org->
+
+http://arxiv.org/abs/1008.2390->
+
+http://www.cs.unm.edu//research/tech-reports/->
+
+http://hsc.unm.edu/som/biocomputing/events/Biocomputing@UNM2010/program.shtml->
+
+http://www.cs.unm.edu/~joumon/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/email/mac_os_x_mail/->
+
+http://www.cs.unm.edu//academics/courses/->
+
+http://www.cs.unm.edu/%7Emelaniem->
+
+http://www.cs.unm.edu/~kshanti/->
+
+http://www.broadinstitute.org/about/core-members/aviv-regev->
+
+https://sites.google.com/site/neelsoumya/publications/SWARM2009v1.23.pdf?attredirects=0&d=1->
+
+http://www.cs.unm.edu//~kapur/->
+
+http://www.nsf.gov/->
+
+http://sites.nationalacademies.org/CSTB/CSTB_042481->
+
+http://www.cs.unm.edu//~sroy/->
+
+http://www.unm.edu/~mcnair/about.html->
+
+http://www.cs.unm.edu//academics/current_students/faq/->
+
+http://www.cs.unm.edu//research/published_dissertations_and_theses/->
+
+http://www.cs.unm.edu//visitors/maps_and_directions/->
+
+http://www.cs.unm.edu//cgi-bin/mailman/listinfo/->
+
+http://cs.unm.edu/~moore/->
+
+http://www.cs.unm.edu/~saia/->
+
+http://www.wired.com/gadgetlab/2009/08/modular-motherboard/->
+
+http://www.cs.unm.edu//jobs/career_center/->
+
+http://www.cs.unm.edu//people/faculty/->
+
+http://www.unm.edu/~grad/funding/deandiss.html->
+
+http://www.cs.unm.edu//academics/current_students/student_employment/->
+
+http://www.cs.unm.edu/~kapur/->
+
+http://www.unm.edu/grad/pnmgc/faccolor.html->
+
+http://www.cs.unm.edu//academics/prospective_graduate_students/admissions/->
+
+http://preview.cs.unm.edu/~ackley/491/->
+
+http://www.cs.unm.edu//jobs/for_students_only/->
+
+http://www.cancer.gov/->
+
+http://www.cs.unm.edu//~pmw/->
+
+http://www.cs.unm.edu//people/->
+
+http://www.podc.org/->
+
+http://www.nature.com/nphys/index.html->
+
+http://www.eweek.com/article2/0,1759,2182514,00.asp->
+
+http://www.unm.edu/grad/pnmgc/pnmgc.html->
+
+http://www.cs.unm.edu//academics/current_students/->
+
+http://www.cs.unm.edu//~sroy->
+
+http://www.cs.unm.edu//news_events/thesis_and_dissertation_defenses/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/system_status/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/email/mozilla_mail/->
+
+http://www.nap.edu/openbook.php?record_id=12651&page=1->
+
+http://www.cs.unm.edu//academics/prospective_graduate_students/procedures_and_forms/->
+
+http://www.cs.unm.edu//visitors/life_in_albuquerque_and_new_mexico/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/policies/->
+
+http://www.cs.unm.edu//academics/prospective_undergrad_students/cooperative_programs_with_asm/->
+
+http://www.cs.unm.edu//~crandall/->
+
+http://www.cs.unm.edu//research/->
+
+http://www.podc.org/podc2008/->
+
+http://www.cs.unm.edu//people/staff/->
+
+http://unmlive.unm.edu/->
+
+http://www.springerlink.com/content/100280/?p=e613a93dd9dd4ecfaea4d169c7d9bbab&p_o=135->
+
+http://www.qforma.com/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/facilities-description/->
+
+http://www.cs.unm.edu//companies/about_cs_students/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/contact_support/->
+
+http://www.cs.unm.edu//visitors/how_to_get_around_albuquerque/->
+
+http://en.wikipedia.org/wiki/Green_Dam_Youth_Escort->
+
+http://www.cs.unm.edu/~crandall/icdcs2010.pdf->
+
+http://www.cs.unm.edu//news_events/->
+
+http://www.cs.unm.edu//academics/prospective_graduate_students/->
+
+https://sites.google.com/site/neelsoumya/publications/ICARIS2009_56660014_FINAL.pdf?attredirects=0->
+
+http://www.nih.gov/->
+
+http://www.hhmi.org/->
+
+http://www.cs.unm.edu//~amitabh/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/using_vnc/->
+
+http://www.cs.unm.edu/visitors/maps_and_directions/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/->
+
+http://www.cs.unm.edu//news_events/cs-dept-in-news/->
+
+http://en.wikipedia.org/wiki/Jacques_Herbrand->
+
+http://www.cs.unm.edu/~saia/papers/adaptive.pdf->
+
+http://www.theatlantic.com/doc/200803/chinese-firewall/->
+
+http://www.cs.unm.edu//~terran->
+
+http://www.sandia.gov/ASC/redstorm.html->
+
+http://www.abet.org/->
+
+http://icdcs2010.cnit.it/->
+
+http://www.podc.org/podc2009/->
+
+http://webhome.cs.uvic.ca/~val/->
+
+http://www.cs.unm.edu//academics/prospective_undergrad_students/->
+
+http://www.cs.unm.edu//visitors/parking/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/subversion/->
+
+http://www.cs.unm.edu/%7Esoumya->
+
+http://www.cs.unm.edu//computer_facilities_and_support/remote_login/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/osx_vpn/->
+
+http://arstechnica.com/news.ars/post/20070912-great-firewall-of-china-more-like-chain-link-fence.html->
+
+http://biology.unm.edu/pibbs/index.shtml->
+
+http://www.cs.unm.edu//academics/prospective_graduate_students/faq/->
+
+http://www.sandia.gov/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/email/email_autocompletion/->
+
+http://www.cra.org/ccc/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/printers/->
+
+ http://www.cs.unm.edu/~saia/papers/adaptive.pdf->
+
+http://www.cs.unm.edu//academics/degrees/masters_degrees/->
+
+http://www.nmculturenet.org/->
+
+http://www.broadinstitute.org/->
+
+http://www.cs.unm.edu//people/undergraduates/->
+
+http://www.nibib.nih.gov/->
+
+http://www.cs.unm.edu/wiki.cs.unm.edu/pibbs/doku.php?id=networks->
+
+http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0844880->
+
+http://www.cs.unm.edu//visitors/->
+
+http://www.cs.unm.edu//companies/recruiting_students/->
+
+http://gizmodo.com/5341612/what-is-this->
+
+http://www.cs.unm.edu//jobs/->
+
+http://slashdot.org/story/09/08/19/2153203/Prototype-Motherboard-Clusters-Self-Coordinating-Modules->
+
+http://www.unm.edu/~cstp/->
+
+http://www.cifellows.org/->
+
+http://wiki.cs.unm.edu/ssl/doku.php?id=patrick_bridges->
+
+http://www.unm.edu/~PIBBS/contact.html->
+
+http://www.cs.unm.edu//research/unm_cs_research_sites/->
+
+http://www.cs.unm.edu//~csgsa->
+
+http://www.cs.unm.edu//computer_facilities_and_support/installed_programs/->
+
+http://www.cs.unm.edu//academics/->
+
+http://www.cs.unm.edu//computer_facilities_and_support/email/outlook_express_6/->
+
+http://www.theregister.co.uk/2009/09/21/china_censorware_row_reloaded/->
+
+http://science.slashdot.org/article.pl?sid=07/09/12/0246210->
+
+http://www.cra.org/->
+
+http://www.cs.unm.edu/~luger/->
+
+http://www.t6.lanl.gov/asp/->
+
+http://www.cs.unm.edu//~sluan->
+
+http://www.cadeconference.org/->
+
+http://www.newscientist.com/article/dn18748-are-new-cracks-appearing-in-chinas-great-firewall.html->
+
+http://www.cs.unm.edu//~forrest>->
+
+http://www.cs.unm.edu//computer_facilities_and_support/changing_your_password/->
+
+http://www.unm.edu/~market/cgi-bin/archives/005116.html#more->
+
+http://illuminatolabs.com/IlluminatoXMachina.htm->
+
+http://www.cs.unm.edu//academics/courses/schedule_of_classes/->
+
+http://www.nspw.org/->
+
+https://digamma.cs.unm.edu/wiki/bin/view/CmcPublicWeb/WebHome->
+
+http://www.cs.unm.edu//~melaniem->
+
+http://cs.unm.edu/~forrest/->
+
+http://www.cs.unm.edu//academics/prospective_undergrad_students/advanced_placement_transfer_credit->
+
+http://www.cs.unm.edu//companies/->
+
+http://www.cs.unm.edu//academics/current_students/undergraduate_tutoring/->
+
+http://www.cs.unm.edu//academics/degrees/bachelors_degrees/->
+
+http://www.cs.unm.edu//~crandall->
+

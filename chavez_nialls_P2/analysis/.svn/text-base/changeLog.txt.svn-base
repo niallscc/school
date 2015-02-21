@@ -1,0 +1,97 @@
+r1 | niallsc | 2010-10-04 14:35:26 MDT
+
+Initial import.
+----------------------------------------------------------------------------
+r2 | niallsc | 2010-10-04 14:36:18 MDT
+
+Stuff
+----------------------------------------------------------------------------
+r3 | niallsc | 2010-10-04 23:22:45 MDT
+
+Working!
+----------------------------------------------------------------------------
+r4 | niallsc | 2010-10-04 23:23:06 MDT
+
+Working awesomeness!
+----------------------------------------------------------------------------
+r5 | niallsc | 2010-10-04 23:41:24 MDT
+
+with analysis report
+----------------------------------------------------------------------------
+r6 | niallsc | 2010-10-04 23:47:10 MDT
+
+Added a constructor
+----------------------------------------------------------------------------
+r7 | niallsc | 2010-10-04 23:53:46 MDT
+
+Making sure the svn still works.. something weird happened with filezilla...
+----------------------------------------------------------------------------
+r8 | niallsc | 2010-10-05 10:56:01 MDT
+
+added repos log
+----------------------------------------------------------------------------
+r9 | niallsc | 2010-10-06 18:01:00 MDT
+
+Created files for a few of my classes I will need
+----------------------------------------------------------------------------
+r10 | niallsc | 2010-10-06 18:06:31 MDT
+
+made classes enums. 
+----------------------------------------------------------------------------
+r11 | niallsc | 2010-10-10 14:57:24 MDT
+
+added classes that implement interfaces
+----------------------------------------------------------------------------
+r12 | niallsc | 2010-10-16 11:06:51 MDT
+
+This update is pre big changes. If I end up needing to go back to a revision. This one will be it. This update has the factory like set up still in place.
+----------------------------------------------------------------------------
+r13 | niallsc | 2010-10-16 19:18:24 MDT
+
+This one is the actual one to go back to. Its going to change now :P
+----------------------------------------------------------------------------
+r14 | niallsc | 2010-10-19 22:29:28 MDT
+
+A lot has changed, policy is almost done, assignment needs some work, most of the nitty-gritty stuff is done. 
+----------------------------------------------------------------------------
+r15 | niallsc | 2010-10-19 23:21:47 MDT
+
+Fixed Assignment stuff
+----------------------------------------------------------------------------
+r16 | niallsc | 2010-10-20 14:41:20 MDT
+
+This update has delivery functionality
+----------------------------------------------------------------------------
+r17 | niallsc | 2010-10-20 16:40:31 MDT
+
+Almost working... still have some null pointer exceptions..
+----------------------------------------------------------------------------
+r18 | niallsc | 2010-10-20 23:15:56 MDT
+
+Beginning to work. I can add 3 orders. 
+----------------------------------------------------------------------------
+r19 | niallsc | 2010-10-21 02:39:00 MDT
+
+Really really close this time.. bug is in main run loop 
+----------------------------------------------------------------------------
+r20 | niallsc | 2010-10-21 06:48:45 MDT
+
+Needo to fix main loop
+
+----------------------------------------------------------------------------
+r21 | niallsc | 2010-10-22 23:04:41 MDT
+
+This one works most of the time :) 
+----------------------------------------------------------------------------
+r22 | niallsc | 2010-10-27 10:48:18 MDT
+
+Broken again but uploading it because i am going to change alot.
+----------------------------------------------------------------------------
+r23 | niallsc | 2010-10-28 00:10:16 MDT
+
+This update has the UI in it, IT works for the default settings in the ui but nothing else. but oh well ...
+----------------------------------------------------------------------------
+r24 | niallsc | 2010-10-28 01:03:01 MDT
+
+Last revision before submitting... "Here's lookin' at you kid."...
+----------------------------------------------------------------------------

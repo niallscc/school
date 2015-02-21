@@ -1,0 +1,161 @@
+WEB ANALYSIS REPORT
+This documentation provides the structure of the web as discovered by
+running the crawler on three different websites. 
+The first website being cs.unm.edu
+----------Full Outdegree Distribution----------
+[0] 0.98828125
+[1] 0.349609375
+[2] 0.4720052083333333
+[3] 0.004557291666666667
+[4] 0.6067708333333334
+[5] 0.7233072916666666
+[6] 0.009114583333333334
+[7] 0.24088541666666666
+[8] 0.4765625
+[9] 0.4759114583333333
+[10] 0.3587239583333333
+[11] 0.4778645833333333
+[12] 0.353515625
+[13] 0.013671875
+[14] 0.7897135416666666
+[15] 0.478515625
+-----------------------------------------------
+---------------Minimum Outdegree---------------
+0
+-----------------------------------------------
+---------------Maximum Outdegree---------------
+237
+-----------------------------------------------
+------------Indegree Distribution--------------
+[16] 0.8001302083333334
+[17] 0.9993489583333334
+-----------------------------------------------
+--------------Minimum Indegree-----------------
+0
+-----------------------------------------------
+
+----------------Size of Diameter---------------
+1536
+-----------------------------------------------
+-----------------Number of SCC's---------------
+0
+-----------------------------------------------
+------------------Largest SCC------------------
+2
+-----------------------------------------------
+
+
+The Second being my personal website(www.fseven.org) which got hacked……
+
+----------Full Outdegree Distribution----------
+[0] 0.8971428571428571
+[1] 0.05714285714285714
+[2] 0.07428571428571429
+[3] 0.03428571428571429
+[4] 0.011428571428571429
+[5] 0.14857142857142858
+-----------------------------------------------
+---------------Minimum Outdegree---------------
+0
+-----------------------------------------------
+---------------Maximum Outdegree---------------
+85
+-----------------------------------------------
+------------Indegree Distribution--------------
+[6] 0.18285714285714286
+[7] 0.9942857142857143
+-----------------------------------------------
+--------------Minimum Indegree-----------------
+0
+-----------------------------------------------
+
+----------------Size of Diameter---------------
+175
+-----------------------------------------------
+-----------------Number of SCC's---------------
+0
+-----------------------------------------------
+------------------Largest SCC------------------
+2
+-----------------------------------------------
+
+The third Website to parse is xkcd.com(btw I am going to make the website referenced in comic 796)
+
+
+----------Full Outdegree Distribution----------
+[0] 0.9890430971512053
+[1] 0.19722425127830534
+[2] 0.18991964937910885
+[3] 0.08327246165084003
+[4] 0.44923301680058436
+[5] 0.7786705624543463
+[6] 0.03287070854638422
+[7] 0.8677867056245434
+[8] 0.9342585829072315
+[9] 0.8210372534696859
+[10] 0.07450693937180423
+[11] 0.31994156318480643
+[12] 0.6055514974433893
+[13] 0.6157779401022644
+-----------------------------------------------
+---------------Minimum Outdegree---------------
+0
+-----------------------------------------------
+---------------Maximum Outdegree---------------
+800
+-----------------------------------------------
+------------Indegree Distribution--------------
+[14] 0.45361577794010227
+[15] 0.9992695398100804
+-----------------------------------------------
+--------------Minimum Indegree-----------------
+0
+-----------------------------------------------
+----------------Size of Diameter---------------
+1369
+-----------------------------------------------
+-----------------Number of SCC's---------------
+0
+-----------------------------------------------
+------------------Largest SCC------------------
+2
+-----------------------------------------------
+
+
+QUESTIONS 
+How do the various WEB GRAPH statistics scale with the size of the graph? 
+(I.e., with the number of nodes discovered and with the number of pages downloaded.)
+
+	They scale in runtime and in reference to the diameter and number of scs. it seems that as
+	we continue parsing a given website, what ends up happening is that websites eventually get really really
+	deep into them selves almost to the point where you cant get out if you wanted to. but it seems that when you get that deep
+	the number of references back to the root node are found and you end up getting something that could be compared to
+	a huge spiderweb. 
+• Are statistics such as average INDEGREE,average OUTDEGREE,distributions,etc.,stable with growing graph size?
+	
+	It appears that way, that even when you are getting an arbitrarily sized graph, the general statistics that you find
+	on the main root node stays pretty constant. unless you get into a search page in that case what you start to see 
+	are a bunch of nodes that branch out all over the place and unless you can get into all of them it throws off the average
+	• Are such statistics stable across different regions of the web? 
+	
+	It would appear that generally the website stays pretty stable, granted we aren't parsing a lot of nodes and the 
+	nodes we are parsing are pretty high level, eg they don't really get in too deep to the website we are parsing, but it appears
+	that on a general case the statistics stay pretty constant 
+
+• Based on the above, can you make any reasonable projections about the large-scale structureof the web as a whole?
+	
+	It appears that throughout large scale structures, they spread out in a huge breadth-first manner and what ends up happening is 
+	that we see the diameter of the graph scale with large scale websites where the number of in degrees and out degrees start to 
+	come closer and closer together as we parse more webpages. this implies that we end up getting a bunch of self referential nodes 
+	in theory creating a huge circle. So, yes we can say that when large-scale structures found in the web scale at a constant rate. 
+
+• Are any of these observations constrained by the way Crawler samples from the complete web? If so, how might the sampling be done better so as to give a more accurate picture of the web?
+	
+	Yes, all of these observations are constrained by the crawler, it seems, form my experience that my web graph very seldomly could go through
+	an entire webpage because of the amount of nodes found and the amount of data collected from each website. Therefore, it seems that the better 
+	way to get a more accurate picture of the web would be to have a more powerful parser and a better save function that doesn't rely on the 
+	memory allocated only to this program but to the computer as a whole so we could more efficiently parse the web. 
+
+
+All of these analyses' come from data collected in the testing of the crawler, these graphs are contained in the pics folder in the program. 
+

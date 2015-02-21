@@ -1,0 +1,26 @@
+BUGS.txt	
+
+
+This is the Bugs.txt File for P2 M2. 
+
+ FYI, the bugs in this program are extensive.
+
+1.
+	There is no JUnit test file for grellSim or its classes
+
+2.	
+	GrellSim doesn't even work….
+	The main problem, as far as I can see, is in GrellSim in the main 
+	loop. Here, it is not returning the correct order to the world, 
+	so the acknowledge order isn't working correctly. 
+	
+3. 
+	Miscellaneous bugs, I have not had time to go back and check 
+	to see if all the variables that need to be private final 
+	are as such, so the principle of least privilege is not being 
+	implemented here properly. 
+
+4.
+	Documentation is not done. Because my program isn't working, there 	no documentation for this program. 
+	
+5.	

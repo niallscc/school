@@ -1,0 +1,35 @@
+BUGS
+
+This is the bugs file for the final rollout of GrellSim 
+By Nialls Chavez
+
+1. Different assignment policies are buggy. I know Round robin works
+   because I have been testing that one a lot. but the other ones, 
+   not so much. they should work but have not been tested throughly
+   enough to vouch for their validity.
+
+2. Change orders and Cancelations, This functionality is buggy at best
+   and broken at worst. I realized this was a bug way to late in the 
+   development process to fix it accurately.
+
+3. number of assembly lines. For some reason it works fine with 1 assembly        
+   line but not with more than one. it has to do with how it is popping 
+   off the queue. something is broken in GrellFindableQueue. 
+
+3. GrellFindableQueue. Didn't know it was broken til' it was too late. 
+   I didn't get feedback on its validity and assumed it was working 
+   until I found that this is the root of many of my problems
+   particularly the pop method
+
+4. Miscellaneous. I am sure there are other bugs floating around I didn't 
+   catch and this is to account for those and let you know that I know 
+   they are there. One thing to note is that Sometimes, even on default 
+   settings you will get stuck in an infinite loop or get a null pointer
+   exception.. I don't know why but you do… 
+   
+5. Side note. I am not submitting a runnable jar because there are bugs that might cause 
+   an infinite loop, therefore, it is best not to have a runnable jar 
+   destroying things when you can run from Eclipse and have the power
+   to kill it if anything happens. 
+ 
+

@@ -1,0 +1,8 @@
+Integration Testing Strategy:
+
+GRELL USER INTERFACE
+
+Basically, testing for this program was done by trying multiple runs of the program to ensure functionality of the components of the GUI without respect to the GrellSim, then with respect to the GrellSim. This was done  by doing bounds checking on all of the number of employee fields and anywhere input could be found. 
+
+The biggest thing I did to get rid of bugs was to make it so that the user only has control of the buttons they can press. There is not a single editable field on all of my GUI and all of the values are initialized to some value which makes it so that even if someone forgets to insert a value, it still has something associated with it. this means that there is no case underwhich the GUI itself can break. 
+

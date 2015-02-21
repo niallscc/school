@@ -1,0 +1,26 @@
+GRELL SIM USERDOC
+
+
+The grell simulator is a factory simulation model that takes in input form the user about how they want the plant to be configured, then outputs the statistics of the report that tells how happy the customers ended up being and how well the plant did over the course of its run time. 
+
+
+There are two different run options for this simulator. For those for you in a very hacker-ish mood, there is the grellCommandLineArguments file which will let you customize the command line arguments from your favorite terminal environment. for more information on how to use command line arguments. google it. If you have to google how to use command line arguments then you probably shouldn't be using this model.
+
+The second model, the more "user friendly" model is the GrellUI which when ran will open up a new window that contains all the plant configurations and what is nice about the UI is that it is already pre configured when it is opened so if you just ant to use default settings you can do that! if you want to get detailed output on different settings of the plant you can do that too! 
+
+A little bit about configurations:
+
+The configurations that are applicable to the user are as follows: 
+
+Employee Configurations: allows you to choose the number of a given type of employees that you want to have on each assembly line. Your options are: Manager, Guru, Mouth-Breather, and Drone. Each one of these different types of employees have their own costs per hour, and their own strengths and weakness' when it comes to making computers. Something to note though: For each assembly line created you must have at minimum 1 manager for every 2 assembly lines. 
+
+Assembly Line Configurations: allows you to set the number of assembly lines that the plant contains. the more assembly lines the more productive you can be… right?… maybe not :P
+
+Plant Configurations: Allows the user to set the assignment policy for the assembly lines. In layman's terms: It sets the policy for which assembly line the order should be inserted on. Here you also set how long you want the Factory to run for. 
+
+Then You run it!!!! whooo and hope that it works :P
+
+
+Good luck and thank you for choosing MondoSoft for all your Mondo-ly awesome software. 
+ 
+

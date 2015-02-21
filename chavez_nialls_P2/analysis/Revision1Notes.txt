@@ -1,0 +1,7 @@
+Revision 1 notes.
+	
+	Program works most of the time, still buggy, but runs and prints out the final report, most of the time :P
+
+also includes UML diagram. 
+
+Almost every file is different. 

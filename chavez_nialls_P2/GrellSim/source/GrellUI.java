@@ -1,0 +1,489 @@
+package source;
+
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+
+import edu.unm.cs.cs351.f10.tdrl.p2.EmployeeType;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+import java.util.HashMap;
+
+@SuppressWarnings("serial")
+public class GrellUI extends JFrame {    
+
+    private int tabNumber = 4;
+    private final JTabbedPane pane = new JTabbedPane();
+    private JMenuItem tabComponentsItem;
+    private JMenuItem scrollLayoutItem;
+  
+    private int numGuru=1;
+    private int numMB=1;
+    private int numMan=1;
+    private int numDrone=1;
+    private int numAssembly=1;
+    private int prioritizationPol=0;
+    private int assignmentPol=0;
+    private String runTime="1000";
+    public static void main(String[] args) {
+        //Schedule a job for the event dispatch thread:
+        //creating and showing this application's GUI.
+        SwingUtilities.invokeLater(new Runnable(){
+            public void run(){
+                //Turn off metal's use of bold fonts
+	        UIManager.put("swing.boldMetal", Boolean.FALSE);
+                new GrellUI("Grell Factory Simulation").runTest();
+            }
+        });
+    }
+    
+    public GrellUI(String title) {
+        super(title);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        initMenu();        
+        add(pane);        
+    }
+    /**
+     * This creates all the Tabbed panes 
+     */
+    public void runTest() {
+    	
+    	
+    	JPanel[] items ={EmployeePanel(),assemblyLinePanel(),factoryPanel(),outputPane()};
+    	
+    	tabNumber=items.length;
+        pane.removeAll();
+        
+        for (int i = 0; i < tabNumber; i++) {
+            JPanel title =items[i];
+           
+            pane.add(title);
+            
+            initTabComponent(i);
+        }
+        tabComponentsItem.setSelected(true);
+        pane.setTabLayoutPolicy(JTabbedPane.WRAP_TAB_LAYOUT);
+        scrollLayoutItem.setSelected(false);
+        setSize(new Dimension(600, 400));
+        setLocationRelativeTo(null);
+        setVisible(true);
+    }
+    
+    /**
+     * Inits each of the tabs
+     * @param i a tab. 
+     */
+    private void initTabComponent(int i) {
+        pane.setTabComponentAt(i,
+                 new TabStuff(pane));
+    }    
+
+    //Setting menu
+    
+    private void initMenu() {
+        JMenuBar menuBar = new JMenuBar();
+        //create Options menu
+        tabComponentsItem = new JCheckBoxMenuItem("GrellUI", true);
+        tabComponentsItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T, InputEvent.ALT_MASK));
+        tabComponentsItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                for (int i = 0; i < pane.getTabCount(); i++) {
+                    if (tabComponentsItem.isSelected()) {
+                        initTabComponent(i);
+                    } else {
+                        pane.setTabComponentAt(i, null);
+                    }
+                }
+            }
+        });
+        scrollLayoutItem = new JCheckBoxMenuItem("Set ScrollLayout");
+        scrollLayoutItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, InputEvent.ALT_MASK));
+        scrollLayoutItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                if (pane.getTabLayoutPolicy() == JTabbedPane.WRAP_TAB_LAYOUT) {
+                    pane.setTabLayoutPolicy(JTabbedPane.SCROLL_TAB_LAYOUT);
+                } else {
+                    pane.setTabLayoutPolicy(JTabbedPane.WRAP_TAB_LAYOUT);
+                }
+            }
+        });
+        JMenuItem resetItem = new JMenuItem("Reset JTabbedPane");
+        resetItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_R, InputEvent.ALT_MASK));
+        resetItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                runTest();
+            }
+        });
+       
+        JMenu optionsMenu = new JMenu("Options");
+        optionsMenu.add(tabComponentsItem);
+        optionsMenu.add(scrollLayoutItem);
+        optionsMenu.add(resetItem);
+        menuBar.add(optionsMenu);
+        setJMenuBar(menuBar);
+    }
+    private JPanel EmployeePanel(){
+    	
+    	
+    	JPanel assemblyLine= new JPanel();
+    	
+    	
+    	JPanel	manSettings= new JPanel();
+    	
+    	JLabel numManLabel= new JLabel("Set number of Managers            ");
+    	JTextField setNumMan= new JTextField("1");
+    	setNumMan.setEditable(false);
+    	JButton numManPlus= new JButton("+");
+    	JButton numManMinus= new JButton("-");
+    	
+    	manSettings.add(numManLabel);
+    	manSettings.add(setNumMan);
+    	manSettings.add(numManPlus);
+    	manSettings.add(numManMinus);
+    	
+    	JPanel	GuruSettings= new JPanel();
+    	
+    	JLabel guruLabel= new JLabel("Set number of Guru's                ");
+    	JTextField setNumGuru= new JTextField("1");
+    	setNumGuru.setEditable(false);
+    	JButton numGuruPlus= new JButton("+");
+    	JButton numGuruMinus= new JButton("-");
+    	
+    	GuruSettings.add(guruLabel);
+    	GuruSettings.add(setNumGuru);
+    	GuruSettings.add(numGuruPlus);
+    	GuruSettings.add(numGuruMinus);
+    	
+    	JPanel	MouthSettings= new JPanel();
+    	
+    	JLabel mbreatherLabel= new JLabel("Set number of mouth-breather's");
+    	JTextField setNumMbreather= new JTextField("1");
+    	setNumMbreather.setEditable(false);
+    	JButton numMbreatherPlus= new JButton("+");
+    	JButton numMbreatherMinus= new JButton("-");
+    	
+    	MouthSettings.add(mbreatherLabel);
+    	MouthSettings.add(setNumMbreather);
+    	MouthSettings.add(numMbreatherPlus);
+    	MouthSettings.add(numMbreatherMinus);
+    	 	
+    	JPanel	DronesSettings= new JPanel();
+    	
+    	JLabel dronesLabel= new JLabel("Set number of drone's               ");
+    	JTextField setNumDrones= new JTextField(""+numDrone);
+    	setNumDrones.setEditable(false);
+    	JButton numDronesPlus= new JButton("+");
+    	JButton numDronesMinus= new JButton("-");
+    	
+    	
+    	EventHandlerEmployees eventhand = new EventHandlerEmployees(numDronesPlus, numDronesMinus, setNumDrones,
+    			numMbreatherPlus, numMbreatherMinus, setNumMbreather, numGuruPlus, numGuruMinus, setNumGuru, numManPlus, numManMinus, setNumMan);
+    	
+    	numDronesPlus.addActionListener(eventhand);
+    	numDronesMinus.addActionListener(eventhand);
+    
+    	numMbreatherPlus.addActionListener(eventhand);
+    	numMbreatherMinus.addActionListener(eventhand);
+    	
+    	numGuruPlus.addActionListener(eventhand);
+    	numGuruMinus.addActionListener(eventhand);
+    	
+    	numManPlus.addActionListener(eventhand);
+    	numManMinus.addActionListener(eventhand);
+    	
+    	
+    	DronesSettings.add(dronesLabel);
+    	DronesSettings.add(setNumDrones);
+    	DronesSettings.add(numDronesPlus);
+    	DronesSettings.add(numDronesMinus);
+   
+    	assemblyLine.add(MouthSettings);
+    	assemblyLine.add(manSettings);
+    	assemblyLine.add(GuruSettings);
+    	assemblyLine.add(DronesSettings);
+    	
+    	return assemblyLine;
+    }
+    
+    private JPanel outputPane(){
+    	
+    	JPanel outPane= new JPanel();
+    	JTextArea text= new JTextArea(15,50);
+    	text.setEditable(false);
+    	JButton b= new JButton("Run The Simulation ");
+    	EventHandlerRun ehr= new EventHandlerRun(text, outPane);
+    	
+    	b.addActionListener(ehr);
+    	JScrollPane jscroll= new JScrollPane(text);
+    	
+    	outPane.add(jscroll);
+    	
+    	outPane.add(b);
+    	
+    	return outPane;
+    }
+    
+    private JPanel assemblyLinePanel(){
+    
+		JPanel assemblyLineSettings= new JPanel();
+	    
+		JPanel numAssemblyLines= new JPanel();
+		
+		JLabel numAssemblyLinesLabel= new JLabel("Set number of Assembly Lines    ");
+		JTextField setNumAssLines= new JTextField("1");
+		setNumAssLines.setEditable(false);
+		JButton numLinesPlus= new JButton("+");
+		JButton numLinesMinus= new JButton("-");
+		
+		numAssemblyLines.add(numAssemblyLinesLabel);
+		numAssemblyLines.add(setNumAssLines);
+		numAssemblyLines.add(numLinesPlus);
+		numAssemblyLines.add(numLinesMinus);
+		EventHandlerAssembly eventhand= new EventHandlerAssembly(numLinesPlus, numLinesMinus, setNumAssLines);
+		numLinesPlus.addActionListener(eventhand);
+		numLinesMinus.addActionListener(eventhand);
+		assemblyLineSettings.add(numAssemblyLines);
+	
+		return assemblyLineSettings;
+    }
+    
+    private JPanel factoryPanel(){
+    	
+		JPanel factorySettings= new JPanel();
+	    
+		JPanel PrioritizationPolicy= new JPanel();
+			
+		JLabel prioritizationLabel= new JLabel("Set Prioritization Policy:");
+		String[] priority= {"FIFO", "LIFO ","Highest Value" };
+		JComboBox prioritizationBox= new JComboBox(priority);
+		PrioritizationPolicy.add(prioritizationLabel);
+		PrioritizationPolicy.add(prioritizationBox);
+
+		
+		JPanel AssignmentPolicy= new JPanel();
+	
+		JLabel assignmentLabel= new JLabel("Set Assignment Policy:  ");
+		String[] assignments= {"Round Robin", "ShortestFirst ","FirstEmpty" };
+		JComboBox setAssignmentPolicies= new JComboBox(assignments);
+	
+		
+		JPanel spinnerPan= new JPanel();
+		
+		SpinnerModel m= new SpinnerNumberModel(10000, 1000,100000, 1000);
+		JSpinner spin= new JSpinner(m);
+		
+		JTextField spinField=((JSpinner.DefaultEditor)spin.getEditor()).getTextField(); 
+		spinField.setEditable(false);
+		JLabel spinLabel= new JLabel("Set the run time                   ");
+		spinnerPan.add(spinLabel);
+		spinnerPan.add(spin);
+		//spinnerPan.add(spinField);
+		
+		
+		AssignmentPolicy.add(assignmentLabel);
+		AssignmentPolicy.add(setAssignmentPolicies);
+	
+		EventHandlerFactory ehf= new EventHandlerFactory(prioritizationBox, setAssignmentPolicies, spinField);
+		
+		prioritizationBox.addActionListener(ehf);
+		setAssignmentPolicies.addActionListener(ehf);
+		spin.addChangeListener(ehf);
+		
+		
+		factorySettings.add(spinnerPan);
+		factorySettings.add(PrioritizationPolicy);
+		factorySettings.add(AssignmentPolicy);
+	
+		
+		
+		return factorySettings;
+    	
+    	
+    }
+ 
+    private class EventHandlerEmployees implements ActionListener{
+    	JButton droneP, droneM, mouthP, mouthM, guruP, guruM, manP, manM;
+    	JTextField numDro, numMouth, numGuruz, numMana;
+    	
+    	public EventHandlerEmployees( JButton dP, JButton dM , JTextField numD, JButton mbP, JButton mbM , JTextField numMb,
+    			JButton gP, JButton gM, JTextField numG, JButton mP, JButton mM, JTextField numM){
+    	
+    		droneP=dP;
+    		droneM=dM;
+    		numDro=numD;
+    		guruP=gP;
+    		guruM=gM;
+    		manP=mP;
+    		manM=mM;
+    		
+    		mouthP=mbP;
+    		mouthM= mbM;
+    		numMouth=numMb;
+    		numGuruz= numG;
+    		numMana=numM;
+    	}
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			if( e.getSource()==droneP){
+				numDrone++;
+				//System.out.println("Num Drones"+numDrone);
+				
+				numDro.setText(""+numDrone);
+			}
+			else if(e.getSource()==droneM){
+				
+				if( numDrone > 0){
+					numDrone--;
+					numDro.setText(""+numDrone);
+				}
+			}
+			
+			if( e.getSource()==mouthP){
+				numMB++;
+				//System.out.println("Num Drones"+numDrone);
+				
+				numMouth.setText(""+numMB);
+			}
+			else if(e.getSource()==mouthM){
+				
+				if( numMB > 0){
+					numMB--;
+					numMouth.setText(""+numMB);
+				}
+			}
+			
+			if( e.getSource()==guruP){
+				numGuru++;
+				
+				numGuruz.setText(""+numGuru);
+			}
+			else if(e.getSource()==guruM){
+				
+				if( numGuru > 0){
+					numGuru--;
+					numGuruz.setText(""+numGuru);
+				}
+			}
+		
+			if( e.getSource()==manP){
+				numMan++;
+				
+				numMana.setText(""+numMan);
+			}
+			else if(e.getSource()==manM){
+				
+				if( numMan > 0){
+					numMan--;
+					numMana.setText(""+numMan);
+				}
+			}
+		
+		}
+    	
+    }
+    private class EventHandlerFactory implements ActionListener, ChangeListener{
+    	JComboBox p, a;
+    	JTextField s;
+    	public EventHandlerFactory(JComboBox pri, JComboBox assig, JTextField spin){
+    		p=pri;
+    		a=assig;
+    		s=spin;	
+    		
+    	}
+    	
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			if(e.getSource()==p){
+				System.out.println("Policy is "+p.getSelectedIndex());
+				prioritizationPol=p.getSelectedIndex();
+			}
+
+			else if(e.getSource()==a){
+				System.out.println("assign is "+a.getSelectedIndex());
+				assignmentPol=a.getSelectedIndex();
+			}
+		}
+
+		@Override
+		public void stateChanged(ChangeEvent e) {
+			runTime= s.getText();
+			System.out.println("Run time: "+runTime);
+
+		}	
+    	
+    }
+    private class EventHandlerAssembly implements ActionListener{
+    	JButton assembButtP, assembButtM;
+    	JTextField aField;
+    	
+    	public EventHandlerAssembly(JButton assButP, JButton assButM, JTextField assField){
+    		assembButtP=assButP;
+    		assembButtM=assButM;
+    		aField=assField;
+    		
+    	}
+    	
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			if(e.getSource()==assembButtP){
+				numAssembly++;
+				aField.setText(""+numAssembly);
+			}
+			if(e.getSource()==assembButtM){
+				if(numAssembly > 0){
+					numAssembly--;
+					aField.setText(""+numAssembly);
+				}
+			}
+			
+		}
+    	
+    }
+ 
+    private class EventHandlerRun implements ActionListener{
+    	
+    	JTextArea output;
+    	JPanel out;
+    	public EventHandlerRun(JTextArea field, JPanel outPanel){
+    		output=field;
+    		out=outPanel;
+    	}
+    	
+		@SuppressWarnings({ "rawtypes", "unchecked" })
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			//System.out.println("Num Managers: "+numMan);
+			double numManNeeded= (numAssembly/2.0);
+			//System.out.println("Man needed:"+ numManNeeded);
+			if(numMan==0 || numAssembly==0 ){
+				System.out.println("Run clicked");
+				JOptionPane.showMessageDialog(out, "Configurations incorrect, either you don't have\n enough managers or more than one assemblyLine.");
+			}
+			
+			else if(numManNeeded > numMan ){
+				JOptionPane.showMessageDialog(out, "Configurations incorrect, you need AT LEAST one manager per every TWO assembly lines");
+				
+			}
+			else{
+				
+				HashMap<EmployeeType, Integer> emps= new HashMap<EmployeeType,Integer>();
+				emps.put(EmployeeType.DRONE, numDrone);
+				emps.put(EmployeeType.MOUTH_BREATHER, numMB);
+				emps.put(EmployeeType.MANAGER, numMan);
+				//System.out.println("Run time:"+runTime);
+				String cleaned= runTime.replace(",", "");
+				Integer i= Integer.parseInt(cleaned);
+				
+				//System.out.println("Run time in run: " +i);
+				GrellSim si= new GrellSim( emps, prioritizationPol,assignmentPol, numAssembly, i );
+				
+				output.setText(""+si.getOutput());
+			}
+    	
+		}
+    }   
+}

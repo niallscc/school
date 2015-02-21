@@ -1,0 +1,13 @@
+BUGSM4.txt
+
+This file lists the *known* bugs inside of m4
+
+
+I Am pretty sure that my SCC stuff works but It doesn't work in all cases. 
+it throws graph structure exceptions a lot and I think that is because some graphs arent structured correctly but sometimes it doesn't work when it should.
+
+also my parser adds an extra backslash when it shouldn't sometimes and that would take a significant amount of debugging to figure out what is going on there. 
+
+Also my load commandline arg inside of Webalyzer sometimes doesn't load the right file and it just reverts to the default save file so if it doesn't work go change that global and you will be good. 
+
+andddd yeah… i think that is it for the big bugs… but im not sure… so if there are any more just know that there might be a bunch in there so yeah :P 
