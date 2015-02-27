@@ -7,8 +7,10 @@ import operator
 
 def my_ca(rad, str_len):
 
-    radius = rad
-    string_len = str_len
+    radius = rad  # should be 2 or 3
+    string_len = str_len  # should be 121
+    num_generations = 10  # should be 200
+    num_evolvs = 1  # Should be 50
 
     # Our populations of length whatever was passed in
     # These arrays basically look like a huge list of random
@@ -24,25 +26,33 @@ def my_ca(rad, str_len):
 
     fitters = np.array(
         [np.array(
-            [random.randint(0, 1) for b in range(1, math.pow(2, radius) + 1)]
-        ) for b in range(1, 10)])
+            [random.randint(0, 1) for b in range(
+                1, int(math.pow(2, (radius * 2 + 1)) + 1))]
+        ) for b in range(0, 10)])
 
     # This calculates the fitness for 200 generations of each rule applied to
     # random bit strings
-    for i in range(0, 50):
+    for i in range(0, num_evolvs):
         rules_with_fitness = []
         for id_fit, fitter in enumerate(fitters):
             fitness_arr = []
             for idx, pop in enumerate(populations):
-                for i in range(0, 200):
+                for i in range(0, num_generations):
                     pop = apply_ca(pop, fitter, radius)
-                fitness_arr[idx] = calc_fitness(pop)
+                fitness_arr.append(calc_fitness(pop))
 
-            rules_with_fitness[id_fit] = {
+            rules_with_fitness.append({
                 'fitness': avg_fitness(fitness_arr),
                 'individual': fitter
-            }
+            })
+        write_to_file(rules_with_fitness)
         fitters = evolve_fitters(rules_with_fitness)
+
+
+def write_to_file(to_write):
+    f = open("./results.txt", "a")
+    for i in to_write:
+        f.write(str(to_write))
 
 
 def apply_ca(pop, fitter, radius):
@@ -55,8 +65,8 @@ def apply_ca(pop, fitter, radius):
         indecies = get_indecies(i, radius, length)
         bit_string = "0b"
         for ind in indecies:
-            bit_string += pop[ind]
-        new_pop[i] = fitter[int(bit_string, 2)]
+            bit_string += str(pop[ind])
+        new_pop.append(fitter[int(bit_string, 2)])
         i = i + 1
 
     return new_pop
@@ -80,26 +90,27 @@ def get_indecies(i, radius, length):
 
 def evolve_fitters(rules_with_fitness):
     evolved = []
-    sorted_fit = sorted(
-        rules_with_fitness.items(), key=operator.itemgetter('fitness')
-    )
-    perc = int(len(sorted_fit) * 0.2)
-    for i in range(0, len(sorted_fit) - 1):
-        if i < perc:
-            evolved.append(sorted_fit[i].get('individual'))
-        else:
-            indiv = sorted_fit[i]['individual']
-            pivot = random.randint(0, len(indiv))
-            first_split = np.split(indiv, pivot)
-            indiv2 = sorted_fit[i + 1]['individual']
-            second_split = np.split(indiv2, pivot)
-            evolved.append(mutate(first_split[0].append(second_split[1])))
-            evolved.append(mutate(first_split[1].append(second_split[0])))
+    rules_with_fitness.sort(key=operator.itemgetter('fitness'))
+    perc = int(len(rules_with_fitness) * 0.2)
 
+    for i in range(0, len(rules_with_fitness) - 1):
+        if i < perc:
+            evolved.append(rules_with_fitness[i].get('individual'))
+        else:
+            indiv = rules_with_fitness[i]['individual']
+            pivot = random.randint(0, len(indiv))
+            first_split = [indiv[:pivot], indiv[pivot:]]
+            indiv2 = rules_with_fitness[i + 1]['individual']
+            second_split = [indiv2[:pivot], indiv2[pivot:]]
+            evolved.append(mutate(np.insert(
+                first_split[0], len(first_split[0]), second_split[1])))
+            evolved.append(mutate(np.insert(
+                second_split[1], len(second_split[1]), first_split[0])))
     return evolved
 
 
 def mutate(arr):
+
     arr[random.randint(0, len(arr))] = random.randint(0, 1)
     arr[random.randint(0, len(arr))] = random.randint(0, 1)
     return arr
@@ -118,10 +129,9 @@ def calc_fitness(fit_arr):
     zeroes = 0
     for i in fit_arr:
         if i == 0:
-            zeroes += 1
+            zeroes = zeroes + 1
         else:
-            ones += 1
-    return ones / len(fit_arr)
-
+            ones = ones + 1
+    return (ones + 0.0) / (len(fit_arr) + 0.0)
 
 my_ca(2, 121)
