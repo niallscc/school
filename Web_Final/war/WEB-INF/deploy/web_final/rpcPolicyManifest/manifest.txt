@@ -1,2 +1,0 @@
-# Module web_final
-# RPC service class, partial path of RPC policy file

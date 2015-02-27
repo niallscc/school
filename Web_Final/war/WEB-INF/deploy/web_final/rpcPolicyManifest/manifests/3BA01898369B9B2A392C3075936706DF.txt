@@ -1,2 +1,0 @@
-serviceClass: cs460.webdnd.client.SharedService
-path: 6B0B2B92E9D20F9024FEE249E37479B8.gwt.rpc

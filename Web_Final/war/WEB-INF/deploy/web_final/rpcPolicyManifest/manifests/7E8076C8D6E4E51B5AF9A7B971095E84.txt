@@ -1,2 +1,0 @@
-serviceClass: cs460.webdnd.client.LoginService
-path: 5C02F86A927F7A63650F86E0DD94F5CA.gwt.rpc
