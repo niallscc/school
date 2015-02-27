@@ -110,9 +110,9 @@ def evolve_fitters(rules_with_fitness):
 
 
 def mutate(arr):
-
-    arr[random.randint(0, len(arr))] = random.randint(0, 1)
-    arr[random.randint(0, len(arr))] = random.randint(0, 1)
+    print arr
+    arr[random.randint(0, len(arr) - 1)] = random.randint(0, 1)
+    arr[random.randint(0, len(arr) - 1)] = random.randint(0, 1)
     return arr
 
 
