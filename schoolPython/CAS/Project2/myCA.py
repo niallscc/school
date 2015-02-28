@@ -30,6 +30,10 @@ def my_ca(rad, str_len):
                 1, int(math.pow(2, (radius * 2 + 1)) + 1))]
         ) for b in range(0, 10)])
 
+    # Overwrite the results file each run
+    f = open("./results.txt", "w")
+    f.write("")
+
     # This calculates the fitness for 200 generations of each rule applied to
     # random bit strings
     for i in range(0, num_evolvs):
@@ -90,7 +94,7 @@ def get_indecies(i, radius, length):
 
 def evolve_fitters(rules_with_fitness):
     evolved = []
-    rules_with_fitness.sort(key=operator.itemgetter('fitness'))
+    rules_with_fitness.sort(key=operator.itemgetter('fitness'), reverse=True)
     perc = int(len(rules_with_fitness) * 0.2)
 
     for i in range(0, len(rules_with_fitness) - 1):
@@ -110,7 +114,6 @@ def evolve_fitters(rules_with_fitness):
 
 
 def mutate(arr):
-    print arr
     arr[random.randint(0, len(arr) - 1)] = random.randint(0, 1)
     arr[random.randint(0, len(arr) - 1)] = random.randint(0, 1)
     return arr
