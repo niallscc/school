@@ -1,8 +1,8 @@
 #!usr/bin/python
 import random
-import numpy as np
 import math
 import operator
+import copy
 
 
 def my_ca(rad, str_len):
@@ -17,19 +17,18 @@ def my_ca(rad, str_len):
     # These arrays basically look like a huge list of random
     # ones and zeros
 
-    populations = np.array(
-        [np.array(
-            [random.randint(0, 1) for b in range(1, string_len + 1)]
-        ) for b in range(0, num_populations)])
+    populations = [
+        [random.randint(0, 1)
+            for b in range(1, string_len + 1)]
+        for b in range(0, num_populations)]
 
     # our different lists of random rules. we will eventally turn the indecies
     # into binary from 0 to 2^radus + 1
 
-    fitters = np.array(
-        [np.array(
-            [random.randint(0, 1) for b in range(
-                1, int(math.pow(2, (radius * 2 + 1)) + 1))]
-        ) for b in range(0, num_fitters)])
+    fitters = [
+        [random.randint(0, 1)
+            for b in range(1, int(math.pow(2, (radius * 2 + 1)) + 1))]
+        for b in range(0, num_fitters)]
     # print fitters
     # Overwrite the results file each run
     f = open("./results.txt", "w")
@@ -118,21 +117,30 @@ def evolve_fitters(rules_with_fitness):
 
             indiv = rules_with_fitness[i]['individual']
             pivot = random.randint(0, len(indiv))
-            first_split = np.array([indiv[:pivot], indiv[pivot:]])
+            first_split = [indiv[:pivot], indiv[pivot:]]
 
             indiv2 = rules_with_fitness[i + 1]['individual']
-            second_split = np.array([indiv2[:pivot], indiv2[pivot:]])
-
-            evolved.append(mutate(np.insert(
-                first_split[0], len(first_split[0]), second_split[1])))
-            evolved.append(mutate(np.insert(
-                second_split[1], len(second_split[1]), first_split[0])))
+            second_split = [indiv2[:pivot], indiv2[pivot:]]
+            print "pivot is: "
+            print pivot
+            print first_split
+            print second_split
+            c1 = copy.copy(first_split[0])
+            c2 = copy.copy(second_split[1])
+            c1.extend(c2)
+            second_split[1].extend(first_split[0])
+            print "split and combined: "
+            print c1
+            print second_split[1]
+            evolved.append(mutate(c1))
+            evolved.append(mutate(second_split[1]))
             i = i + 1
     print evolved
     return evolved
 
 
 def mutate(arr):  # we mutate two bits in each of them
+
     arr[random.randint(0, len(arr) - 1)] = random.randint(0, 1)
     arr[random.randint(0, len(arr) - 1)] = random.randint(0, 1)
     return arr
