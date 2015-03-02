@@ -13,6 +13,7 @@ def my_ca(rad, str_len):
     num_evolvs = 50  # Should be 50
     num_fitters = 10  # should be 10
     num_populations = 50  # should be 50
+
     # Our populations of length whatever was passed in
     # These arrays basically look like a huge list of random
     # ones and zeros
@@ -31,9 +32,10 @@ def my_ca(rad, str_len):
         for b in range(0, num_fitters)]
     # print fitters
     # Overwrite the results file each run
+    # Could Probably make this better but meh
     f = open("./results.txt", "w")
     f.write("[")
-
+    gen_break = []
     # This calculates the fitness for 200 generations of each rule applied to
     # random bit strings
     for i in range(0, num_evolvs):
@@ -44,8 +46,15 @@ def my_ca(rad, str_len):
             print fitter
             fitness_arr = []
             for idx, pop in enumerate(populations):
+                broke = False
                 for i in range(0, num_generations):
-                    pop = apply_ca(pop, fitter, radius)
+                    new_pop = apply_ca(pop, fitter, radius)
+                    if(pop == new_pop):
+                        gen_break.append(i)
+                        broke = True
+                        break
+                if broke is not True:
+                    gen_break.append(200)
                 fitness_arr.append(calc_fitness(pop))
             # print avg_fitness(fitness_arr)
             # print fitter
@@ -58,7 +67,11 @@ def my_ca(rad, str_len):
     f = open("./results.txt", "a")
     f.write("]")
 
+    gen_break_f = open("./gen_break_result.txt", "w")
+    gen_break_f.write(str(gen_break))
 
+
+# Generic output file of dumbness
 def write_to_file(to_write):
     f = open("./results.txt", "a")
     f.write(str(to_write) + ",")
@@ -121,17 +134,12 @@ def evolve_fitters(rules_with_fitness):
 
             indiv2 = rules_with_fitness[i + 1]['individual']
             second_split = [indiv2[:pivot], indiv2[pivot:]]
-            print "pivot is: "
-            print pivot
-            print first_split
-            print second_split
+
             c1 = copy.copy(first_split[0])
             c2 = copy.copy(second_split[1])
             c1.extend(c2)
             second_split[1].extend(first_split[0])
-            print "split and combined: "
-            print c1
-            print second_split[1]
+
             evolved.append(mutate(c1))
             evolved.append(mutate(second_split[1]))
             i = i + 1
