@@ -55,7 +55,7 @@ def my_ca(rad, str_len):
                         break
                 if broke is not True:
                     gen_break.append(200)
-                fitness_arr.append(calc_fitness(pop))
+                fitness_arr.append(calc_one_hund_fitness(pop))
             # print avg_fitness(fitness_arr)
             # print fitter
             rules_with_fitness.append({
@@ -171,5 +171,13 @@ def calc_fitness(fit_arr):
         else:
             ones = ones + 1
     return (ones + 0.0) / (len(fit_arr) + 0.0)
+
+
+def calc_one_hund_fitness(fit_arr):
+
+    for i in fit_arr:
+        if i == 0:
+            return 0.0
+    return 1.0
 
 my_ca(2, 121)
