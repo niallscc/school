@@ -14,8 +14,8 @@ def my_ca(rad, str_len):
     num_fitters = 100  # should be 100
     num_init_config = 50  # should be 50
 
-    fitters = do_lambda(int(math.pow(2, (radius * 2 + 1), num_fitters)))
-
+    fitters = do_lambda(int(math.pow(2, (radius * 2 + 1))), num_fitters)
+    # print "fitters are: " + str(fitters)
     # print fitters
     # Overwrite the results file each run
     # Could Probably make this better but meh
@@ -33,6 +33,7 @@ def my_ca(rad, str_len):
         # These arrays basically look like a huge list of random
         # ones and zeros
         init_config = do_lambda(string_len, num_init_config)
+        # print "Init config is: " + (str(init_config))
         rules_with_fitness = []
         # print fitters
         for id_fit, fitter in enumerate(fitters):
@@ -43,14 +44,15 @@ def my_ca(rad, str_len):
                     new_pop = apply_ca(pop, fitter, radius)
                     if check_equal(new_pop, pop):
                         gen_break_f.write(str(i) + ",")
+                        print "Equival: " + str(i)
                         break
+                    pop = new_pop
                 if broke is not True:
                     gen_break_f.write(str(num_generations) + ",")
                 fitness_arr.append(calc_fitness_with_density(pop, fitter))
-            # print avg_fitness(fitness_arr)
-            # print fitter
+            avg_fit = avg_fitness(fitness_arr)
             rules_with_fitness.append({
-                'fitness': avg_fitness(fitness_arr),
+                'fitness': avg_fit,
                 'individual': fitter
             })
         write_to_file(rules_with_fitness)
@@ -194,8 +196,13 @@ def do_lambda(size_of_array, num_arrays_needed):
     calcer = num_to_add
     for i in range(1, num_arrays_needed - 1):
         calcer = num_to_add + calcer
-        buckets = [1] * int(calcer)
-        buckets.extend(([0] * (size_of_array - int((calcer)))))
+        if calcer < 1:
+            buckets = [1] * 1
+            buckets.extend(([0] * (size_of_array - 1)))
+        else:
+            buckets = [1] * int(calcer)
+            buckets.extend(([0] * (size_of_array - int((calcer)))))
+
         random.shuffle(buckets)
         arrays.append(buckets)
     # add our 1s last (for sanity)
