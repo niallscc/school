@@ -16,4 +16,4 @@ def get_indecies(i, radius, length):
             indecies.append(i + j)
     return indecies
 
-print get_indecies(0, 3, 121)
+print get_indecies(120, 3, 121)
