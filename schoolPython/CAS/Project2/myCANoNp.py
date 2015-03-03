@@ -32,17 +32,10 @@ def my_ca(rad, str_len):
         # Our init_config of length whatever was passed in
         # These arrays basically look like a huge list of random
         # ones and zeros
-
-        init_config = [
-            [random.randint(0, 1)
-                for b in range(1, string_len + 1)]
-            for b in range(0, num_init_config)]
-
+        init_config = do_lambda(string_len, num_init_config)
         rules_with_fitness = []
         # print fitters
         for id_fit, fitter in enumerate(fitters):
-            print id_fit
-            print fitter
             fitness_arr = []
             for idx, pop in enumerate(init_config):
                 broke = False
@@ -53,7 +46,7 @@ def my_ca(rad, str_len):
                         break
                 if broke is not True:
                     gen_break_f.write(str(num_generations) + ",")
-                fitness_arr.append(calc_fitness_with_density(pop))
+                fitness_arr.append(calc_fitness_with_density(pop, fitter))
             # print avg_fitness(fitness_arr)
             # print fitter
             rules_with_fitness.append({
@@ -178,8 +171,8 @@ def calc_fitness(fit_arr):
     return (ones + 0.0) / (len(fit_arr) + 0.0)
 
 
-def calc_fitness_with_density(fit_arr, density):
-    if density > 0.5:
+def calc_fitness_with_density(fit_arr, arr):
+    if float(arr.count(1)) / float(len(arr)) > 0.5:
         check = 1
     else:
         check = 0
