@@ -203,4 +203,4 @@ def do_lambda(size_of_array, num_arrays_needed):
 
     arrays.append(buckets)
     return arrays
-my_ca(2, 121)
+my_ca(3, 121)
