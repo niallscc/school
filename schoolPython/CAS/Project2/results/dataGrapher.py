@@ -3,7 +3,7 @@ import json
 import operator
 import matplotlib.pyplot as plt
 
-with open("results_mutational_robustness_5.txt") as json_file:
+with open("results_improved.txt") as json_file:
     json_data = json.load(json_file)
     just_fitness = []
     for data_pt in json_data:

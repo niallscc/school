@@ -23,13 +23,12 @@ def my_ca(rad, str_len, evolv):
     # print rules
     # Overwrite the results file each run
     # Could Probably make this better but meh
-    f = open("./results.txt", "w")
+    f = open("./results_chosen_num_mutations.txt", "w")
     f.write("[")
-    gen_break_f = open("./gen_break_result.txt", "a")
 
     # This calculates the fitness for 200 generations of each rule applied to
     # random bit strings
-    f = open("./results.txt", "a")
+    f = open("./results_chosen_num_mutations.txt", "a")
     for i in range(0, num_evolvs):
         print "percent complete: " + str(i / float(num_evolvs))
         init_config = do_lambda(string_len, num_init_config)
@@ -40,17 +39,11 @@ def my_ca(rad, str_len, evolv):
                 init_density_eval = 0
                 if pop.count(1) / float(len(pop)) > 0.5:
                     init_density_eval = 1
-                broke = False
-                # print "beginning pop: " + str(pop)
                 for i in range(0, num_generations):
                     new_pop = apply_ca(pop, rule, radius)
                     if check_equal(new_pop, pop):
-                        gen_break_f.write(str(i) + ",")
-                        broke = True
                         break
                     pop = new_pop
-                if broke is not True:
-                    gen_break_f.write(str(num_generations) + ",")
                 indiv_fit = calc_fitness_with_density(pop, init_density_eval)
                 fitness_arr.append(indiv_fit)
             avg_fit = avg_fitness(fitness_arr)
@@ -58,10 +51,7 @@ def my_ca(rad, str_len, evolv):
                 'fitness': avg_fit,
                 "rule": rule
             })
-        mai_str = str(rules_with_fitness)
-        mai_str.replace("'", '"')
-        f.write(mai_str + ",")
-        # write_to_file(rules_with_fitness)
+        write_to_file(rules_with_fitness)
         rules = evolve_rules(rules_with_fitness)
 
     f.write("]")
@@ -75,12 +65,12 @@ def check_equal(arr1, arr2):
     return True
 
 
-# Generic output file of dumbness
-# def write_to_file(to_write):
-#    f = open("./results.txt", "a")
-#    mai_str = str(to_write)
-#    mai_str.replace("'", '"')
-#    f.write(mai_str + ",")
+def write_to_file(to_write):
+    f = open(
+        "./results_chosen_num_mutations.txt",
+        "a")
+    f.write(str(to_write) + ",")
+    f.close()
 
 
 def apply_ca(pop, rule, radius):

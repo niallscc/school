@@ -44,9 +44,12 @@ def my_ca(rad, str_len):
         init_density_arr = []
         for idx, pop in enumerate(init_config):
             init_density_eval = 0
+            density_actual = 0.0
             if pop.count(1) / float(len(pop)) > 0.5:
                 init_density_eval = 1
-            init_density_arr.append(init_density_eval)
+
+            density_actual = pop.count(1) / float(len(pop))
+            init_density_arr.append(density_actual)
             for i in range(0, num_generations):
                 new_pop = apply_ca(pop, gkl_rule, radius)
                 if check_equal(new_pop, pop):
@@ -56,7 +59,6 @@ def my_ca(rad, str_len):
             fitness_arr.append(indiv_fit)
 
         rules_with_fitness.append({
-            "rule": gkl_rule,
             "fitnesses": fitness_arr,
             "init_densities": init_density_arr
         })
