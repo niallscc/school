@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<tree>
+<declarations>
+<attributeDecl name="name" type="String" />
+<attributeDecl name="weight" type="Real" />
+</declarations>
+<branch>
+<attribute name="name" value="root" />
+<branch>
+<attribute name="name" value="TR14 = 0" />
+<leaf>
+<attribute name="name" value="TR31 = 0" />
+<attribute name="weight" value="6" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR31 = 1" />
+<attribute name="weight" value="3" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR31 = 2" />
+<attribute name="weight" value="5" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR31 = 3" />
+<attribute name="weight" value="1" />
+</leaf>
+</branch>
+<branch>
+<attribute name="name" value="TR14 = 1" />
+<leaf>
+<attribute name="name" value="TR37 = 0" />
+<attribute name="weight" value="2" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR37 = 1" />
+<attribute name="weight" value="2" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR37 = 2" />
+<attribute name="weight" value="2" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR37 = 3" />
+<attribute name="weight" value="3" />
+</leaf>
+</branch>
+<leaf>
+<attribute name="name" value="TR14 = 2" />
+<attribute name="weight" value="7" />
+</leaf>
+<branch>
+<attribute name="name" value="TR14 = 3" />
+<leaf>
+<attribute name="name" value="TR38 = 0" />
+<attribute name="weight" value="15" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR38 = 1" />
+<attribute name="weight" value="4" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR38 = 2" />
+<attribute name="weight" value="6" />
+</leaf>
+<branch>
+<attribute name="name" value="TR38 = 3" />
+<leaf>
+<attribute name="name" value="TR16 = 0" />
+<attribute name="weight" value="1" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR16 = 1" />
+<attribute name="weight" value="1" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR16 = 2" />
+<attribute name="weight" value="9" />
+</leaf>
+<leaf>
+<attribute name="name" value="TR16 = 3" />
+<attribute name="weight" value="4" />
+</leaf>
+</branch>
+</branch>
+</branch>
+</tree>

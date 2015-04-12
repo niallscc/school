@@ -14,7 +14,7 @@ def reproduction(r, arr, k, iterations):
         arr.append(val)
         return reproduction(r, arr, k, iterations)
 
-r = 3.9
+r = 3.0
 iters = 20
 show_only_divergence = 0
 pop_vals_arr = [0.50, .51]
