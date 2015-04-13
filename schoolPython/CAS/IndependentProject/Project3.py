@@ -55,7 +55,7 @@ class Terrain:
     def __init__(self, fuel=3, prob=0.4, viz="+", can_burn=True):
         self.prob = prob
         self.fuel = fuel
-        self.tType = viz
+        self.viz = viz
         self.can_burn = can_burn
 
     def ignite(self):
@@ -81,8 +81,8 @@ class Terrain:
 # in the enum! pretty nifty!
 class TerrainType(Enum):
 
-    Tree = Terrain(5, 0.4, "+")
-    Grass = Terrain(3, 0.6, ".")
+    Tree = Terrain(5, 0.07, "+")
+    Grass = Terrain(3, 0.1, ".")
     Road = Terrain(0, 0, "=")
 
 
@@ -138,7 +138,6 @@ class Board:
             x = sc.random.randint(0, self.board_width)
             lame(str(y) + " " + str(x), "Igniting Cell")
             self.board[y][x].ignite()
-            self.show()
 
     def build_road(self, direction=Direction.north):
         if direction == Direction.north or direction == Direction.south:
@@ -152,37 +151,42 @@ class Board:
 
     # This gets neighbors in a box around a given cell
     # Returns: Array of tuples
-    def get_neighbors(self, y, x):
-        return [
-            (x2, y2) for x2 in range(x - 1, x + 2) for y2 in range(y - 1, y + 2) if (-1 < x <= self.board_width and -1 < y <= self.board_height and (x != x2 or y != y2) and(0 <= x2 <= self.board_width) and (0 <= y2 <= self.board_height))
-        ]
-        # HERE GOES WIND STUFF
+    def get_new_burning_neighbors(self, y, x):
+        indexes = [(y - 1, x - 1), (y - 1, x), (y - 1, x + 1), (y, x - 1), (y, x + 1), (y + 1, x - 1), (y + 1, x), (y + 1, x + 1)]
+        ret_arr = []
+        for idx, n in enumerate(indexes):
+            if n[0] < self.board_height and n[0] >= 0 and n[1] >= 0 and n[1] < self.board_height:
+                if will_happen(self.board[n[0]][n[1]].prob):
+                    ret_arr.append(self.board[n[0]][n[1]])
 
-    def get_terrain_in_direction(self, neighbors, direction):
+        if self.wind.speed is not WindSpeed.none:
+            if self.wind.direction == Direction.north and (y - 2 >= 0):
+                if will_happen(self.wind.speed):
+                    ret_arr.append(self.board[n[y - 2]][x])
+            elif self.wind.direction == Direction.south and (y + 2 < self.board_height):
+                if will_happen(self.wind.speed):
+                    ret_arr.append(self.board[n[y + 2]][x])
+            elif self.wind.direction == Direction.east and (x + 2 < self.board_width):
+                if will_happen(self.wind.speed):
+                    ret_arr.append(self.board[n[y]][x + 2])
+            elif self.wind.direction == Direction.east and (x - 2 >= 0):
+                if will_happen(self.wind.speed):
+                    ret_arr.append(self.board[n[y]][x - 2])
 
-        if direction == Direction.north:
-            if (self.location[0] - 1) >= 0:
-                return ((self.location[0] - 1), self.location[1])
-        elif direction == Direction.south:
-            if (self.location[0] + 1) <= self.board_height:
-                return ((self.location[0] + 1), self.location[1])
-        elif direction == Direction.east:
-            if (self.location[1] + 1) <= self.board_width:
-                return (self.location[0], (self.location[1] + 1))
-        elif direction == Direction.west:
-            if (self.location[1] - 1) >= 0:
-                return (self.location[0], (self.location[1] - 1))
-        else:
-            return (0, 0)
+        # print ret_arr
+        return ret_arr
 
     def build_board(self):
-        w = self.board_width + 1
-        h = self.board_height + 1
+        w = self.board_width
+        h = self.board_height
         if self.board_type == BoardType.forest:
+            print "forest"
             self.board = [[copy.deepcopy(TerrainType.Tree) for j in range(0, w)] for i in range(0, h)]
         elif self.board_type == BoardType.plain:
+            print "plain"
             self.board = [[copy.deepcopy(TerrainType.Grass) for j in range(0, w)] for i in range(0, h)]
         elif self.board_type == BoardType.combo:
+            print "combo"
             self.board = [[copy.deepcopy(TerrainType.Tree) for j in range(0, w)] for i in range(0, h)]
             for i in range(0, int((w * h) / 2)):
                 self.board[sc.random.randint(0, w)][sc.random.randint(0, h)] = copy.deepcopy(TerrainType.Grass)
@@ -200,13 +204,7 @@ class Board:
         for y in range(0, self.board_height):
             for x in range(0, self.board_width):
                 if self.board[y][x].isBurning:
-                    # lame(str(y) + " " + str(x), "Burning cell found")
-                    neighbors = self.get_neighbors(y, x)
-                    # print neighbors
-                    for neighbor in neighbors:
-                        # print str(neighbor[1]) + " " + str(neighbor[0])
-                        if will_happen(self.board[neighbor[1]][neighbor[0]].prob):
-                            new_burning_cells.append(self.board[neighbor[1]][neighbor[0]])
+                    new_burning_cells += self.get_new_burning_neighbors(y, x)
                     self.board[y][x].burn()
         for c in new_burning_cells:
             c.ignite()
@@ -220,6 +218,7 @@ class Board:
                 board_out += " " + self.board[y][x].viz
             board_out += "\n"
         print board_out
+        return board_out
 
 
 def will_happen(prob):
@@ -274,8 +273,34 @@ def run():
         plt.show()
     else:
         board.build_board()
-        for i in range(0, 1000):
+        old_board = board.show()
+        i = 0
+        same = False
+        while i < 1000 and not same:
             board.iterate(0)
+            new_board = board.show()
+            # if new_board == old_board:
+            # same = True
+            # print "Converged"
+            # else:
+            old_board = new_board
             board.show()
+            i += 1
 
 run()
+# def get_terrain_in_direction(self, neighbors, direction):
+
+#    if direction == Direction.north:
+#        if (self.location[0] - 1) >= 0:
+#            return ((self.location[0] - 1), self.location[1])
+#    elif direction == Direction.south:
+#        if (self.location[0] + 1) <= self.board_height:
+#            return ((self.location[0] + 1), self.location[1])
+#    elif direction == Direction.east:
+#        if (self.location[1] + 1) <= self.board_width:
+#            return (self.location[0], (self.location[1] + 1))
+#    elif direction == Direction.west:
+#        if (self.location[1] - 1) >= 0:
+#            return (self.location[0], (self.location[1] - 1))
+#    else:
+#        return (0, 0)
