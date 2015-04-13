@@ -35,9 +35,9 @@ class BoardType(Enum):
 # This is primarily used in the Wind object
 class WindSpeed(Enum):
     none = 0.0
-    low = .20
-    medium = .25
-    high = .30
+    low = .02
+    medium = .03
+    high = .04
 
 
 # Object
@@ -156,7 +156,29 @@ class Board:
         ret_arr = []
         for idx, n in enumerate(indexes):
             if n[0] < self.board_height and n[0] >= 0 and n[1] >= 0 and n[1] < self.board_height:
-                if will_happen(self.board[n[0]][n[1]].prob):
+                p = self.board[n[0]][n[1]].prob
+                if self.wind.direction == Direction.north:
+                    if n[0] == (y - 1):
+                        p += self.wind.speed
+                    elif n[0] == (y + 1):
+                        p -= self.wind.speed
+                elif self.wind.direction == Direction.south:
+                    if n[0] == (y + 1):
+                        p += self.wind.speed
+                    elif n[0] == (y - 1):
+                        p -= self.wind.speed
+                elif self.wind.direction == Direction.east:
+                    if n[1] == (x + 1):
+                        p += self.wind.speed
+                    elif n[1] == (x - 1):
+                        p -= self.wind.speed
+                elif self.wind.direction == Direction.west:
+                    if n[1] == (x - 1):
+                        p += self.wind.speed
+                    elif n[1] == (x + 1):
+                        p -= self.wind.speed
+
+                if will_happen(p):
                     ret_arr.append(self.board[n[0]][n[1]])
 
         if self.wind.speed is not WindSpeed.none:
