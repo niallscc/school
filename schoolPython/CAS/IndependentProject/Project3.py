@@ -2,6 +2,12 @@
 from enum import Enum
 import scipy as sc
 import numpy as np
+import sys
+import matplotlib
+matplotlib.use('TKAgg')
+from matplotlib import pyplot as plt
+from matplotlib import animation
+import copy
 
 
 # Enumeration
@@ -28,6 +34,7 @@ class BoardType(Enum):
 # Provides a way to get the probabilities associated with diffeent types of wind
 # This is primarily used in the Wind object
 class WindSpeed(Enum):
+    none = 0.0
     low = .20
     medium = .25
     high = .30
@@ -39,30 +46,33 @@ class WindSpeed(Enum):
 # object in it
 class Terrain:
 
-    isBurining = False
+    isBurning = False
     fuel = 3
     prob = .4
+    viz = "+"
+    can_burn = True
 
-    def __init__(self, fuel=3, prob=0.4):
+    def __init__(self, fuel=3, prob=0.4, viz="+", can_burn=True):
         self.prob = prob
         self.fuel = fuel
-
-    def is_burning(self):
-        return self.isBurning
+        self.tType = viz
+        self.can_burn = can_burn
 
     def ignite(self):
-        if self.fuel > 0:
-            self.fuel -= 1
-            self.isBurining = True
-        else:
-            self.isBurning = False
-
-    def get_prob(self):
-        return self. prob
+        if self.can_burn:
+            if self.fuel > 0:
+                self.isBurning = True
+                self.viz = "*"
+            else:
+                self.isBurning = False
 
     def burn(self):
-        if self.fuel > 0:
+        if self.can_burn and self.fuel > 0:
             self.fuel -= 1
+            if self.fuel == 0:
+                self.viz = "_"
+                self.can_burn = False
+                self.isBurning = False
 
 
 # Enum
@@ -71,9 +81,9 @@ class Terrain:
 # in the enum! pretty nifty!
 class TerrainType(Enum):
 
-    Tree = Terrain(5, 0.4)
-    Grass = Terrain(3, 0.6)
-    Road = Terrain(0, 0)
+    Tree = Terrain(5, 0.4, "+")
+    Grass = Terrain(3, 0.6, ".")
+    Road = Terrain(0, 0, "=")
 
 
 # Object
@@ -93,13 +103,7 @@ class Wind:
         self.prob_speed_change = speed_change
         self.prob_dir_change = dir_change
 
-    def get_direction(self):
-        return self.drection
-
-    def get_speed(self):
-        return self.speed
-
-    def change(self, prob_change_dir):
+    def change(self):
         if self.can_change:
             if will_happen(self.prob_speed_change):
                 self.direction = WindSpeed[sc.random.randint(0, 3)]
@@ -113,53 +117,46 @@ class Wind:
 # interval
 class Board:
 
-    board_width = 19
-    board_height = 19
+    board_width = 20
+    board_height = 20
     board_type = BoardType.forest
     has_roads = True
     board = []
+    wind = Wind()
 
-    def __init__(self, width=19, height=19, configuration=BoardType.forest, wind=Wind(), has_roads=True):
+    def __init__(self, width=20, height=20, configuration=BoardType.forest, wind=Wind(), has_roads=True):
         self.board_width = width
         self.board_height = height
         self.board_type = configuration
         self.has_roads = has_roads
-        self.build_board()
+        self.wind = wind
+        print self.board_width
 
     def start_fire(self, num_fires):
         for i in range(0, num_fires):
-            self.get_cell(
-                sc.random.randint(0, self.board_width),
-                sc.random.randint(0, self.board_height)
-            ).ignite()
-
-    def visualize_board(self):
-        # for i in range(0, 100):
-        for row in self.board:
-            to_print = ""
-            for cell in row:
-                if cell == 0:
-                    to_print += "+"
-                elif cell == 1:
-                    to_print += "."
-                elif cell == 2:
-                    to_print += "="
-                elif cell == 3:
-                    to_print += "*"
-                elif cell == 4:
-                    to_print += "_"
-            print to_print
-        print "\n"
+            y = sc.random.randint(0, self.board_height)
+            x = sc.random.randint(0, self.board_width)
+            lame(str(y) + " " + str(x), "Igniting Cell")
+            self.board[y][x].ignite()
+            self.show()
 
     def build_road(self, direction=Direction.north):
-        return 0
+        if direction == Direction.north or direction == Direction.south:
+            starting_cell = sc.random.randint(1, self.board_width)
+            for i in range(0, self.board_height):
+                self.board[starting_cell][i] = TerrainType.Road
+        elif direction == Direction.east or direction == Direction.west:
+            starting_cell = sc.random.randint(1, self.height)
+            for i in range(0, self.board_height):
+                self.board[i][starting_cell] = TerrainType.Road
 
     # This gets neighbors in a box around a given cell
     # Returns: Array of tuples
-    def get_neighbors(self, x, y):
+    def get_neighbors(self, y, x):
         return [
             (x2, y2) for x2 in range(x - 1, x + 2) for y2 in range(y - 1, y + 2) if (-1 < x <= self.board_width and -1 < y <= self.board_height and (x != x2 or y != y2) and(0 <= x2 <= self.board_width) and (0 <= y2 <= self.board_height))
         ]
+        # HERE GOES WIND STUFF
 
     def get_terrain_in_direction(self, neighbors, direction):
 
@@ -178,6 +175,52 @@ class Board:
         else:
             return (0, 0)
 
+    def build_board(self):
+        w = self.board_width + 1
+        h = self.board_height + 1
+        if self.board_type == BoardType.forest:
+            self.board = [[copy.deepcopy(TerrainType.Tree) for j in range(0, w)] for i in range(0, h)]
+        elif self.board_type == BoardType.plain:
+            self.board = [[copy.deepcopy(TerrainType.Grass) for j in range(0, w)] for i in range(0, h)]
+        elif self.board_type == BoardType.combo:
+            self.board = [[copy.deepcopy(TerrainType.Tree) for j in range(0, w)] for i in range(0, h)]
+            for i in range(0, int((w * h) / 2)):
+                self.board[sc.random.randint(0, w)][sc.random.randint(0, h)] = copy.deepcopy(TerrainType.Grass)
+        else:
+            for i in range(0, (w * h)):
+                self.board[sc.random.randint(0, w)][sc.random.randint(0, h)] = copy.deepcopy(TerrainType[sc.random.randint(0, 1)])
+        if self.has_roads:
+            self.build_road()
+
+        self.start_fire(1)
+        return self.board,
+
+    def iterate(self, dunno):
+        new_burning_cells = []
+        for y in range(0, self.board_height):
+            for x in range(0, self.board_width):
+                if self.board[y][x].isBurning:
+                    # lame(str(y) + " " + str(x), "Burning cell found")
+                    neighbors = self.get_neighbors(y, x)
+                    # print neighbors
+                    for neighbor in neighbors:
+                        # print str(neighbor[1]) + " " + str(neighbor[0])
+                        if will_happen(self.board[neighbor[1]][neighbor[0]].prob):
+                            new_burning_cells.append(self.board[neighbor[1]][neighbor[0]])
+                    self.board[y][x].burn()
+        for c in new_burning_cells:
+            c.ignite()
+        self.wind.change()
+        return self.board,
+
+    def show(self):
+        board_out = ""
+        for y in range(0, self.board_height):
+            for x in range(0, self.board_width):
+                board_out += " " + self.board[y][x].viz
+            board_out += "\n"
+        print board_out
+
 
 def will_happen(prob):
 
@@ -194,12 +237,45 @@ def will_happen(prob):
         return False
 
 
-def run():
-    return 0
+def lame(var, tag="NONE"):
+    if(isinstance(var, list) or type(var).__module__ == np.__name__):
+        print "[" + str(tag) + "](" + str(len(var)) + ") : " + str(var)
+    else:
+        print "[" + str(tag) + "]: " + str(var)
+    return var
 
 
 def get_input():
-    return 0
+    print len(sys.argv)
 
+
+def run():
+
+    # inp = get_input()
+    board = Board()
+    do_save = False
+    if do_save:
+        # These are defaults for the graph
+        # First set up the figure, the axis, and the plot element we want to animate
+        fig = plt.figure()
+        ax = plt.axes(xlim=(0, board.board_width), ylim=(0, board.board_height))
+        line, = ax.plot([], [], lw=2)
+
+        # call the animator.  blit=True means only re-draw the parts that have changed.
+        anim = animation.FuncAnimation(fig, board.iterate, init_func=board.build_board, frames=500, interval=20, blit=True)
+
+        # save the animation as an mp4.  This requires ffmpeg or mencoder to be
+        # installed.  The extra_args ensure that the x264 codec is used, so that
+        # the video can be embedded in html5.  You may need to adjust this for
+        # your system: for more information, see
+        # http://matplotlib.sourceforge.net/api/animation_api.html
+        anim.save('fire_animation.mp4', fps=15)
+
+        plt.show()
+    else:
+        board.build_board()
+        for i in range(0, 1000):
+            board.iterate(0)
+            board.show()
 
 run()
