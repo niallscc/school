@@ -124,7 +124,7 @@ class Board:
     board = []
     wind = Wind()
 
-    def __init__(self, width=20, height=20, configuration=BoardType.forest, wind=Wind(), has_roads=True):
+    def __init__(self, width=30, height=30, configuration=BoardType.forest, wind=Wind(), has_roads=False):
         self.board_width = width
         self.board_height = height
         self.board_type = configuration
@@ -273,18 +273,11 @@ def run():
         plt.show()
     else:
         board.build_board()
-        old_board = board.show()
+        new_board = board.show()
         i = 0
-        same = False
-        while i < 1000 and not same:
+        while i < 1000 and "*" in new_board:
             board.iterate(0)
             new_board = board.show()
-            # if new_board == old_board:
-            # same = True
-            # print "Converged"
-            # else:
-            old_board = new_board
-            board.show()
             i += 1
 
 run()
