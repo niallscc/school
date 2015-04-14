@@ -1,5 +1,7 @@
 #!usr/bin/python
 import numpy as np
+import matplotlib
+matplotlib.use('TKAgg')
 from matplotlib import pyplot as plt
 from matplotlib import animation
 

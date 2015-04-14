@@ -3,10 +3,10 @@ from enum import Enum
 import scipy as sc
 import numpy as np
 import sys
-import matplotlib
-matplotlib.use('TKAgg')
-from matplotlib import pyplot as plt
-from matplotlib import animation
+# import matplotlib
+# matplotlib.use('TKAgg')
+# from matplotlib import pyplot as plt
+# from matplotlib import animation
 import copy
 
 
@@ -96,7 +96,7 @@ class Wind:
     prob_speed_change = 0.2
     prob_dir_change = 0.1
 
-    def __init__(self, direction=Direction.west, speed=WindSpeed.low, can_change=False, speed_change=0.2, dir_change=.1):
+    def __init__(self, direction=Direction.north, speed=WindSpeed.medium, can_change=False, speed_change=0.2, dir_change=.1):
         self.direction = direction
         self.speed = speed
         self.can_change = can_change
@@ -124,7 +124,7 @@ class Board:
     board = []
     wind = Wind()
 
-    def __init__(self, width=30, height=30, configuration=BoardType.forest, wind=Wind(), has_roads=False):
+    def __init__(self, width=40, height=40, configuration=BoardType.forest, wind=Wind(), has_roads=False):
         self.board_width = width
         self.board_height = height
         self.board_type = configuration
@@ -184,16 +184,16 @@ class Board:
         if self.wind.speed is not WindSpeed.none:
             if self.wind.direction == Direction.north and (y - 2 >= 0):
                 if will_happen(self.wind.speed):
-                    ret_arr.append(self.board[n[y - 2]][x])
+                    ret_arr.append(self.board[y - 2][x])
             elif self.wind.direction == Direction.south and (y + 2 < self.board_height):
                 if will_happen(self.wind.speed):
-                    ret_arr.append(self.board[n[y + 2]][x])
+                    ret_arr.append(self.board[y + 2][x])
             elif self.wind.direction == Direction.east and (x + 2 < self.board_width):
                 if will_happen(self.wind.speed):
-                    ret_arr.append(self.board[n[y]][x + 2])
+                    ret_arr.append(self.board[y][x + 2])
             elif self.wind.direction == Direction.east and (x - 2 >= 0):
                 if will_happen(self.wind.speed):
-                    ret_arr.append(self.board[n[y]][x - 2])
+                    ret_arr.append(self.board[y][x - 2])
 
         # print ret_arr
         return ret_arr
@@ -276,23 +276,24 @@ def run():
     board = Board()
     do_save = False
     if do_save:
+        print "saving"
         # These are defaults for the graph
         # First set up the figure, the axis, and the plot element we want to animate
-        fig = plt.figure()
-        ax = plt.axes(xlim=(0, board.board_width), ylim=(0, board.board_height))
-        line, = ax.plot([], [], lw=2)
+        # fig = plt.figure()
+        # ax = plt.axes(xlim=(0, board.board_width), ylim=(0, board.board_height))
+        # line, = ax.plot([], [], lw=2)
 
         # call the animator.  blit=True means only re-draw the parts that have changed.
-        anim = animation.FuncAnimation(fig, board.iterate, init_func=board.build_board, frames=500, interval=20, blit=True)
+        # anim = animation.FuncAnimation(fig, board.iterate, init_func=board.build_board, frames=500, interval=20, blit=True)
 
         # save the animation as an mp4.  This requires ffmpeg or mencoder to be
         # installed.  The extra_args ensure that the x264 codec is used, so that
         # the video can be embedded in html5.  You may need to adjust this for
         # your system: for more information, see
         # http://matplotlib.sourceforge.net/api/animation_api.html
-        anim.save('fire_animation.mp4', fps=15)
+        # anim.save('fire_animation.mp4', fps=15)
 
-        plt.show()
+        # plt.show()
     else:
         board.build_board()
         new_board = board.show()
@@ -303,19 +304,3 @@ def run():
             i += 1
 
 run()
-# def get_terrain_in_direction(self, neighbors, direction):
-
-#    if direction == Direction.north:
-#        if (self.location[0] - 1) >= 0:
-#            return ((self.location[0] - 1), self.location[1])
-#    elif direction == Direction.south:
-#        if (self.location[0] + 1) <= self.board_height:
-#            return ((self.location[0] + 1), self.location[1])
-#    elif direction == Direction.east:
-#        if (self.location[1] + 1) <= self.board_width:
-#            return (self.location[0], (self.location[1] + 1))
-#    elif direction == Direction.west:
-#        if (self.location[1] - 1) >= 0:
-#            return (self.location[0], (self.location[1] - 1))
-#    else:
-#        return (0, 0)
