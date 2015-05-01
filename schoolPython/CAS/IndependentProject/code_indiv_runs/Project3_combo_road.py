@@ -314,7 +314,7 @@ def run_for_save():
     board_names = ["forest"]
     for b_index, b_type in enumerate(board_type_arr):
         for w_index, w_type in enumerate(wind_arr):
-            board = Board(40, 40, b_type, w_type, True)
+            board = Board(40, 40, b_type, w_type)
             # save_data = []
             with open(board_names[b_index] + "_" + wind_names[w_index] + '.csv', 'wb') as csvfile:
                 data_writer = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
